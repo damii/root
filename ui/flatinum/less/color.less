@@ -1,0 +1,1669 @@
+// ------------------------- Menu --------------------------- //
+
+//          Color 000
+
+@color_000: #242628;
+
+//          Color FFF
+
+.color_fff() when (lightness(@base-brand-color) > 90%) {
+    @color_fff: #999;
+}
+.color_fff() when (lightness(@base-brand-color) <= 90%) {
+    @color_fff: #fff;
+}
+.color_fff();
+
+//          General link color
+
+a {
+  color: @general-link-color;
+  &:hover,
+  &:focus {
+    color: @general-link-hover-color;
+  }
+}
+
+//          Menu item color
+
+.navbar-nav > li > a {
+    color: @navbar-text-color;
+}
+
+//          menu hover styles
+
+.navbar {
+    border-top-color: @navbar-dividers-color;
+    //border-bottom-color: @navbar-dividers-color;
+}
+
+@media (min-width: @azu-layout-mobile-width) {
+
+//          menu hover topline
+
+.azu-nav-hover-style-top .navbar-azu .navbar-nav > li > a:after {
+    border-top-color: @base-brand-color;
+}
+/*    > li.disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+        }
+    }*/
+
+//          menu hover bottomline
+
+.azu-nav-hover-style-bottom .navbar-azu {
+    .navbar-nav {
+        > li:not(.dropdown) > a:after {
+            border-bottom-color: @base-brand-color;
+        }
+        > li.disabled > a {
+            &,
+            &:hover,
+            &:focus {
+                //color: @navbar-default-link-disabled-color;
+                //background-color: @navbar-default-link-disabled-bg;
+            }
+        }
+        border-bottom-color: @navbar-dividers-color !important;
+    }
+}
+
+//          menu hover border
+
+.azu-nav-hover-style-border .navbar-azu .navbar-nav {
+    > li > a {
+        border-color: @general-border-color;
+        &:hover,
+        &:focus {
+            border-color: @general-link-hover-color;
+        }
+    }
+    > .open > a {
+        &,
+        &:hover,
+        &:focus {
+            border-color: @general-link-hover-color;
+        }
+    }
+    > .azu-act > a {
+        &,
+        &:hover,
+        &:focus {
+            border-color: @active-item-color;
+        }
+    }
+    > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+        }
+    }
+}
+
+//             menu hover underline
+
+.azu-nav-hover-style-underline .navbar-azu .navbar-nav {
+    > li > a > span:after {
+        background-color: @general-link-hover-color;
+    }
+    > li > a:hover,
+    > li > a:focus {
+        color: @general-link-hover-color;
+    }
+    > li.open > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @general-link-hover-color;
+        }
+    }
+    > li.azu-act > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @general-link-hover-color;
+        }
+    }
+    > li.disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+        }
+    }
+}
+
+//          menu hover bg color
+
+.azu-nav-hover-style-bg .navbar-azu .navbar-nav {
+    > li > a {
+        &:hover,
+        &:focus {
+            background-color: @general-hover-bg-color;
+        }
+    }
+    > .open > a {
+        &,
+        &:hover,
+        &:focus {
+            background-color: @general-hover-bg-color;
+        }
+    }
+    > .azu-act > a {
+        &,
+        &:hover,
+        &:focus {
+            background-color: @active-item-color;
+        }
+    }
+    > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+        }
+    }
+}
+
+//          menu hover text color
+
+.azu-nav-hover-style-text .navbar-azu .navbar-nav {
+    > li > a {
+        &:hover,
+        &:focus {
+            color: @general-link-hover-color;
+        }
+    }
+    > .open > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @general-link-hover-color;
+        }
+    }
+    > .azu-act > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @active-item-color;
+        }
+    }
+    > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+        }
+    }
+}
+
+}   // end of hover styles
+
+//          mobile menu hover 
+
+@media (max-width: (@azu-layout-mobile-width - 1)) {
+    .navbar-nav > li > a {
+        &:hover,
+        &:focus {
+            color: @base-brand-color;   
+        }
+    }
+    .navbar-nav .dropdown-menu, .navbar-nav .azu-mega-menu-item {
+    > li > a {
+        color: @navbar-text-color;
+        &:hover,
+        &:focus {
+            color: @base-brand-color;
+        }
+    }
+    > .azu-act > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @base-brand-color;
+            }
+        }
+    > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            //color: @navbar-default-link-disabled-color;
+            //background-color: @navbar-default-link-disabled-bg;
+            }
+        }
+    }
+}
+
+//          side menu hover 
+
+.azu-header-layout-general-side {
+    .navbar-nav > li > a {
+        color: @navbar-submenu-text-color;
+    }
+    .open .dropdown-menu {
+        > li > a {
+            color: @navbar-submenu-text-color;
+            background-color: @navbar-submenu-bg-color;
+            &:hover,
+            &:focus {
+                color: @general-link-hover-color;
+                background-color: @general-hover-bg-color;
+                background-image: none;
+            }
+        }
+        > .azu-act > a {
+            &,
+            &:hover,
+            &:focus {
+                color: @active-item-color;
+                background-color: @general-hover-bg-color;
+                }
+            }
+        > .disabled > a {
+            &,
+            &:hover,
+            &:focus {
+                //color: @navbar-default-link-disabled-color;
+                //background-color: @navbar-default-link-disabled-bg;
+            }
+        }
+    }
+}
+
+//          menu divider color
+
+.azu-nav-style-divider .navbar-azu {
+    .navbar-nav > li + li > a:before {
+        border-color: @navbar-dividers-color;
+    }
+    .background--dark .navbar-nav > li + li > a:before {
+        border-left-color: @color_fff;
+    }
+}
+
+//          fixed menu 
+
+.navbar-azu.navbar-fixed-top {
+    background-color: @navbar-bg-color;
+}
+
+.navbar-azu {
+    background-color: fade(@navbar-bg-color, 100%);
+}
+
+
+.navbar-collapse,
+.navbar-form {
+    border-color: @navbar-dividers-color;
+}
+
+//          side menu
+
+.azu-header-layout-general-side {
+    .navbar-nav > li > a {
+        color: @navbar-submenu-text-color;
+    }
+    .open .dropdown-menu {
+        > li > a {
+            color: @navbar-submenu-text-color;
+            background-color: @navbar-submenu-bg-color;
+            &:hover,
+            &:focus {
+                color: @general-link-hover-color;
+                background-color: @general-hover-bg-color;
+            }
+        }
+        > .azu-act > a {
+            &,
+            &:hover,
+            &:focus {
+                color: @active-item-color;
+                background-color: @general-hover-bg-color;
+            }
+        }
+        > .disabled > a {
+            &,
+            &:hover,
+            &:focus {
+                //color: @navbar-default-link-disabled-color;
+                //background-color: @navbar-default-link-disabled-bg;
+            }
+        }
+    }
+}
+
+// ------------- Dropdown menu --------------- //
+@media (min-width: @azu-layout-mobile-width) {
+    .dropdown-menu {
+        background-color: @navbar-submenu-bg-color;
+        li > a {
+            color: @navbar-submenu-text-color;
+        }
+        li.azu-nav-menu-divider {
+            border-bottom-color: @navbar-submenu-dividers-color;
+        }
+    }
+    .dropdown-header {
+        color: @navbar-submenu-title-color;
+    }
+    // Hover/Focus state
+    .dropdown-menu > li {
+        &:hover:before, &:hover:after {
+            color: @base-brand-color;
+        }
+        > a {
+            &:hover,
+            &:focus {
+                color: @navbar-submenu-title-color;
+            }
+        }
+    }
+    // Active state
+    .dropdown-menu > .active > a {
+    &,
+    &:hover,
+    &:focus {
+        color: @general-link-hover-color;
+        background-color: @general-hover-bg-color;
+    }
+    }
+    // Disabled state
+    // Gray out text and ensure the hover/focus state remains gray
+    .dropdown-menu > .disabled > a {
+    &,
+    &:hover,
+    &:focus {
+        color: lighten(@base-text-color, 46.7%);
+        }
+    }
+    // dropdown mega menu
+    .azu-mega-menu-item, .dropdown-menu {
+        li.azu-nav-menu-highlight > a {
+            color: @base-brand-color;
+        }
+        > li.azu-nav-menu-header > a {
+            color: @navbar-submenu-title-color;
+            &:hover, &:focus {
+                color: @navbar-submenu-title-color;
+            }
+        }
+    }
+    .azu-mega-menu-item > li > a {
+        &:hover,
+        &:focus {
+            color: @navbar-submenu-title-color;
+        }
+    }
+    .azumm-fw .dropdown-menu li.azu-nav-menu-divider > a {
+        border-bottom-color: @navbar-submenu-dividers-color;
+    }
+}
+
+@media (min-width: @azu-layout-mobile-width) {
+    body:not(.azu-header-layout-side) .azumm .azumm-fw .dropdown-menu > li:not(:last-child) {
+        border-right-color: @navbar-submenu-dividers-color;
+    }
+}
+
+//          from offcanvas
+
+@media (max-width: (@azu-layout-mobile-width - 1)) {
+    .azu-mobile-menu:not(.header-layout-side) .navbar-offcanvas {
+        background: @navbar-submenu-bg-color;
+        border-color: @color_000;
+        .navbar-nav > li > a {
+            color: @navbar-submenu-text-color;
+        }
+    }
+}
+
+.azu-mobile-menu.azu-header-layout-side .navbar-offcanvas {
+    border-color: @color_000;
+    background: @navbar-submenu-bg-color;
+}
+
+//          from grid
+
+.azu-navigation-field.background--dark {
+    @media (min-width: @azu-layout-mobile-width) {
+        .navbar-nav > li > a {
+            color: @color_fff; //@navbar-text-color;
+        }
+    }
+}
+
+.azu-menu-widget-area .azu-widget.widget_nav_menu ul.nav {
+    background-color: @navbar-submenu-bg-color;
+    color: @navbar-submenu-text-color;
+}
+
+.azu-menu-widget-area .azu-widget.widget_nav_menu > div,
+.azu-menu-widget-area .azu-widget.woocommerce.widget_shopping_cart .azu-icon-cart {
+    color: @navbar-text-color;
+    .background--dark & {
+        color: @color_fff;
+    }
+}
+
+// ------------------------- Topbar & Header -------------------------- //
+
+.azu-topbar {
+    color: @topbar-text-color;
+    background-color: @topbar-bg-color;
+    a, .widget_calendar caption, time.text-secondary {
+        color: @topbar-text-color;
+    }
+    .azu-social-icons a {
+        border-right-color: @navbar-dividers-color;
+        &:first-child {
+            border-left-color: @navbar-dividers-color;
+        }
+    }
+    .widget_nav_menu .menu li:not(:last-child) > a, .azu-mini-menu li:not(:last-child) > a {
+            border-right-color: @navbar-dividers-color;
+    }
+    .widget_nav_menu .menu li > a, .azu-mini-menu li > a {
+        &:hover {
+            color: @general-link-hover-color;
+        }
+    }
+}
+
+.azu-header {
+    background-color: @header-bg-color;
+}
+
+.site-title > a {
+    color: @navbar-text-color;
+}
+
+.azu-page-header {
+    background-color: @header-title-bg-color;
+    .breadcrumb > span.sep {
+        color: @general-link-color;
+    }
+}
+
+.breadcrumb > .active {
+    color: @base-brand-color;
+}
+//          without menu default page
+
+.azu-navbar-page ul li > a{
+    &.current_page_item, &:hover {
+        color: @base-brand-color;
+    }
+}
+    
+// ------------------------- Blog & Comment -------------------------- //
+
+//          tiled gallery
+
+.gallery-multi-col .azu-gallery-more, .woocommerce ul.products li.product .button {
+    color: @color_fff;
+}
+
+
+//          audio player
+
+.mejs-container.wp-audio-shortcode.mejs-audio .mejs-controls {
+    background: @color_fff ;
+    border-color: @color_000 ;
+    .mejs-button.mejs-playpause-button {
+        border-right-color: @color_000 ;
+        > button {
+            &:before {
+                color: @color_000;
+            }
+        }
+    }
+    .mejs-time {
+        color: @color_000 ;
+    }
+    .mejs-duration-container {
+        border-right-color: @color_000 ;
+    }
+    .mejs-time-rail {
+        .mejs-time-total {
+            background-color: fade(@color_000, 20%);
+        }
+        .mejs-time-loaded {
+            background-color: fade(@color_000, 20%);
+        }
+        .mejs-time-current {
+            background-color: @color_000;
+        }
+    }
+    .mejs-horizontal-volume-slider {
+        .mejs-horizontal-volume-total {
+            background-color: fade(@color_000, 20%);
+        }
+        .mejs-horizontal-volume-current {
+            background-color: @color_000;
+        }
+    }
+    .mejs-button.mejs-volume-button button:before {
+                color: @color_000;
+    }
+}
+
+//          blog tag
+
+.azu-entry-tags {
+    color: @base-title-color;
+    > a {
+        color: @base-brand-color;
+    }
+}
+
+.paginator-more-button .btn.btn-default {
+    //background-color: @general-link-hover-color;
+    //color: @color_fff;
+}
+
+time.text-secondary {
+    color: @base-title-color;
+}
+
+
+.azu-entry-author {
+    //background-color: @second-bg-color;
+    border-color: @content-dividers-color;
+}
+
+.azu-posted-on.azu-entry-meta {
+    color: @base-brand-color;
+    a:not(.azu-post-pageview):not(.azu-comment):not(.azu-love-this) {
+        color: @base-brand-color;
+    }
+}
+
+.azu-icon-post.azu-icon-post-quote, .azu-icon-post.azu-icon-post-link, .azu-icon-post.azu-icon-post-status {
+    &:before {
+        color: @base-brand-color;
+    }
+}
+
+.isotope.azu-multi-col {
+    .azu-post-quote, .azu-post-link, .azu-post-status {
+        .azu-entry-content.col-sm-12, .azu-entry-content.col-sm-10 {
+        border-color: @content-dividers-color;
+        }
+    }
+}
+
+.azu-post-bottom.azu-entry-meta {
+    > a {
+        color: @base-text-color;
+        &:hover {
+            color: @general-link-hover-color;
+        }
+        > span {
+            color: @general-link-color;
+        }
+    }
+    > a.azu-readmore {
+        color: @general-link-color;
+        > span {
+            border-top-color: @base-brand-color;
+        }
+        &:hover > span {
+            border-top-color: @general-link-hover-color;
+        }
+    }
+}
+
+.azu-entry-content.col-sm-12, .azu-entry-content.col-sm-10 {
+    .content-blog-quote, .content-blog-link, .content-blog-status {
+        .azu-padding  p {
+            color: @base-title-color;
+        }
+    }
+}
+
+.azu-main > article,
+.iso-container.shortcode-blog-posts:not(.azu-multi-col) .isope-item {
+    border-bottom-color: @content-dividers-color;
+}
+
+.comment-list > li.parent > article, .children > li.parent.depth-2 > article, .children > li.parent.depth-3 > article, .children > li.parent.depth-4 > article {
+    &:before, &:after {
+        background-color: @content-dividers-color;
+    }
+}
+
+.comment-meta { 
+    .reply a {
+        background-color: @base-brand-color;
+        color: @color_fff;
+        &:hover {
+            background-color: @color_000;
+        }
+    }
+    .comment-author {
+        cite a, cite {
+            color: @base-title-color;
+        }
+    }
+    .comment-metadata a {
+        color: @base-text-color;
+    }
+}
+
+//          blog single 
+
+.azu-single .azu-post-meta {
+    border-top-color: @content-dividers-color;
+    border-bottom-color: @content-dividers-color;
+}
+
+.azu_portfolio, .azu-single {
+    .azu-pagi-center > a {
+        border-color: @content-dividers-color;
+    }
+}
+
+//          portfolio
+
+
+.filter-categories {
+    a {
+        color: @base-text-color;
+    }
+    a:hover, a.act {
+        color: @general-link-hover-color;
+    }
+    a:not(last-child) {
+        border-right-color: @content-dividers-color;
+    }
+}
+
+figure {
+    .azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta,
+    .azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta a {
+        color: @color_fff;
+    }
+    /*.azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta a:hover {
+        color: @base-brand-color;
+    }*/
+}
+
+figure.effect-oscar, figure.effect-zoe, figure.effect-julia {
+    .azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta,
+    .azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta a {
+        color: @color_000;
+    }
+    /*.azu-hover-desc .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta a:hover {
+        color: @base-brand-color;
+    }*/
+}
+.azu_portfolio .azu-entry-content .azu-posted-on.portfolio-categories.azu-entry-meta > a {
+    color: @base-text-color;
+    &:hover {
+        color: @base-brand-color;
+    }
+}
+
+.azu_portfolio, .azu-single {
+    .pager {
+        border-color: @content-dividers-color;
+        .azu-icon-left-pagi, .azu-icon-center-pagi, .azu-icon-right-pagi {
+            color: @base-brand-color;
+        }
+    }
+}
+
+// ------------------------- Divivders -------------------------- //
+
+
+.footer-divider > hr {
+    border-color: @footer-dividers-color;
+}
+
+.azu-content-area .hr-thin {
+    border-color: @content-dividers-color;
+}
+
+.azu-footer .hr-thin, {
+    border-color: @footer-dividers-color;
+}
+
+.azu-sidebar-area .hr-thin, {
+    border-color: @content-dividers-color;
+}
+
+.azu-topbar .hr-thin, {
+    border-color: @navbar-dividers-color;
+}
+
+.azu-bottombar .hr-thin, {
+    border-color: @footer-dividers-color;
+}
+
+// ------------------------- Footer & Bottombar -------------------------- //
+
+.azu-footer {
+    color: @footer-text-color;
+    background-color: @footer-bg-color;
+    border-top-color: @footer-dividers-color;
+    .widget-title {
+        >h3, >h4, >h5, >h6 {
+            color: @footer-headers-color;
+            border-bottom-color: @base-brand-color;
+        }
+    }
+    a {
+        color: @footer-headers-color;
+    }
+    .widget_calendar caption,
+    time.text-secondary {
+        color: @footer-text-color;
+    }
+    .instagram-photos .azzu_follow_btn a {
+        color: @footer-text-color;
+        &:hover {
+            color: @base-brand-color;
+        }
+    }
+    .azu-social-icons a {
+        color: @footer-text-color;
+    }
+    li a:not(.azu-rollover):hover {
+        color: @general-link-hover-color;
+    }
+}
+
+.azu-footer-container > azu-widget ul > li {
+    border-bottom-color: @content-dividers-color;
+}
+
+.azu-bottombar {
+    color: @bottombar-text-color;
+    background-color: @bottombar-bg-color;
+    a, .widget_calendar caption, time.text-secondary {
+        color: @bottombar-text-color;
+    }
+    .widget_nav_menu .menu li:not(:last-child) > a, .azu-mini-menu li:not(:last-child) > a {
+        border-right-color: @footer-dividers-color;
+    }
+    .widget_nav_menu a:hover, .azu-mini-menu a:hover {
+        color: @footer-headers-color;
+    }
+}
+
+.azu-bottombar-row {
+    border-top-color: @footer-dividers-color;
+}
+
+//          scroll top
+
+.scroll-top-mixin (@a) when (lightness(@a) < 70%) {
+    background-color: lighten(@a,10%);
+}
+.scroll-top-mixin (@a) when (lightness(@a) < 60%) {
+    background-color: lighten(@a,20%);
+}
+.scroll-top-mixin (@a) when (lightness(@a) < 50%) {
+    background-color: lighten(@a,30%);
+}
+.scroll-top-mixin (@a) when (lightness(@a) >= 70%) {
+    background-color: @a;
+}
+
+.azu-scroll-top-wrapper {
+    .scroll-top-mixin(@base-brand-color);
+    color: @general-link-color;
+}
+
+.azu-scroll-top-wrapper.show:hover {
+    background-color: @base-brand-color;
+}
+
+// ------------------------- Portfolio Hover -------------------------- //
+
+figcaption .azu-hover-text a {
+    &:hover, &:focus {
+        color: @general-link-hover-color;
+    }
+}
+
+figure.effect-zoe .azu-hover-text .azu-entry-meta a {
+    color: @base-text-color;
+}
+
+figure.effect-julia .azu-hover-text a:hover {
+    color: @general-link-hover-color;
+}
+
+.azu-main-hover-color {
+    .azu-rollover:before, .azu-rollover-video:before {
+        background-color: fade(@base-brand-color, 90%);
+    }
+}
+
+// ------------------------- Laoder -------------------------- //
+.btn:not(.azu-btn-ghost):not(.azu-btn-reverse) > .azu-loading.loader,
+.btn:hover > .azu-loading.loader {
+    border-color: fade(@color_fff, 20%);
+    border-left-color: @color_fff; 
+    &:before {
+        border-color: fade(@color_fff, 20%);
+        border-left-color: @color_fff;
+    }
+}
+
+// ------------------------- Main body  -------------------------- //
+
+//      Text highlight
+
+.selection-mixin (@a) when (lightness(@a) >= 40%) {
+    color: black;
+}
+.selection-mixin (@a) when (lightness(@a) < 60%) {
+    color: white;
+}
+.selection-mixin (@a) {
+    background-color: @a;
+}
+
+*::selection { 
+.selection-mixin (@general-highlight-color);
+}  
+*::-moz-selection { 
+.selection-mixin (@general-highlight-color);
+}  
+*::-webkit-selection { 
+.selection-mixin (@general-highlight-color);
+}
+
+body {
+    background-color: @general-bg-color;
+    color: @base-text-color;
+}
+
+.content-style-none {
+    @content-bg-color: @page-bg-color;
+    
+}
+
+.azu-content-style-divider {
+    @content-bg-color: @page-bg-color;   
+    article.azu-post {
+        border-top-color: @content-dividers-color;
+    }
+    @media (min-width: @azu-layout-mobile-width) {
+	   &.azu-content-right:after {
+        	   border-left-color: @content-dividers-color;
+	   }
+	   &.azu-content-left:after {
+        	   border-left-color: @content-dividers-color;
+       }
+        &.azu-content-dual {
+            &:after, &:before {
+        	   border-left-color: @content-dividers-color;
+    		  }
+            &:after {
+                right: -1px;
+            }
+            &:before {
+                left: -1px;
+            }
+        }
+    }
+}
+
+.content-style-full {
+	.azu-main {
+    	background-color: @content-bg-color;
+    	border-color: @general-border-color;
+    }
+}
+
+.azu-content-style-boxed {
+    article.azu-portfolio-desc,
+	article.azu-post {
+        border-color: @general-border-color;
+        background-color: @content-bg-color;
+    }
+}
+
+.azu-content {
+    background-color: @page-bg-color;
+}
+
+// ------------------------- Pagination  -------------------------- //
+
+.pagination {
+    li:first-child, li:last-child {
+        a {
+            i {
+                border-color: @general-border-color;
+            }
+            &:hover {
+                i {
+                    color: @color_fff;
+                    background-color: @active-item-color;
+                    border-color: @active-item-color;
+                }
+            }
+        }
+    }
+    > li {
+        > a {
+            border-color: @general-border-color;
+            color: @general-link-color;
+            background-color: @base-bg-color;
+            &:hover,
+            &:focus {
+                color: @color_fff;
+                background-color: @brand-primary;
+                border-color: @brand-primary;
+            }
+        }
+    }
+    > .active > a {
+        color: @color_fff;
+        background-color: @brand-primary;
+        border-color: @brand-primary;
+    }
+}
+
+// ------------------------- Post type  -------------------------- //
+
+.team-container {
+    .azu-team-hover:hover:before, &:not(.azu-round-border) .azu-team-media .social-ico {
+        background-color: @color_000;
+    }
+    &.azu-round-border .azu-team-hover {
+        &:hover:before {
+             background-color: @brand-primary;
+        }
+    }
+    &:not(.azu-round-border) .azu-team-hover.azu-social-reverse {
+        .social-ico a:hover {
+            color: @brand-primary;
+        }
+    }
+    .social-ico a {
+        border-right-color: rgba(140,140,140,0.4);
+    }
+    &.azu-border {
+        border-color: @general-border-color;
+    }
+}
+
+
+.azu-testimonial .azu-testimonial-vcard .azu-testimonial-title {
+    .text-primary {
+        color: @base-title-color;
+    }
+    a > .text-primary:hover {
+        color: @base-brand-color;
+    }
+}
+
+.azu-entry-author .text-primary {
+    color: @base-brand-color;
+}
+
+@media (min-width: @azu-layout-mobile-width) {
+    .azu-slider-testimonials .swiper-slide-visible:not(.swiper-slide-active) {
+        &:before {
+            border-left-color: @content-dividers-color;
+        }
+    }
+}
+
+// ------------------------- Searchbar  -------------------------- //
+
+body:not(.azu-header-layout-side) .azu-menu-widget-area .search-form {
+    .search-field {
+        color: @base-text-color;
+        border-color: @general-border-color;
+    }
+    .search-field:focus {
+        border-color: @base-brand-color;
+        & + i.azu-icon-search {
+            background-color: @base-brand-color;
+            color: @color_fff;
+        }
+    }
+    > i.azu-icon-search {
+        color: @navbar-text-color;
+    }
+}
+
+body:not(.azu-header-layout-side) .background--dark .azu-menu-widget-area .search-form {
+    > i.azu-icon-search, .search-field {
+        color: @color_fff;
+    }
+}
+
+body.azu-header-layout-side .azu-menu-widget-area {
+    .search-form {
+        .search-field {
+            color: @base-text-color;
+            background-color: @base-bg-color;
+            border-color: @general-border-color;
+        }
+            .search-field:focus {
+            & + i.azu-icon-search {
+                background-color: @base-brand-color;
+                color: @color_fff;
+            }
+        }
+        i.azu-icon-search {
+            color: @navbar-text-color;
+        }
+    }
+}
+
+.search-form, .woocommerce-product-search {
+    .search-field {
+        color: @base-text-color;
+        background-color: @base-bg-color;
+        border-color: @general-border-color;
+    }
+    .search-field:focus {
+        border-color: @base-brand-color;
+        background-color: @base-bg-color;
+        & + i.azu-icon-search {
+            background-color: @base-brand-color;
+            color: @color_fff;
+        }
+    }
+    i.azu-icon-search {
+        color: @base-text-color;
+    }
+}
+
+// ------------------------- Sidebar  -------------------------- //
+
+.azu-content-style-full .azu-sidebar-area {
+    background-color: @content-bg-color;
+    border-color: @general-border-color;
+}
+
+.azu-content-style-divider .azu-sidebar-area .azu-widget + .azu-widget {
+    border-top-color: @content-dividers-color;
+}
+
+
+.azu-content-style-boxed .azu-sidebar-area {
+    .azu-widget {
+        border-color: @general-border-color;
+        background-color: @content-bg-color;
+        .widget-title:after {
+            border-color: @base-brand-color;
+        } 
+    }
+    .azu-widget.widget_azzu-popular-posts .tab-content {
+        border-color: @content-dividers-color;
+    }
+}
+
+.azu-sidebar-area {
+    color: @base-text-color;
+    .widget-title {
+        > h3,>h4,>h5,>h6 {
+            border-bottom-color: @base-brand-color;
+        }
+    }
+    .instagram-photos .azzu_follow_btn a {
+        color: @base-text-color;
+        &:hover {
+            color: @base-brand-color;
+        }
+    }
+}
+
+.azu-footer {
+    .widget_azzu-post-categories > ul, .widget_categories > ul, .widget_archive > ul,
+    .widget_pages  > ul, .widget_nav_menu .menu, .product-categories, .widget_layered_nav, .widget_recent_entries {
+        li {
+            border-bottom-color: @footer-dividers-color;
+            > a {
+                color: @footer-headers-color;
+                &:hover {
+                    color: @general-link-hover-color;
+                }
+            }
+        }
+        .children {
+            border-top-color: @footer-dividers-color;
+        }
+    }
+}
+
+.azu-sidebar {
+    .widget_azzu-post-categories > ul, .widget_categories > ul, .widget_archive > ul, .widget_pages  > ul,
+    .widget_nav_menu .menu, .product-categories, .widget_layered_nav, .widget_recent_entries {
+        li {
+            border-bottom-color: @content-dividers-color;
+        }
+        .children {
+            border-top-color: @content-dividers-color;
+        }
+    }
+}
+
+.widget_azzu-recent-posts,
+#popular-post.tab-pane,
+#recent-post.tab-pane,
+.widget_azzu-popular-posts {
+    .azu-comment, time {
+        color: @base-text-color;
+    }
+}
+
+.azu-sidebar .widget_nav_menu li.current-menu-item > a {
+    color: @general-link-hover-color;
+}
+
+.azu-sidebar .widget_nav_menu ul li .current-menu-item a {
+    color: @base-brand-color;
+}
+
+.azu-topbar, .azu-bottombar {
+    ul li a:hover {
+        color: @topbar-text-color;
+    }
+}
+
+.widget_calendar caption {
+    color: @base-title-color;
+}
+
+.instagram-photos .azzu_follow_btn i {
+    color: @base-brand-color;
+}
+
+.widget_azzu-popular-posts .nav-tabs > li {
+    &:first-child {
+        a {
+            border-color: fade(@content-dividers-color, 40%) transparent transparent fade(@content-dividers-color, 40%);
+        }
+    }
+    &:last-child {
+        a {
+            border-color: fade(@content-dividers-color, 40%) fade(@content-dividers-color, 40%) transparent transparent;
+        }
+    }
+}
+
+.widget_azzu-popular-posts .nav.nav-tabs > li.active > a {
+    background-color: @page-bg-color;
+    border-right-color: @content-dividers-color;
+    border-left-color: @content-dividers-color;
+    border-top-color: @base-brand-color;
+}
+.azu-footer .widget_azzu-popular-posts .nav.nav-tabs > li.active > a {
+    background-color:  @footer-bg-color;
+    border-right-color: @footer-dividers-color;
+    border-left-color: @footer-dividers-color;
+    border-top-color: @base-brand-color;
+}
+.azu-bottombar .widget_azzu-popular-posts .nav.nav-tabs > li.active > a {
+    background-color:  @bottombar-bg-color;
+    border-right-color: @footer-dividers-color;
+    border-left-color: @footer-dividers-color;
+    border-top-color: @base-brand-color;
+}
+.azu-topbar .widget_azzu-popular-posts .nav.nav-tabs > li.active > a {
+    background-color:  @topbar-bg-color;
+    border-right-color: @navbar-dividers-color;
+    border-left-color: @navbar-dividers-color;
+    border-top-color: @base-brand-color;
+}
+.azu-header .widget_azzu-popular-posts .nav.nav-tabs > li.active > a {
+    background-color:  @header-bg-color;
+    border-right-color: @navbar-dividers-color;
+    border-left-color: @navbar-dividers-color;
+    border-top-color: @base-brand-color;
+}
+
+.widget_archive > select {
+    border-color: @general-border-color;
+    background-color: @base-bg-color;
+}
+
+.tagcloud > a {
+    color: @base-text-color;
+    border-color: @general-border-color;
+    &:hover {
+        color: @color_fff;
+        background-color: @base-brand-color;
+        border-color: @base-brand-color;
+    }
+}
+
+// ------------------------- Sidebar  -------------------------- //
+
+.azu-entry-share.dropup {
+    > .dropdown-menu {
+            &:after {
+                border-top-color: @general-border-color;
+            }
+            > a {
+                //background-color: @content-bg-color;
+            }
+            > svg {
+                path {
+                    fill: @general-border-color;
+                }
+            }
+        }
+    .azu-social-share {
+        color: fade(@base-text-color, 80%);
+        &:hover {
+            color: @general-link-hover-color;
+        }
+    }
+}
+
+.social-ico > a {
+    color: @base-text-color;
+    &:hover {
+        //background-color: @base-brand-color;
+        color: @base-brand-color; //@color_fff;
+    }
+    &:active {
+        //background-color: @base-brand-color;
+    }
+}
+
+//      Page, Single post share
+
+.azu-social-share.azu-share-extended {
+    color: @base-title-color;
+    > a {
+        color: @base-brand-color;
+    }
+}
+//      Single blog 
+.azu-single-meta.azu-posted-on.azu-entry-meta .azu-love-this, .azu-post-pageview, .azu-comment  {
+    color: @base-title-color;
+    > i {
+        color: @base-text-color;
+    }
+    &:hover > i {
+        color: @base-brand-color;
+    }
+}
+
+//          Social icons widget
+
+
+.azu-social-icons.azu-social-reverse > .social-ico > a {
+    color: @color_fff;
+    &:hover {
+        color: darken(@color_fff, 5%);
+    }
+}
+
+.azu-social-icons.azu-social-reverse.azu-soc-border > .social-ico > a {
+    border-color: @color_fff;
+    &:hover {
+        color: @base-brand-color;
+        background-color: @color_fff;
+    }
+}
+
+.azu-social-icons.azu-soc-border:not(.azu-social-reverse) > .social-ico > a {
+    border-color: @base-text-color;
+    &:hover {
+        border-color: @base-brand-color;
+    }
+}
+
+// ------------------------- Sidebar  -------------------------- //
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4,  h5, .h5, h6, .h6 { 
+    color: @base-title-color; 
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+  border-right-color: @base-brand-color;
+}
+
+blockquote, .blockquote {
+    border-left-color: @base-brand-color;
+    color: @base-title-color;
+}
+
+
+//          azu stylish title
+
+#azu-rel-projects-title, .comment-reply-title, .comments-title, .azu-rel-title-con .azu-entry-title, .woocommerce .related.products h2 {
+    border-bottom-color: @base-brand-color;
+}
+
+.comment-reply-title, .comments-title {
+    margin-bottom: 30px !important;
+}
+
+//          azu seperator
+
+.azu-icon-sep {
+    border-color: @base-brand-color;
+}
+
+//      Main content style
+
+.azu-content-style-divider {
+    article.azu-post {
+        border-top-color: @content-dividers-color;
+    }
+    @media (min-width: @azu-layout-mobile-width) {
+	   .azu-content-right:after {
+        	border-left-color: @content-dividers-color;
+        }
+	   .azu-content-left:after {
+            border-left-color: @content-dividers-color;
+        }
+        .azu-content-dual {
+            &:after, &:before {
+        	   border-left-color: @content-dividers-color;
+            }
+        }
+    }
+}
+
+//      Offcanvas menu
+
+@media (max-width: (@azu-layout-mobile-width - 1px) ) {
+    body:not(.azu-header-layout-side) {
+        .navbar-offcanvas {
+            background: @navbar-bg-color;
+        }
+    }
+}
+
+.azu-header-layout-side .navbar-offcanvas {
+        background: @navbar-bg-color;
+}
+
+//          VC elements
+
+//  Accordion flat style
+.vc_tta-accordion.vc_tta-style-flat {
+    .vc_tta-panel .vc_tta-panel-heading {
+        border-bottom-color: @content-dividers-color;
+    }
+    .vc_tta-panel:first-child {
+        border-top-color: @content-dividers-color;
+    }
+    .vc_tta-panel.vc_active {
+        border-bottom-color: @content-dividers-color;
+    }
+    .vc_tta-controls-icon::before, .vc_tta-controls-icon::after {
+        border-color: @base-title-color !important;
+    }
+}
+
+//  Accordion uotline style
+.vc_tta-accordion.vc_tta-style-outline {
+    .vc_tta-panel .vc_tta-panel-heading {
+        border-color: @content-dividers-color !important;
+    }
+    .vc_tta-panel-title > a:before {
+        background-color: @content-dividers-color;
+    }
+    &.vc_tta .vc_tta-controls-icon {
+        border-color: @base-brand-color;
+    }
+    .vc_tta-controls-icon::before, .vc_tta-controls-icon::after {
+        border-color: @base-brand-color !important;
+    }
+}
+
+.vc_tta-accordion.vc_tta-style-flat, .vc_tta-accordion.vc_tta-style-outline {
+    .vc_tta-panel .vc_tta-panel-title > a {
+        color: @base-title-color !important;
+    }
+}
+
+.vc_tta-tabs.vc_tta-style-classic .vc_tta-tab.vc_active > a, .vc_tta-tabs.vc_tta-style-classic .vc_tta-tab > a:hover {
+    background-color: @base-brand-color;
+    color: @color_fff;
+}
+
+.vc_tta-tabs.vc_tta-style-classic .vc_tta-tab > a {
+    background-color: #f0f2f4;
+    color: @base-title-color;
+}
+
+.vc_general.vc_cta3.vc_cta3-style-classic .vc_cta3-actions .vc_btn3 {
+    background-color: @base-brand-color;
+    &:hover {
+        background-color: fade(@base-brand-color, 90%);
+    }
+}
+
+.vc_progress_bar .vc_single_bar.azu_accent .vc_bar {
+    background-color: @base-brand-color;
+}
+
+.vc_progress_bar.azu-above-progress-bar .vc_single_bar .vc_label {
+    color: @base-title-color;
+}
+
+.vc_progress_bar.azu-above-progress-bar .vc_single_bar .vc_label .vc_label_units {
+    //color:fade(@base-title-color, 60%);
+}
+
+.vc_pie_chart_value.with-azu-icon &:before {
+    color: @base-text-color;
+}
+
+//          Button
+
+.azu-button-variant(@color; @background; @border) {
+  color: @color;
+  background-color: @background;
+  border-color: @border;
+}
+
+.azu-btn-default .btn, body .btn.azu-btn-default {
+    .azu-button-variant(@color_fff,@base-brand-color,@base-brand-color);
+    &:hover,&:active {
+        .azu-button-variant(@color_fff,@color_000,@color_000);
+    }
+    &.azu-btn-reverse {
+        .azu-button-variant(@color_000,transparent,@color_000);
+        &:hover,&:active {
+            .azu-button-variant(@color_fff,@base-brand-color,@color_fff);
+        }
+    }
+}
+
+.azu-btn-white .btn, body .btn.azu-btn-white {
+    .azu-button-variant(@color_fff,@base-brand-color,@base-brand-color);
+    &:hover,&:active {
+        .azu-button-variant(@color_000,@color_fff,@color_fff);
+    }
+    &.azu-btn-reverse {
+        .azu-button-variant(@color_000,@color_fff,@color_fff);
+        &:hover,&:active {
+            .azu-button-variant(@color_fff,@base-brand-color,@base-brand-color);
+        }
+    }
+}
+
+.azu-btn-ghost .btn, body .btn.azu-btn-ghost {
+    .azu-button-variant(@base-brand-color,transparent,@base-brand-color);
+    &:hover,&:active {
+        .azu-button-variant(@color_fff,@base-brand-color,@base-brand-color);
+    }
+    &.azu-btn-reverse {
+        .azu-button-variant(@color_fff,transparent,@color_fff);
+        &:hover,&:active {
+            .azu-button-variant(@color_000,@color_fff,@color_fff);
+        }
+    }
+}
+
+.azu-btn-blur .btn, body .btn.azu-btn-blur {
+    .azu-button-variant(@color_fff,fade(@base-brand-color,50%),@base-brand-color);
+    &:hover,&:active {
+        .azu-button-variant(@color_fff,fade(@base-brand-color,95%),@base-brand-color);
+    }
+    &.azu-btn-reverse {
+        .azu-button-variant(@color_fff,fade(@base-brand-color,95%),@color_fff);
+        &:hover,&:active {
+            .azu-button-variant(@color_fff,fade(@color_fff,30%),@color_fff);
+        }
+    }
+}
+
+//           Portfolio Single Meta
+
+.azu-portfolio-single-info .azu-portfolio-single-details > div, .azu-portfolio-single-info .theiaStickySidebar > div{
+    > h6, > span {
+        border-bottom: 1px solid @content-dividers-color;
+    }
+    > span {
+        color: @base-brand-color;
+        a {
+            color: @base-brand-color;
+        }
+    }
+}
+
+// Hover/Focus state of dropdown menu
+
+body.azu-menu-ct-none .dropdown-menu li:not(.azu-nav-menu-header) > a:before {
+    background-color: @base-brand-color;
+}
+
+//
+ 
+.comment-form-comment .form-control, .wpcf7-textarea {
+    background: @second-bg-color;
+}
+.form-fields .form-control, .wpcf7-text {
+    border-bottom-color: @second-bg-color;
+}
+
+.azu-vc-pt {
+    border-bottom-color: @content-dividers-color;
+}
+
+//          pre tag style
+
+pre {
+    color: @base-text-color;
+    background-color: @second-bg-color;
+    border-color: @base-brand-color;
+}
+
+//              qoute blog fix
+
+.content-blog-quote, .content-blog-link, .content-blog-status {
+    .azu-link-custom {
+        color: @general-link-color;
+    }
+}
+
+//              mobile burger
+
+.navbar-toggle .burger-bar {
+    border-color: @navbar-text-color;
+}
+
+.background--dark .navbar-toggle .burger-bar {
+    border-color: @color_fff;
+}
+
+//              widget burger menu style
+
+.azu-menu-widget-area .azu-widget.widget_nav_menu .azu-burger-container {
+    ul.menu, .sub-menu {
+        background-color: @navbar-submenu-bg-color;
+    }
+    a {
+        color: @navbar-submenu-text-color;
+        &:hover {
+            color: @color_fff;
+        }
+    }
+    li:not(.azu-menuback) > a:before {
+        background-color: @base-brand-color;
+    }
+}
+
+.azu-burger-container li.azu-menuback:hover:after {
+    color: @color_fff;
+}
+
+//          hover colors
+
+figure.effect-sarah {
+	background: @base-brand-color;
+}
+
+figure.effect-julia .azu-hover-text {
+    color: @color_000;
+    a {
+        color: @color_000;
+        &:hover {
+            color: @general-link-hover-color;
+        }
+    }
+}
+
+figure.effect-oscar figcaption {
+    .links-container a {
+        span, .azu-icon-like {
+            border: 1px solid @color_000;
+            &::after {
+                color: @color_000;
+            }
+        }
+    }
+    .azu-hover-title > a {
+        color: @color_000;
+    }
+}
+
+figure.effect-oscar > a::after {
+    background-color: fade( @color_fff, 90);
+}
+
+figure.effect-zoe .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta,
+figure.effect-zoe .azu-hover-text .azu-posted-on.portfolio-categories.azu-entry-meta a {
+    color: @base-text-color;
+    &:hover {
+        color: @base-brand-color;
+    }
+}
+
+figure.effect-zoe .azu-hover-title > a {
+    color: @base-title-color;
+}
+
+figure.effect-zoe, figure.effect-steve, figure.effect-apollo, figure.effect-bubba {
+    background: @base-brand-color;
+}
+
+figure.effect-lily, figure.effect-ruby, figure.effect-julia, .azu-main-hover-grayscale .azu-rollover, .azu-main-hover-grayscale .azu-rollover-video {
+    background-color: @color_000;
+}
+
+figure.effect-zoe .azu-hover-desc {
+    background-color: @color_fff;
+}
+
+.img-grid figure figcaption, .swiper-slide figure figcaption, figcaption .azu-hover-text a, figure .azu-hover-title a, figure.effect-marley .azu-entry-meta a , figure.effect-chico .azu-hover-text a, figure.effect-bubba .azu-hover-text .azu-entry-meta a, figure.effect-layla .azu-hover-text .azu-entry-meta a, figure.effect-selena .azu-hover-text .azu-entry-meta a, figure.effect-sadie .azu-hover-desc .azu-entry-meta a, figure.effect-jazz .azu-hover-text .azu-entry-meta a, figure.effect-ming .azu-hover-text .azu-entry-meta a {
+    color: @color_fff;
+}

@@ -1,0 +1,233 @@
+//          Team
+
+.team-hover-transition(@n, @i: 1) when (@i =< @n) {
+    > a:nth-child(@{i}) {
+        -webkit-transition-delay: ~'0.@{i}s';
+        transition-delay: ~'0.@{i}s';
+    }
+    .team-hover-transition(@n, (@i + 1));
+}
+
+.team-container {
+    .azu-team-media {
+        .social-ico {
+            position: absolute;
+            white-space: nowrap;
+            opacity: 0;
+        }
+        .azu-rollover:after {
+            display: none !important;
+        }
+        .azu-rollover:before {
+            display: none;
+        }
+        .azu-team-hover, .azu-rollover {
+            text-align: center;
+        }
+    }
+    .azu-team-hover {
+        position: relative;
+        overflow: hidden;
+        .social-ico {
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            -webkit-transition: -webkit-transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+            transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+            > a {
+                -webkit-transform: translateY(25px);
+                transform: translateY(25px);
+                -webkit-transition-property: -webkit-transform;
+                transition-property: transform;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-timing-function: ease-in-out;
+                transition-timing-function: ease-in-out;
+            }
+            .team-hover-transition(7)
+        }
+        &:hover {
+            > .social-ico {
+                 opacity: 1;
+                .scale(1);
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                > a {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+    &.azu-border .team-desc.col-sm-6 .azu-team-author .azu-author-name {
+        margin-top: floor(@line-height-computed / 4);
+    }
+    .azu-team-author .azu-author-name, .azu-team-author p {
+        margin: 0;
+    }
+    .azu-author-name {
+        text-transform: uppercase;
+    }
+    .azu-team-author, .team-content {
+        margin-bottom: 20px;
+    }
+    .team-desc.col-sm-12 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    &.azu-round-border {
+        .azu-team-hover:before {
+            content: "";
+            border-radius: 50%;
+            position: absolute;
+            top:0;left:0;right:0;bottom:0;
+            background-color: transparent;
+            .transition(background-color 0.3s);
+        }
+        .azu-team-media {
+            img, .azu-team-hover, .azu-rollover {
+                border-radius: 50%;
+            }
+            .social-ico {
+                > a {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+                top: 50%;
+                left: 50%;
+                .translate(-50%,-50%);
+            }
+        }
+    }
+    &:not(.azu-round-border) {
+        .azu-team-media .social-ico {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 15px 0;
+            
+        }
+    }
+    &.azu-border {
+        border-width: 1px;
+        border-radius: @border-radius-small;
+        border-style: solid;
+    }
+    &.azu-round-border.azu-border {
+        padding: @grid-gutter-half-width;
+    }
+    .social-ico {
+        a {
+            line-height: 1;
+            padding: 0 10px;
+        }
+        a:not(:last-child) {
+            border-right-width: 1px;
+            border-right-style: dotted;
+        }
+    }
+}
+
+//          testimonials
+
+.swiper-slide .azu-testimonial {
+    max-width: @azu-layout-mobile-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.azu-testimonial {
+    text-align: center;
+    .azu-testimonial-vcard {
+        padding-top: 20px;
+        .azu-testimonial-title {
+            .text-primary {
+                margin: 0px;
+                font-weight: bold;
+                display: block;
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+            }
+            .azu-testimonial-text {
+                
+            }
+        }
+    }
+    .azu-testimonial-avator {
+        padding-bottom: 25px;
+        img {
+            border-radius: 50%;
+            width: 70px;
+            height: auto;
+        }
+    }
+    .azu-testimonial-content {
+        
+    }
+}
+
+.swiper-slide article.azu-post {
+    margin: 0;
+    padding: 0 15px;
+}
+
+
+/* swiper team,testimonials,post */
+.azu-swiper-container .swiper-slide article.azu-post {
+        padding-left: 0;
+        padding-right: 0;
+}
+.azu-content-style-boxed .azu-widget .azu-swiper-container .swiper-slide article.azu-post {
+    &.azu_testimonials, &.azu_team {
+        border-width: 0;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+/*
+@media (min-width: @grid-float-breakpoint) {
+    .azu-slider-testimonials  {
+        .swiper-slide-visible:not(.swiper-slide-active) {
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                border-left: 1px solid @content-dividers-color;
+            }
+        }
+    }
+}
+*/
+/* portfolio */
+
+article.azu-portfolio-desc .azu-entry-content{
+    padding: 0 @grid-gutter-half-width;
+    .azu-entry-title{
+        margin-top: @line-height-computed;
+    }
+}
+
+//          testimonials arrow
+
+.azu-slider-testimonials.azu-reverse-testimonials {
+    .azu-testimonial-vcard .azu-testimonial-title .text-primary {
+        color: @color_fff;
+    }
+    .carousel-arrow-left, .carousel-arrow-right {
+        background: none;
+        color: fade(@color_fff, 50%);
+        &:hover {
+            color: @color_fff;
+        }
+    }
+    .carousel-arrow-left i:before {
+        content: '\e83e';
+    }
+    .carousel-arrow-right i:before {
+        content: '\e847';
+    }
+}

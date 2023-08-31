@@ -1,0 +1,101 @@
+//      Gaps 
+
+.generate-gaps(10);
+
+  .gap-0 {
+     height: round(@line-height-computed / 2);
+     line-height: round(@line-height-computed / 2);
+     clear: both;
+  }
+
+.generate-gaps(@n, @i: 1) when (@i =< @n) {
+  @a: @i;
+  .gap-@{a} {
+     height: (@line-height-computed * @i);
+     line-height: (@line-height-computed * @i);
+     clear: both;
+  }
+  .generate-gaps(@n, (@i + 1));
+}
+
+//      thin dividers
+
+.azu-divider-style-1 {
+    .border-divider-top, .hr-thin {
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+    &.azu-content-style-divider .azu-sidebar-area .azu-widget + .azu-widget {
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+}
+ 
+.azu-divider-style-2 {
+    .border-divider-top, .hr-thin {
+        border-top-style: solid;
+        border-top-width: 2px;
+    }
+    &.azu-content-style-divider .azu-sidebar-area .azu-widget + .azu-widget {
+        border-top-style: solid;
+        border-top-width: 2px;
+    }
+}
+ 
+.azu-divider-style-3 {
+    .border-divider-top, .hr-thin {
+        border-top-style: dotted;
+        border-top-width: 1px;
+    }
+    &.azu-content-style-divider .azu-sidebar-area .azu-widget + .azu-widget {
+        border-top-style: dotted;
+        border-top-width: 1px;
+    }
+}
+ 
+.azu-divider-style-1 {
+    .border-divider-left, .hr-thin {
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    &.azu-content-style-divider {
+        .azu-content-left:after, .azu-content-right:after, .azu-content-dual:after, .azu-content-dual:before {
+            border-left-style: solid;
+            border-left-width: 1px;
+        }
+    }
+} 
+ 
+.azu-divider-style-2 {
+    .border-divider-left, .hr-thin {
+        border-left-style: solid;
+        border-left-width: 2px;
+    }
+    &.azu-content-style-divider {
+        .azu-content-left:after, .azu-content-right:after, .azu-content-dual:after, .azu-content-dual:before {
+            border-left-style: solid;
+            border-left-width: 2px;
+        }
+    }
+}
+ 
+.azu-divider-style-3 {
+    .border-divider-left, .hr-thin {
+        border-left-style: dotted;
+        border-left-width: 1px;
+    }
+    &.azu-content-style-divider {
+        .azu-content-left:after, .azu-content-right:after, .azu-content-dual:after, .azu-content-dual:before {
+            border-left-style: dotted;
+            border-left-width: 1px;
+        }
+    }
+}
+
+.hr-thin {
+    height: 0;
+    position: relative;
+    clear: both;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}

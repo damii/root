@@ -1,0 +1,689 @@
+//
+// Typography
+// --------------------------------------------------
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        unit(@fonts-line-normal-height/@fonts-normal-size); //1.428571429; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    @fonts-line-normal-height;
+
+//          Mixins
+
+.fonts(@a) {
+    @b: "@{a}_size" ;
+   font-family: @@a;
+    .font-size (@@b);
+}
+
+.font-size (@s) when (@s = large){
+    font-size: @fonts-large-size;
+    line-height: @fonts-line-large-height;
+}
+.font-size (@s) when (@s = normal){
+    font-size: @fonts-normal-size;
+    line-height: @fonts-line-normal-height;
+}
+.font-size (@s) when (@s = small){
+    font-size: @fonts-small-size;
+    line-height: @fonts-line-small-height;
+}
+.font-size (@s) when (@s = xsmall){
+    font-size: @fonts-xsmall-size;
+    line-height: @fonts-line-xsmall-height;
+}
+
+.fonts-wls(@f) {
+    @w: "@{f}_weight";
+    @l: "@{f}_ls";
+    @u:"@{f}_uc";
+    font-weight: @@w;
+    text-transform: @@u;
+    .fonts-ls() when not (@@l = 0) {
+        letter-spacing: unit(@@l ,px);
+    }
+    .fonts-ls();
+}
+
+// Headings
+// -------------------------
+
+h1, .h1 {
+    font-family: @h1-font;
+    font-size: @fonts-h1_font_size;
+    line-height: @fonts-h1_line_height;
+    .fonts-wls(~"h1-font");
+}
+h2, .h2 {
+    font-family: @h2-font;
+    font-size: @fonts-h2_font_size;
+    line-height: @fonts-h2_line_height;
+    .fonts-wls(~"h2-font");
+}
+h3, .h3 {
+    font-family: @h3-font;
+    font-size: @fonts-h3_font_size;
+    line-height: @fonts-h3_line_height;
+    .fonts-wls(~"h3-font");
+}
+h4, .h4 {
+    font-family: @h4-font;
+    font-size: @fonts-h4_font_size;
+    line-height: @fonts-h4_line_height;
+    .fonts-wls(~"h4-font");
+}
+h5, .h5 {
+    font-family: @h5-font;
+    font-size: @fonts-h5_font_size;
+    line-height: @fonts-h5_line_height;
+    .fonts-wls(~"h5-font");
+}
+h6, .h6 {
+    font-family: @h6-font;
+    font-size: @fonts-h6_font_size;
+    line-height: @fonts-h6_line_height;
+    .fonts-wls(~"h6-font");
+}
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    //color: @headings-small-color;
+  }
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 15px;//(@line-height-computed / 2);
+  margin-bottom: 15px;//(@line-height-computed / 2);
+
+  small,
+  .small {
+    font-size: 65%;
+  }
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: (@line-height-computed / 2);
+  margin-bottom: (@line-height-computed / 2);
+
+  small,
+  .small {
+    font-size: 75%;
+  }
+}
+
+// Body text
+// -------------------------
+
+p {
+  margin: 0 0 20px;//(@line-height-computed / 2);
+}
+
+.lead {
+  margin-bottom: @line-height-computed;
+  font-size: floor((@fonts-normal-size * 1.15));
+  font-weight: @h1-font_weight;
+  line-height: 1.4;
+
+  @media (min-width: @azu-layout-mobile-width) {
+    font-size: (@fonts-normal-size * 1.5);
+  }
+}
+
+
+// Emphasis & misc
+// -------------------------
+
+// Ex: (12px small font / 14px base font) * 100% = about 85%
+small,
+.small {
+  font-size: floor((100% * @fonts-small-size / @fonts-normal-size));
+}
+
+mark,
+.mark {
+  //background-color: @state-warning-bg;
+  padding: .2em;
+}
+
+
+
+// Lists
+// -------------------------
+
+// Unordered and Ordered lists
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: (@line-height-computed / 2);
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+// List options
+
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+// Inline turns list items into inline-block
+.list-inline {
+  .list-unstyled();
+  margin-left: -5px;
+
+  > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+// Description Lists
+dl {
+  margin-top: 0; // Remove browser default
+  margin-bottom: @fonts-line-normal-height;
+}
+dt,
+dd {
+  line-height: @fonts-line-normal-height;
+}
+
+// Misc
+// -------------------------
+
+
+
+
+// Blockquotes
+blockquote, .blockquote {
+  padding-top: 20px; 
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-top: (@line-height-computed / 2);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: (@line-height-computed / 2);
+  border-left-width: 5px;
+  border-left-style: solid;
+  font-family: @quote-font-family;
+  font-style: italic;
+  font-size: @fonts-h5_font_size;
+  line-height: @fonts-h5_line_height;
+
+  p,
+  ul,
+  ol {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Note: Deprecated small and .small as of v3.1.0
+  // Context: https://github.com/twbs/bootstrap/issues/11660
+  footer,
+  small,
+  .small {
+    display: block;
+    font-size: 80%; // back to default font-size
+    line-height: @fonts-line-normal-height;
+    //color: @blockquote-small-color;
+
+    &:before {
+      content: '\2014 \00A0'; // em dash, nbsp
+    }
+  }
+}
+
+// Opposite alignment of blockquote
+//
+// Heads up: `blockquote.pull-right` has been deprecated as of v3.1.0.
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 30px;
+  padding-left: 0;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-left: 0;
+  text-align: right;
+
+  // Account for citation
+  footer,
+  small,
+  .small {
+    &:before { content: ''; }
+    &:after {
+      content: '\00A0 \2014'; // nbsp, em dash
+    }
+  }
+}
+
+// Quotes
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+// Addresses
+address {
+  margin-bottom: @line-height-computed;
+  font-style: normal;
+  line-height: @line-height-base;
+}
+
+// Blog
+// --------------------------------------------------
+
+.azu-multi-col {
+    .content-blog-quote, .content-blog-link, .content-blog-status {
+        .azu-padding  p {
+            line-height: @fonts-h4_line_height;
+            font-size: @fonts-h4_font_size;
+        }
+    }
+}
+
+.azu-multi-col, .azu-entry-content.col-xs-9, .azu-entry-content.col-sm-6, .azu-entry-content.col-sm-9, .azu-entry-content.col-sm-8, .azu-entry-content.col-sm-4 {
+    .azu-entry-title {
+        font-size: @fonts-h3_font_size;
+        line-height: @fonts-h3_line_height;
+        letter-spacing: unit(@h3-font_ls, px);
+    }
+}
+
+.content-blog-quote, .content-blog-link, .content-blog-status {
+    .azu-padding  p {
+        .fonts(~"quote-font-family");
+        line-height: @fonts-h2_line_height;
+        font-size: @fonts-h2_font_size;
+    }
+    .azu-link-custom {
+        &:extend(.azu-special-font-size);
+        //font-family: @h1-font;
+    }
+}
+
+.azu-post-bottom.azu-entry-meta {
+    @media (max-width: (@azu-layout-mobile-width - 1px) ) {
+            font-size: @fonts-large-size;
+    }
+    > a {
+        font-family: @h1-font;
+    }
+    .azu-readmore {
+        .font-size(xsmall);
+    }
+}
+    
+
+.azu-posted-on.azu-entry-meta, .azu-single .azu-post-meta {
+    &:extend(.azu-special-font-size);
+}
+
+.azu-portfolio-single-info .azu-portfolio-single-details {
+    font-family: @h1-font;
+}
+
+.vc_general.vc_cta3.vc_cta3-style-classic .vc_cta3-actions .vc_btn3,
+.social-ico > a,
+li.azu-nav-menu-header > a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.azu-portfolio-single-info .azu-portfolio-single-details > div:not(.azu-meta-more-btn) .azu-social-share.azu-share-extended a,
+.azu-portfolio-single-info .theiaStickySidebar > div:not(.azu-meta-more-btn) .azu-social-share.azu-share-extended a,
+.azu-portfolio-single-info .azu-portfolio-single-details > div > span a,
+.azu-portfolio-single-info .theiaStickySidebar > div > span a {
+    font-size: @fonts-xsmall-size;
+}
+
+.azu-post-meta {
+    .text-primary {
+        .font-size(xsmall);
+    }
+}
+
+.filter-categories a {
+    font-size: @fonts-small-size;
+    font-family: @h5-font;
+}
+
+time.text-secondary {
+    .font-size(xsmall);
+    font-family: @h1-font;
+}
+
+.sticky .azu-entry-title:before {
+    font-size: @fonts-normal-size;
+}
+
+.gallery-multi-col {
+    .azu-gallery-more {
+        font-size: @fonts-h3_font_size;
+        @media (max-width: (@azu-layout-mobile-width - 1px) ) {
+            font-size: @fonts-h4_font_size;
+        }
+    }
+}
+
+.azu-entry-author .text-primary {
+    font-family: @h1-font;
+    .font-size(xsmall);
+}
+
+// Blog , Footer ,Bottombar, Topbar, body, testimonial, searchbar
+// --------------------------------------------------
+
+.comment-meta {
+    .comment-author {
+        > cite, > cite a {
+            .font-size(xsmall);
+            font-family: @h1-font;
+        }
+    }
+    .comment-metadata {
+        font-family: @quote-font-family;
+    }
+}
+
+.comment-meta-bottom .comment-ip {
+    .font-size(xsmall);
+}
+
+.azu-footer {
+    .fonts(~"footer-font-family");
+    .fonts-wls(~"footer-font-family");
+    .widget_azzu-post-categories > ul, .widget_categories > ul, .widget_archive > ul, .widget_pages  > ul, .widget_nav_menu .menu, .azu-sidebar .widget_nav_menu .menu {
+        a {
+            font-family: @menu-font-family;
+        }
+    }
+}
+
+.azu-bottombar {
+    .fonts(~"bottombar-font-family");
+    .fonts-wls(~"bottombar-font-family");
+}
+
+.azu-topbar {
+    .fonts(~"topbar-font-family");
+    .fonts-wls(~"topbar-font-family");
+}
+
+.azu-header {
+    .fonts(~"header-font-family");
+    .fonts-wls(~"header-font-family");
+}
+
+.navbar-nav {
+    .fonts(~"menu-font-family");
+    .fonts-wls(~"menu-font-family");
+}
+
+.azu-page-header {
+    .fonts(~"breadcrumb-font-family");
+    .fonts-wls(~"breadcrumb-font-family");
+}
+
+
+
+.dropdown-menu, .azu-menu-widget-area .azuwoo-shopping-cart, .azu-topbar .azuwoo-shopping-cart, .azu-burger-container li a {
+    .fonts(~"mini-menu-font-family");
+    .fonts-wls(~"mini-menu-font-family");
+}
+
+//          Woo cart dropdown
+
+.azu-menu-widget-area .azuwoo-shopping-cart, .azu-topbar .azuwoo-shopping-cart {
+    .total, .button {
+        .font-size(xsmall);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .quantity {
+        .font-size(xsmall);
+    }
+}
+
+.azu-topbar .widget_shopping_cart a {
+    line-height: @fonts-line-normal-height;
+}
+
+.portfolio-categories:not(.azu-single-meta) > a {
+    font-family: @quote-font-family;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+//          dropdown menu header
+
+input, .comment-form .azu-label-comment, .wpcf7-form {
+    .fonts(~"input-font-family");
+    .fonts-wls(~"input-font-family");
+}
+
+input {
+    font-family: @input-font-family;
+}
+
+body {
+    .fonts(~"base-font-family");
+    .fonts-wls(~"base-font-family");
+}
+.azu-testimonial-title .text-primary {
+    &:extend(.azu-special-font-size);
+    font-family: @h1-font;
+}
+
+//          posttype
+
+.azu-slider-testimonials > .swiper-wrapper {
+    padding-bottom: @fonts-line-normal-height * 2;
+}
+
+.azu-slider-testimonials.azu-one-testimonials > .swiper-wrapper {
+    //padding-bottom: 2 * @fonts-line-normal-height;
+}
+
+//          sidebar & widgets
+
+.azu-sidebar-area {
+    .fonts(~"sidebar-font-family");
+    .fonts-wls(~"sidebar-font-family");
+}
+
+.widget_azzu-post-categories, .widget_categories, .widget_archive, .product-categories {
+    li {
+        .font-size(xsmall);
+        &:before {
+            font-size: @fonts-large-size;
+        }
+    }
+}
+
+.widget_azzu-recent-posts,
+#popular-post.tab-pane,
+#recent-post.tab-pane,
+.widget_azzu-popular-posts {
+    .azu-comment, time {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+.widget_calendar caption {
+    .font-size(normal);
+}
+
+.instagram-photos .azzu_follow_btn {
+    .font-size(xsmall);
+}
+
+.widget_azzu-popular-posts .tab-content {
+    padding-top: @fonts-line-normal-height;
+}
+
+//          social icon
+
+.azu-social-icons {
+    &.azu-soc-small {
+        > .social-ico > a:before {
+			.font-size(xsmall);
+        }
+    }
+    &.azu-soc-normal {
+        > .social-ico > a:before {
+            .font-size(small);
+        }
+    }
+    &.azu-soc-large {
+        > .social-ico > a:before {
+            .font-size(normal);
+        }
+    }
+}
+
+.azu-soc-small > .social-ico > a {
+    //padding: 0px max(0px, (@fonts-line-small-height - @fonts-small-size - @fonts-small-size/2)/2 + 0.5px);
+}
+
+.azu-soc-large > .social-ico > a {
+    //padding: 6px max(6px, (@fonts-line-large-height - @fonts-large-size - @fonts-large-size/2)/2 + 6px);
+}
+
+.azu-social-share.azu-share-extended > a, .woocommerce ul.products li.product .button {
+    .font-size(xsmall);
+}
+
+.azu-entry-share.dropup .azu-social-share {
+    @media ( max-width: (@azu-layout-mobile-width - 1) ) {
+        font-size: @fonts-large-size;
+    }
+}
+
+.social-ico > a {
+    //padding: 3px max(3px, (@line-height-computed - @fonts-normal-size - @fonts-normal-size/2)/2 + 3px);
+}
+
+//          Page title
+
+.azu-vc-pt-subtitle {
+    font-family: @quote-font-family;
+    font-size: @fonts-h5_font_size;
+    //.fonts-wls(~"h5-font");
+    line-height: @fonts-h5_line_height;
+}
+
+//          Button
+
+
+.btn, .pagination a, .woocommerce-pagination a {
+    font-family: @buttons-font-family;
+    .fonts-wls(~"buttons-font-family");
+}
+
+.team-container {
+    .azu-team-author p {
+        font-family: @quote-font-family;
+        font-style: italic;
+        font-size: 13px;
+    }
+}
+
+//          rel content font
+
+.azu-rel-content > a {
+    font-family: @h1-font;
+}
+
+//          tooltip
+
+.tooltip {
+    .font-size(xsmall);
+    font-family: @h1-font;
+}
+
+//          post single pager
+
+.azu-single .pager {
+    font-family: @h1-font;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    .font-size(xsmall);
+}
+
+.pager li > a, .pager li > span {
+    font-size: @fonts-xsmall-size;
+    text-transform: uppercase;
+}
+
+//          Ultimate addon hack
+
+.aio-icon-header h3.aio-icon-title {
+    letter-spacing: unit(@h4-font_ls, px);
+}
+
+.azu-main .uvc-heading .uvc-main-heading {
+    h1 {
+        line-height: @fonts-h1_line_height;
+    }
+    h2 {
+        line-height: @fonts-h2_line_height;
+    }
+    h3 {
+        line-height: @fonts-h3_line_height;
+    }
+    h4 {
+        line-height: @fonts-h4_line_height;
+    }
+    h5 {
+        line-height: @fonts-h5_line_height;
+    }
+    h6 {
+        line-height: @fonts-h6_line_height;
+    }
+}
+
+
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-result-count {
+    .font-size(@fonts-large-size);
+}
+
+//              breadcrumb
+
+.breadcrumb-trail.breadcrumb, .woocommerce .woocommerce-breadcrumb {
+    &:extend(.azu-special-font-size);
+}
+
+//              Special font-size
+
+.azu-special-font-size {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+//              vc tta
+
+.vc_tta-tabs.vc_tta-style-classic .vc_tta-tab > a {
+    font-family: @h1-font;
+    font-size: @fonts-xsmall-size;
+    letter-spacing: 3px;
+}
+
+//             Tooltip
+
+.tooltip  .tooltip-inner {
+    .font-size(xsmall);
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}

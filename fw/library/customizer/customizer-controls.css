@@ -1,0 +1,216 @@
+.image-radio {
+	display: none !important;
+}
+.image-radio + label {
+	display: block;
+	float: left;
+}
+.image-radio + label img {
+        border-radius: 2px;
+	border: 1px solid #bbb;
+	margin: 0 3px 3px 0;
+	display: block;
+}
+.image-radio:checked + label img {
+	border-color: #2c97dd;
+	opacity: 1;
+	
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.75);
+	box-shadow: 0 0 5px rgba(0,0,0,0.75);
+}
+
+img.customize-radio-img:hover{
+    opacity: 0.8;
+}
+
+.customize-control .upload-uri.upload {
+	width:72%;
+}
+
+.azu-color-background{
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 4px;
+    display: none;
+}
+
+.azu-color-window {
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+}
+
+.azu-listbox-item:hover {
+    border: 1px solid #999999;
+}
+
+.azu-drag-and-drop{
+	min-height: 18px;
+	border-top:  1px dotted #c3c3c3;
+	border-bottom: 1px dotted #c3c3c3;
+	padding: 3px 2px 3px 2px;       
+}
+.azu-drag-and-drop:before {
+    content:'';
+    display: table;
+}
+.azu-drag-and-drop:after {
+    content:'';
+    display: table;
+    clear:both;
+}
+.thumbnails .azu-customizer-image { 
+	max-width: 240px;
+	height:auto; 
+	padding:3px; 
+	box-sizing:border-box; 
+	float:left;
+}
+
+.azu-listbox-item{
+    background-color: #fafafa;
+    border: 1px solid #c3c3c3; 
+    border-radius: 3px;
+    min-height: 20px;
+    min-width: 237px;
+    max-width: 270px;
+    margin-right: 7px;
+    line-height: 1.4;
+    float: left
+}
+
+.azu-listbox-child{
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.azu-listbox-body{
+    background-color: #ffffff;
+    border-top: 1px solid #e5e5e5;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.azu-listbox-title{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 20px;
+    padding-left: 5px;
+    cursor:all-scroll;
+}
+
+.azu-listbox-toggle{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: right;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.azu-listbox-toggle:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #aaaaaa;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.azu-listbox-toggle:hover:before {
+    border-top-color: #777777;
+}
+
+.azu-customize-range{
+	width: 195px;
+        background-color: transparent;
+        border: none !important;
+}
+
+.azu-customize-range-output{
+	font-size:14px;
+	font-weight:500;
+	line-height:24px;
+}
+.azu-customize-hide {
+	display: none;
+}
+
+.azu-customize-square-size {
+	width:40% !important; 
+}
+
+.azu-customize-background-img-size {
+	max-width:31% !important;
+	min-width:30% !important;
+	width:30% !important; 
+}
+
+.azu-customize-background {
+	float: left;
+}
+
+
+
+/* Social buttons */
+#customize-theme-controls .customize-control-social_buttons .connectedSortable {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+	min-height: 43px;
+	margin: 0 0 0 0;
+	padding: 3px 2% 0 3px;
+	width: 100%;
+	border-color: #DFDFDF;
+	border-width: 1px;
+	border-style: solid;
+	float: left;
+	list-style-type: none;
+}
+
+#customize-theme-controls .customize-control-social_buttons .connectedSortable li {
+	cursor: all-scroll;
+	margin: 0 3px 3px 3px;
+	padding: 3px;
+	font-size: 1em;
+	border-color: #DFDFDF;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fcfcfc;
+        max-width: 300px;
+        min-height: 20px;
+}
+
+
+/* drop down fonts */
+
+
+#accordion-section-typography .customize-control-select > label:after {
+    content: "It's better to be a pirate";
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    display: block;
+    line-height: 1;
+    margin-top: 1px;
+    font-family: inherit;
+}
+
+#accordion-section-typography .customize-control-select > label > span,
+#accordion-section-typography .customize-control-select > label > select {
+    font-family: 'Open Sans', sans-serif;
+}

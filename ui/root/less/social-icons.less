@@ -1,0 +1,140 @@
+
+//          Fontello Icon
+
+.azu-vector-icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.azu-entry-share.dropup {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    .azu-social-share:before {
+        content: "\e9f6";
+        &:extend(.azu-vector-icon);
+    }
+    > .dropdown-menu {
+        position: absolute;
+        display: table;
+        visibility: hidden;
+        opacity: 0;
+        bottom: 100%;
+        right: 0;
+        left: auto;
+        top: auto;
+        text-align: right;
+        background-color: transparent;
+        min-width: 0;
+        border-radius: 0;
+        padding-bottom: 7px;
+        box-shadow: none;
+        .translate(0; -15px);
+        .transition(all 0.25s ease-in-out);
+            &:after {
+                content: "";
+                position: absolute;
+                pointer-events: none;
+                bottom: 4px;
+                left: 0;
+                right: 24px;
+                height: 0;
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
+            > a {
+                &:extend(.social-ico > a all);
+                //border-radius: @border-radius-base !important;
+                display: table-cell !important;
+            }
+            > svg {
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+                stroke: none;
+            }
+        }
+    &.open > .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        .translate(0; 0);
+    }
+}
+
+.social-ico > a {
+    display: inline-block;
+    padding: 0 5px;
+    .transition(border-color 0.25s);
+    .transition(color 0.25s);
+    //.transition(box-shadow 0.25s);
+    span.share-content {
+        display: none;
+    }
+}
+
+//      Page, Single post share
+
+.azu-social-share.azu-share-extended {
+    float: right;
+    margin-top: -3px;
+    > a {
+        color: @base-text-color;
+        //&:extend(.social-ico > a all);
+        //padding: 0px max(0px, (@fonts-line-small-height - @fonts-small-size - @fonts-small-size/2)/2 + 0.5px);
+        span.share-content {
+            display: none;
+        }
+    }
+}
+
+.azu-main > .azu-entry-share {
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+}
+
+//      transparent border
+
+.social-ico > a.azu-soc-border {
+    border-width: 1px;
+    border-style:  solid;
+}
+
+.azu-social-icons.azu-soc-border a {
+    border-width: 1px;
+    border-style:  solid;
+    border-radius: @border-radius-large;
+    margin: 0 10px;
+}
+.azu-social-icons a {
+    padding: 3px max(3px, (@line-height-computed - @font-size-base - @font-size-base/2)/2 + 3px);
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+//          New Social Icon widget
+
+.widget_azzu_widgets_socialicons {
+    .textwidget {
+        margin-bottom: @line-height-computed;
+    }
+    .azu-widget-text.azu-social-icons:not(.azu-soc-border) {
+        a:first-child {
+            padding-left: 0;
+            &:before {
+                margin-left: 0;
+            }
+        }
+    }
+}

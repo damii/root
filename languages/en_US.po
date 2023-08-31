@@ -1,0 +1,6087 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Root\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-04 16:30+0800\n"
+"PO-Revision-Date: 2016-02-04 16:30+0800\n"
+"Last-Translator: \n"
+"Language-Team: azu team <info@wp-theme.us>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgctxt "atheme"
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:14
+msgctxt "atheme"
+msgid ""
+"It looks like nothing was found at this location. Maybe try to use a search?"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38 comments.php:58
+msgctxt "atheme"
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:59
+msgctxt "atheme"
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:60
+msgctxt "atheme"
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:70
+msgctxt "atheme"
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:79
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments.php:83
+msgid "Name &#42;"
+msgstr ""
+
+#: comments.php:83
+msgid "Name&#42;"
+msgstr ""
+
+#: comments.php:85
+msgid "Email &#42;"
+msgstr ""
+
+#: comments.php:85
+msgid "Email&#42;"
+msgstr ""
+
+#: comments.php:87 fw/classes/theme_functions.class.php:1033
+msgid "Website"
+msgstr ""
+
+#: comments.php:92
+msgid "Comment"
+msgstr ""
+
+#: comments.php:94
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comments.php:96
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:98
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:100
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:90
+msgctxt "atheme"
+msgid "Widget area created by theme"
+msgstr ""
+
+#: search.php:18
+msgctxt "atheme"
+msgid "New Search"
+msgstr ""
+
+#: search.php:19
+msgctxt "atheme"
+msgid "If you are not happy with the results below please do another search"
+msgstr ""
+
+#: search.php:26
+#, php-format
+msgctxt "atheme"
+msgid "%s Search results for: %s"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "atheme"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "atheme"
+msgid "Search for:"
+msgstr ""
+
+#: fw/classes/azzu_config.class.php:82 fw/classes/helpers.class.php:282
+#: fw/vc_plugins/shortcodes/blog-posts.php:102
+msgctxt "atheme"
+msgid "Read more"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:161
+msgctxt "breadcrumb"
+msgid "Browse:"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:162
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:163
+msgctxt "breadcrumb"
+msgid "404 Not Found"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:164
+msgctxt "breadcrumb"
+msgid "Archives"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:166
+#, php-format
+msgctxt "breadcrumb"
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:168
+#, php-format
+msgctxt "breadcrumb"
+msgid "Page %s"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:170
+#, php-format
+msgctxt "breadcrumb"
+msgid "Minute %s"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:172
+#, php-format
+msgctxt "breadcrumb"
+msgid "Week %s"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:699
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:716
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:733
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:749 fw/classes/breadcrumbs.class.php:778
+#: fw/classes/breadcrumbs.class.php:805 fw/classes/breadcrumbs.class.php:832
+#: fw/classes/breadcrumbs.class.php:1019
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:750 fw/classes/breadcrumbs.class.php:806
+#: fw/classes/breadcrumbs.class.php:1023
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:751 fw/classes/breadcrumbs.class.php:1027
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:779
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:1118 fw/classes/breadcrumbs.class.php:1154
+#: fw/classes/breadcrumbs.class.php:1171 fw/classes/breadcrumbs.class.php:1202
+msgctxt "breadcrumb"
+msgid "Edit"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:1146
+msgctxt "breadcrumb"
+msgid "Split"
+msgstr ""
+
+#: fw/classes/breadcrumbs.class.php:1150
+msgctxt "breadcrumb"
+msgid "Merge"
+msgstr ""
+
+#: fw/classes/category_walker.class.php:28
+#, php-format
+msgctxt "widget"
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: fw/classes/category_walker.class.php:49
+#, php-format
+msgctxt "widget"
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: fw/classes/helpers.class.php:170 fw/classes/template_tags.class.php:658
+#: fw/classes/template_tags.class.php:666
+msgctxt "pagination"
+msgid "Prev"
+msgstr ""
+
+#: fw/classes/helpers.class.php:171 fw/classes/template_tags.class.php:659
+#: fw/classes/template_tags.class.php:667
+msgctxt "pagination"
+msgid "Next"
+msgstr ""
+
+#: fw/classes/helpers.class.php:190
+msgid "Loading"
+msgstr ""
+
+#: fw/classes/helpers.class.php:191
+#: fw/vc_plugins/shortcodes/blog-posts.php:447
+#: fw/vc_plugins/shortcodes/portfolio.php:620
+#: fw/vc_plugins/shortcodes/team.php:405
+#: fw/vc_plugins/shortcodes/testimonials.php:345
+msgid "Load more"
+msgstr ""
+
+#: fw/classes/helpers.class.php:193
+msgid "Loading ..."
+msgstr ""
+
+#: fw/classes/helpers.class.php:195
+msgid "Load more works"
+msgstr ""
+
+#: fw/classes/helpers.class.php:338
+msgctxt "edit button"
+msgid "Edit"
+msgstr ""
+
+#: fw/classes/helpers.class.php:710
+msgid "Author: "
+msgstr ""
+
+#: fw/classes/helpers.class.php:828 fw/vc_plugins/shortcodes/button.php:208
+#: fw/vc_plugins/shortcodes/single-meta.php:182
+#: fw/vc_plugins/shortcodes/single-meta.php:203
+msgid "Link"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1020
+msgctxt "atheme"
+msgid "No title"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1045
+#, php-format
+msgctxt "atheme"
+msgid "%s ago"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1192
+msgctxt "atheme"
+msgid "Share:"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1230
+msgctxt "share buttons"
+msgid "share"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1237
+msgctxt "share buttons"
+msgid "tweet"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1292
+msgctxt "share buttons"
+msgid "pin it"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1386
+msgid "All"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1387
+msgid "There is no categories"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1571
+msgctxt "category list"
+msgid "All posts"
+msgstr ""
+
+#: fw/classes/helpers.class.php:1572
+msgctxt "category list"
+msgid "All"
+msgstr ""
+
+#: fw/classes/love_this.class.php:79
+msgctxt "atheme"
+msgid "Like"
+msgstr ""
+
+#: fw/classes/pagination.class.php:103
+msgid "(current)"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:445
+#, php-format
+msgctxt "archive template title"
+msgid "%s Search results for: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:451
+#, php-format
+msgctxt "archive template title"
+msgid "Category Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:454
+#, php-format
+msgctxt "archive template title"
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:458
+#, php-format
+msgctxt "archive template title"
+msgid "Author Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:462
+#, php-format
+msgctxt "archive template title"
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:465
+#, php-format
+msgctxt "archive template title"
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:468
+#, php-format
+msgctxt "archive template title"
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:471
+#, php-format
+msgctxt "archive template title"
+msgid "Portfolio Archives: %s"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:478
+#: fw/classes/template_tags.class.php:488
+msgctxt "archive template title"
+msgid "Archives:"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:480
+msgctxt "archive template title"
+msgid "Products"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:493
+msgctxt "index title"
+msgid "Page not found"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:495
+msgctxt "index title"
+msgid "Blog"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:539 ui/flatinum/azu_tags.php:767
+#: ui/root/azu_tags.php:767
+msgctxt "atheme"
+msgid "Pingback:"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:539
+#: fw/classes/template_tags.class.php:582 ui/flatinum/azu_tags.php:767
+#: ui/flatinum/azu_tags.php:819 ui/root/azu_tags.php:767
+#: ui/root/azu_tags.php:819
+msgctxt "atheme"
+msgid "Edit"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:551 ui/flatinum/azu_tags.php:779
+#: ui/root/azu_tags.php:779
+#, php-format
+msgctxt "atheme"
+msgid "%s <span class=\"says\"></span>"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:560 ui/flatinum/azu_tags.php:788
+#: ui/root/azu_tags.php:788
+#, php-format
+msgctxt "atheme"
+msgid " %s ago "
+msgstr ""
+
+#: fw/classes/template_tags.class.php:569 ui/flatinum/azu_tags.php:806
+#: ui/root/azu_tags.php:806
+msgctxt "atheme"
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: fw/classes/template_tags.class.php:585 ui/flatinum/azu_tags.php:798
+#: ui/root/azu_tags.php:798
+msgctxt "atheme"
+msgid "Reply"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:724
+#, php-format
+msgctxt "atheme"
+msgid " %s ago"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:776
+msgctxt "atheme"
+msgid "Comment"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:777 ui/flatinum/azu_tags.php:744
+#: ui/root/azu_tags.php:744
+msgctxt "atheme"
+msgid "Comments"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:836
+msgctxt "atheme"
+msgid "Views"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1428 ui/flatinum/azu_tags.php:585
+#: ui/root/azu_tags.php:585
+msgid "Pages:"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1429 ui/flatinum/azu_tags.php:623
+#: ui/root/azu_tags.php:623
+msgid "Edit"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1519
+msgctxt "atheme"
+msgid "Nothing Found"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1525
+#, php-format
+msgctxt "atheme"
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1529
+msgctxt "atheme"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1534
+msgctxt "atheme"
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1601
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/classes/template_tags.class.php:1646
+msgid "Add a review"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1646
+msgid "Be the first to review"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1647
+#: fw/library/widget_areas/class.redux_widget_areas.php:91
+msgid "Name"
+msgstr ""
+
+#: fw/classes/template_tags.class.php:1648
+msgid "Email"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:86
+msgid "Primary Menu"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:87
+msgid "Top Menu"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:88
+msgid "Bottom Menu"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:222
+msgid "Submit"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:310
+#: fw/classes/theme_functions.class.php:1012
+msgid "Facebook"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:311
+#: fw/classes/theme_functions.class.php:1013
+msgid "Twitter"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:312
+#: fw/classes/theme_functions.class.php:1014
+msgid "Google+"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:313
+#: fw/classes/theme_functions.class.php:1017
+msgid "Pinterest"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:314
+msgid "LinkedIn"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:582
+msgctxt "backend"
+msgid "Stylesheet saved."
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:834
+msgid "back"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:854
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:855
+msgid "No more post"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1015
+msgid "YouTube"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1016
+msgid "Linkedin"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1018
+msgid "Skype"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1019
+msgid "Instagram"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1020
+msgid "Tumblr"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1021
+msgid "Dribbble"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1022
+msgid "Behance"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1023 fw/widgets/video.php:107
+msgid "Vimeo"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1024
+msgid "Rss"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1025
+msgid "Delicious"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1026
+msgid "Flickr"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1027
+msgid "Forrst"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1028
+msgid "Lastfm"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1029
+msgid "Deviantart"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1030
+msgid "Github"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1031
+msgid "Stumbleupon"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1032
+msgid "Mail"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1034
+msgid "500px"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1035
+msgid "VK"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1036
+msgid "Foursquare"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1037
+msgid "XING"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1038
+msgid "Weibo"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1039
+msgid "Swarm"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1040
+msgid "Phone"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1054
+msgctxt "theme-options"
+msgid "Social buttons in blog posts"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1055
+msgctxt "theme-options"
+msgid "Social buttons in gallery & carousel"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1056
+msgctxt "theme-options"
+msgid "Social buttons in page"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1060
+msgctxt "theme-options"
+msgid "Social buttons in portfolio"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1063
+msgctxt "theme-options"
+msgid "Social buttons in woocommerce"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:1971
+msgctxt "word count: words or characters?"
+msgid "words"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:2314
+msgctxt "backend fields"
+msgid "Delete"
+msgstr ""
+
+#: fw/classes/theme_functions.class.php:2451
+msgctxt "backend fields button"
+msgid "Add"
+msgstr ""
+
+#: fw/functions/admin-functions.php:127
+#: fw/library/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: fw/functions/admin-functions.php:128
+#: fw/library/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: fw/functions/admin-functions.php:129
+#: fw/library/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: fw/functions/admin-functions.php:130
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: fw/functions/admin-functions.php:131
+#: fw/library/class-tgm-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:132
+#: fw/library/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:133
+#: fw/library/class-tgm-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:134
+#: fw/library/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:135
+#: fw/library/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:136
+#: fw/library/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:137
+#: fw/library/class-tgm-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:138
+#: fw/library/class-tgm-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:139
+#: fw/library/class-tgm-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:140
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/functions/admin-functions.php:141
+#: fw/library/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: fw/functions/admin-functions.php:142
+#: fw/library/class-tgm-plugin-activation.php:177
+#: fw/library/class-tgm-plugin-activation.php:1948
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: fw/functions/admin-functions.php:143
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: fw/functions/admin-functions.php:174
+msgctxt "backend css file creation error"
+msgid ""
+"Failed to create customization .CSS file. To improve your site performance, "
+"please check whether \".../wp-content/uploads/\" folder is created, and its "
+"CHMOD is set to 777."
+msgstr ""
+
+#: fw/functions/admin-functions.php:193
+msgctxt "attachment field"
+msgid "Video url"
+msgstr ""
+
+#: fw/functions/admin-functions.php:337
+msgctxt "backend"
+msgid "Thumbnail"
+msgstr ""
+
+#: fw/functions/admin-functions.php:352
+msgctxt "backend"
+msgid "Sidebar"
+msgstr ""
+
+#: fw/functions/admin-functions.php:353
+msgctxt "backend"
+msgid "Footer"
+msgstr ""
+
+#: fw/functions/admin-functions.php:366
+msgctxt "backend"
+msgid "Image title"
+msgstr ""
+
+#: fw/functions/admin-functions.php:421
+msgctxt "media title hidden"
+msgid "Hidden"
+msgstr ""
+
+#: fw/functions/admin-functions.php:423
+msgctxt "media title visible"
+msgid "Visible"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/library/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:178
+#: fw/library/class-tgm-plugin-activation.php:1639
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/library/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:534
+#: fw/library/class-tgm-plugin-activation.php:2165
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1290
+#: fw/library/class-tgm-plugin-activation.php:1403
+msgid "Install"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1314
+#: fw/library/class-tgm-plugin-activation.php:1404
+msgid "Activate"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1366
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1382
+msgid "Plugin"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1383
+msgid "Source"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1384
+#: fw/vc_plugins/shortcodes/separator.php:106
+msgid "Type"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1385
+msgid "Status"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1931
+msgid "Install package not available."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1932
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1933
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1934
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1935
+msgid "Plugin install failed."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1936
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:1947
+msgid "Plugin activation failed."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2061
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2062
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2062
+#: fw/library/class-tgm-plugin-activation.php:2071
+msgid "Show Details"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2062
+#: fw/library/class-tgm-plugin-activation.php:2071
+msgid "Hide Details"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2063
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2068
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2069
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2071
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2072
+msgid "All installations have been completed."
+msgstr ""
+
+#: fw/library/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/library/redefine-fields.php:341 fw/widgets/social-icons.php:190
+msgctxt "atheme"
+msgid "Icon: "
+msgstr ""
+
+#: fw/library/redefine-fields.php:348 fw/widgets/social-icons.php:197
+msgctxt "atheme"
+msgid "Url: "
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:36
+#: fw/library/theme-options/includes/class-options-interface.php:628
+#: fw/library/theme-options/includes/class-options-media-uploader.php:78
+msgid "No file chosen"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:38
+#: fw/library/theme-options/includes/class-options-interface.php:630
+msgctxt "theme_option"
+msgid "Upload"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:41
+msgctxt "theme_option"
+msgid "ttf, otf, eot, svg, woff, woff2"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:41
+#: fw/library/theme-options/includes/class-options-interface.php:632
+msgid "Add Font"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:51
+#: fw/library/theme-options/includes/class-options-interface.php:642
+msgid "No font found. Please click on Add Font button to add fonts"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:52
+#: fw/library/theme-options/includes/class-options-interface.php:643
+msgid "Id"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:52
+#: fw/library/theme-options/includes/class-options-interface.php:643
+msgid "Font"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:52
+#: fw/library/meta-box/inc/fields/autocomplete.php:18
+#: fw/library/meta-box/inc/fields/autocomplete.php:72
+#: fw/library/theme-options/includes/class-options-interface.php:643
+msgid "Delete"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:54
+msgctxt "customizer"
+msgid "Reload the customizer after a new custom font is added and saved."
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:148
+#: fw/library/theme-options/includes/class-options-interface.php:671
+msgctxt "theme_option"
+msgid "Opacity"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:167
+#: fw/library/theme-options/includes/class-options-interface.php:690
+msgctxt "theme_option"
+msgid "Letter-spacing"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:168
+#: fw/library/theme-options/includes/class-options-interface.php:691
+msgctxt "theme-option"
+msgid "Uppercase"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:354
+msgctxt "customizer"
+msgid "Upload"
+msgstr ""
+
+#: fw/library/customizer/custom-controls.php:357
+msgctxt "customizer"
+msgid "Remove"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:586
+msgctxt "azumenu"
+msgid ""
+"Make this item's submenu a mega menu.  Leave unchecked to use a flyout menu, "
+"or for menu items without submenus (this will remove the submenu indicator)."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:587
+msgctxt "azumenu"
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:600
+msgctxt "azumenu"
+msgid ""
+"Make this item's submenu the full width of the menu bar.  Note that with "
+"javascript disabled, submenus are full-width by default.  This is horizontal-"
+"orientation specific.  To make a vertical menu full-width, set the width "
+"appropriately in the Basic Configuration Options."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:601
+msgctxt "azumenu"
+msgid "Full Width Submenu"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:612
+msgctxt "azumenu"
+msgid ""
+"Select where to align the submenu.  Note that only mega submenus can be "
+"centered, and only if jQuery Enhancements are enabled.  Horizontal-"
+"orientation specific."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:613
+msgctxt "azumenu"
+msgid "Align Submenu"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:616
+msgctxt "azumenu"
+msgid "Left"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:617
+msgctxt "azumenu"
+msgid "Right"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:629
+msgctxt "azumenu"
+msgid ""
+"<strong>Only valid for full-width submenus</strong>.  Set how many columns "
+"should be in each row in the submenu.  Columns will be sized evenly."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:630
+msgctxt "azumenu"
+msgid "Submenu Columns [FullWidth]"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:633
+msgctxt "azumenu"
+msgid "Automatic"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:634
+msgctxt "azumenu"
+msgid "1 column - 1/12"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:635
+msgctxt "azumenu"
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:636
+msgctxt "azumenu"
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:637
+msgctxt "azumenu"
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:638
+msgctxt "azumenu"
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:639
+msgctxt "azumenu"
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:640
+msgctxt "azumenu"
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:641
+msgctxt "azumenu"
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:642
+msgctxt "azumenu"
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:643
+msgctxt "azumenu"
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:644
+msgctxt "azumenu"
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:645
+msgctxt "azumenu"
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:659
+msgctxt "azumenu"
+msgid ""
+"Display this item as a header, like second-level menu items.  Good for "
+"splitting columns vertically without starting a new row"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:660
+msgctxt "azumenu"
+msgid "Header Display"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:670
+msgctxt "azumenu"
+msgid "Make this item stand out."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:671
+msgctxt "azumenu"
+msgid "Highlight this item"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:692
+msgctxt "azumenu"
+msgid "Bottom line after this item."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:693
+msgctxt "azumenu"
+msgid "Bottom Divider"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:703
+msgctxt "azumenu"
+msgid ""
+"Remove the link altogether.  Can be used, for example, with content "
+"overrides or widgets."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:704
+msgctxt "azumenu"
+msgid "Disable Link"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:832
+msgctxt "azumenu"
+msgid "You currently have 0 widget areas set in your AzuMenu options."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:941
+msgctxt "azumenu"
+msgid ""
+"Your server is running Suhosin, and your current maxvars settings may limit "
+"the number of menu items you can save."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:949
+#, php-format
+msgctxt "azumenu"
+msgid ""
+"You are approaching the post variable limit imposed by your server "
+"configuration.  Exceeding this limit may automatically delete menu items "
+"when you save.  Please increase your <strong>$key</strong> directive in php."
+"ini.  <a href=\"%s\">More information</a>"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:956
+msgctxt "azumenu"
+msgid "Menu Item Limit Warning"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:969
+msgid "Menu Item Post variable count on last save"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenu.class.php:973
+msgctxt "azumenu"
+msgid "Approximate remaining menu items"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:273
+msgctxt "azumenu"
+msgid ""
+"Remove the Navigation Label text from the link.  Can be used, for example, "
+"with image-only links."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:274
+msgctxt "azumenu"
+msgid "Disable Text"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:302
+msgctxt "azumenu"
+msgid ""
+"Display custom content in this menu item.  This input accepts shortcodes so "
+"you can display things like contact forms, search boxes, or galleries.  "
+"Check \"Disable Link\" above to display only this content, instead of a link."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:303
+msgctxt "azumenu"
+msgid "Custom Content (Content Override)"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:320
+msgctxt "azumenu"
+msgid "Select the widget area to display"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:321
+msgctxt "azumenu"
+msgid "Display a Widget Area"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:332
+msgctxt "azumenu"
+msgid "FontIcons"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuMegamenu.class.php:333
+msgctxt "azumenu"
+msgid "Font icons"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:382
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:386
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:399
+msgid "sub item"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:431
+msgid "Edit Menu Item"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:440
+msgid "URL"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:447
+msgid "Navigation Label"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:453
+msgid "Title Attribute"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:460
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:465
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:471
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:477
+#: fw/vc_plugins/shortcodes/icon.php:333
+#: fw/vc_plugins/shortcodes/single-meta.php:136
+msgid "Description"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:479
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:485
+msgid "Move"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:486
+msgid "Up one"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:487
+msgid "Down one"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:490
+msgid "To the top"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:499
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:512
+#: fw/library/meta-box/inc/fields/file-input.php:42
+#: fw/library/theme-options/includes/class-options-media-uploader.php:84
+#: fw/library/theme-options/includes/class-options-media-uploader.php:136
+msgid "Remove"
+msgstr ""
+
+#: fw/library/megamenu/core/AzuMenuWalkerCore.class.php:513
+msgid "Cancel"
+msgstr ""
+
+#: fw/library/meta-box/inc/common.php:35
+msgid "Documentation"
+msgstr ""
+
+#: fw/library/meta-box/inc/common.php:36
+msgid "Extensions"
+msgstr ""
+
+#: fw/library/meta-box/inc/field.php:225
+msgid "+"
+msgstr ""
+
+#: fw/library/meta-box/inc/field.php:235
+msgid "&#8211;"
+msgstr ""
+
+#: fw/library/meta-box/inc/meta-box.php:245
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-advanced.php:66
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-advanced.php:103
+#: fw/library/meta-box/inc/fields/file.php:168
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-advanced.php:104
+#: fw/library/meta-box/inc/fields/file.php:169
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file.php:98
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file.php:111
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/file.php:112
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image-advanced.php:23
+msgid "Select Images"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image-advanced.php:71
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image-advanced.php:108
+#: fw/library/meta-box/inc/fields/image.php:136
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image-advanced.php:109
+#: fw/library/meta-box/inc/fields/image.php:137
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image.php:70
+#: fw/library/meta-box/inc/fields/thickbox-image.php:34
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/oembed.php:55
+msgid "Embed HTML not available."
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/plupload-image.php:105
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/plupload-image.php:106
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/plupload-image.php:107
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/plupload-image.php:182
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/post.php:66
+#: fw/library/meta-box/inc/fields/taxonomy.php:40
+#: fw/library/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: fw/library/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:146
+msgid "Cannot create object"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:180
+msgctxt "atheme"
+msgid "Live Preview"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:224
+msgctxt "atheme"
+msgid "Import with Content"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:228
+msgctxt "atheme"
+msgid "Download and import file attachments"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:232
+msgctxt "atheme"
+msgid "Import with widgets"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:272
+msgctxt "atheme"
+msgid "You can save"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:272
+msgctxt "atheme"
+msgid "Theme Options"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:382
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:397
+msgid ""
+"Theme options import data could not be read. Please try a different file."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:457
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:493
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:534
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:556
+msgid "Site does not support widget"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:579
+msgid "Widget already exists"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:628
+msgid "Imported"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:631
+msgid "Imported to Inactive"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/azu-importer.php:638
+msgid "No Title"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/parsers.php:42
+#: fw/library/one-click-demo/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/parsers.php:67
+#: fw/library/one-click-demo/importer/parsers.php:72
+#: fw/library/one-click-demo/importer/parsers.php:262
+#: fw/library/one-click-demo/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:134
+#: fw/library/one-click-demo/importer/wordpress-importer.php:143
+#: fw/library/one-click-demo/importer/wordpress-importer.php:194
+#: fw/library/one-click-demo/importer/wordpress-importer.php:198
+#: fw/library/one-click-demo/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:505
+#: fw/library/one-click-demo/importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:819
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:832
+msgid "Invalid file type"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:878
+msgid "Remote server did not respond"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:884
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:891
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:896
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:902
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:1001
+msgid "Import WordPress"
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:1008
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:1023
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: fw/library/one-click-demo/importer/wordpress-importer.php:1024
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-framework-admin.php:133
+msgctxt "backend"
+msgid "General"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-framework-admin.php:133
+msgctxt "backend"
+msgid "Theme Options"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-framework-admin.php:272
+msgid "Click OK to restore default settings on this page!"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-framework-admin.php:305
+msgid "Default options restored."
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-framework-admin.php:400
+msgctxt "backend"
+msgid "Options saved."
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-interface.php:632
+msgctxt "theme_option"
+msgid "Accepted Font Format : ttf, otf, eot, svg, woff, woff2"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-interface.php:858
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-media-uploader.php:82
+#: fw/library/theme-options/includes/class-options-media-uploader.php:135
+msgid "Upload"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-media-uploader.php:87
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-media-uploader.php:112
+msgid "View File"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:433
+msgctxt "theme-options"
+msgid "no repeat"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:434
+msgctxt "theme-options"
+msgid "repeat x"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:435
+msgctxt "theme-options"
+msgid "repeat y"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:436
+msgctxt "theme-options"
+msgid "repeat"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:449
+#: fw/options/options-header.php:216
+msgctxt "theme-options"
+msgid "top"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:450
+#: fw/options/options-header.php:218
+msgctxt "theme-options"
+msgid "bottom"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:451
+#: fw/library/theme-options/includes/class-options-sanitization.php:466
+#: fw/options/options-header.php:46 fw/options/options-header.php:122
+#: fw/options/options-header.php:423
+msgctxt "theme-options"
+msgid "center"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:464
+#: fw/options/options-header.php:45 fw/options/options-header.php:121
+#: fw/options/options-header.php:215 fw/options/options-header.php:422
+msgctxt "theme-options"
+msgid "left"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:465
+#: fw/options/options-header.php:47 fw/options/options-header.php:123
+#: fw/options/options-header.php:217 fw/options/options-header.php:424
+msgctxt "theme-options"
+msgid "right"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:479
+msgctxt "theme-options"
+msgid "Top Left"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:480
+msgctxt "theme-options"
+msgid "Top Center"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:481
+msgctxt "theme-options"
+msgid "Top Right"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:482
+msgctxt "theme-options"
+msgid "Middle Left"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:483
+msgctxt "theme-options"
+msgid "Middle Center"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:484
+msgctxt "theme-options"
+msgid "Middle Right"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:485
+msgctxt "theme-options"
+msgid "Bottom Left"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:486
+msgctxt "theme-options"
+msgid "Bottom Center"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:487
+msgctxt "theme-options"
+msgid "Bottom Right"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:500
+msgctxt "theme-options"
+msgid "Scroll Normally"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:501
+msgctxt "theme-options"
+msgid "Fixed in Place"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:584
+#: fw/options/options-general.php:361
+msgctxt "theme-options"
+msgid "Normal"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:585
+msgctxt "theme-options"
+msgid "Italic"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:586
+msgctxt "theme-options"
+msgid "Bold"
+msgstr ""
+
+#: fw/library/theme-options/includes/class-options-sanitization.php:587
+msgctxt "theme-options"
+msgid "Bold Italic"
+msgstr ""
+
+#: fw/library/widget_areas/class.redux_widget_areas.php:86
+#: fw/library/widget_areas/class.redux_widget_areas.php:95
+msgid "Create Widget Area"
+msgstr ""
+
+#: fw/library/widget_areas/class.redux_widget_areas.php:210
+msgctxt "atheme"
+msgid "Widget area created by user"
+msgstr ""
+
+#: fw/library/woocommerce/meta.php:22
+msgid "SKU:"
+msgstr ""
+
+#: fw/library/woocommerce/meta.php:22
+msgid "N/A"
+msgstr ""
+
+#: fw/library/woocommerce/meta.php:24
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/library/woocommerce/product-searchform.php:2
+#: fw/library/woocommerce/product-searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: fw/library/woocommerce/product-searchform.php:3
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: fw/library/woocommerce/product-searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: fw/library/woocommerce/quantity-input.php:21
+msgid "Qty"
+msgstr ""
+
+#: fw/library/woocommerce/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: fw/library/woocommerce/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: fw/library/woocommerce/rating.php:30
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/library/woocommerce/rating.php:33
+msgid "Customer review"
+msgid_plural "Customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: fw/options/options-blog.php:14 fw/options/options-blog.php:15
+msgctxt "theme-options"
+msgid "Blog ..."
+msgstr ""
+
+#: fw/options/options-blog.php:23
+msgctxt "theme-options"
+msgid "Blog"
+msgstr ""
+
+#: fw/options/options-blog.php:28
+msgctxt "theme-options"
+msgid "Image size"
+msgstr ""
+
+#: fw/options/options-blog.php:32
+msgctxt "theme-options"
+msgid "Image width percentage"
+msgstr ""
+
+#: fw/options/options-blog.php:38
+#, php-format
+msgctxt "theme-options"
+msgid "25% extra small"
+msgstr ""
+
+#: fw/options/options-blog.php:39
+#, php-format
+msgctxt "theme-options"
+msgid "33% small"
+msgstr ""
+
+#: fw/options/options-blog.php:40
+msgctxt "theme-options"
+msgid "50% normal"
+msgstr ""
+
+#: fw/options/options-blog.php:41
+msgctxt "theme-options"
+msgid "66% large"
+msgstr ""
+
+#: fw/options/options-blog.php:42
+#, php-format
+msgctxt "theme-options"
+msgid "100% full"
+msgstr ""
+
+#: fw/options/options-blog.php:51
+msgctxt "theme-options"
+msgid "Related posts"
+msgstr ""
+
+#: fw/options/options-blog.php:56
+msgctxt "theme-options"
+msgid "Show related posts"
+msgstr ""
+
+#: fw/options/options-blog.php:70 fw/options/options-blog.php:204
+#: fw/options/options-blog.php:320 fw/options/options-blog.php:515
+msgctxt "theme-options"
+msgid "Title"
+msgstr ""
+
+#: fw/options/options-blog.php:72
+msgid "Related posts"
+msgstr ""
+
+#: fw/options/options-blog.php:78
+msgctxt "theme-options"
+msgid "Maximum number of related posts"
+msgstr ""
+
+#: fw/options/options-blog.php:94 fw/options/options-blog.php:403
+msgctxt "theme-options"
+msgid "Meta information"
+msgstr ""
+
+#: fw/options/options-blog.php:99 fw/options/options-blog.php:351
+#: fw/options/options-blog.php:408
+msgctxt "theme-options"
+msgid "Show meta information"
+msgstr ""
+
+#: fw/options/options-blog.php:114
+msgctxt "theme-options"
+msgid "Post format icon"
+msgstr ""
+
+#: fw/options/options-blog.php:124 fw/options/options-blog.php:423
+msgctxt "theme-options"
+msgid "Date"
+msgstr ""
+
+#: fw/options/options-blog.php:134 fw/options/options-blog.php:433
+msgctxt "theme-options"
+msgid "Author"
+msgstr ""
+
+#: fw/options/options-blog.php:144 fw/options/options-blog.php:443
+msgctxt "theme-options"
+msgid "Categories"
+msgstr ""
+
+#: fw/options/options-blog.php:154 fw/options/options-blog.php:453
+msgctxt "theme-options"
+msgid "Like"
+msgstr ""
+
+#: fw/options/options-blog.php:164
+msgctxt "theme-options"
+msgid "View count"
+msgstr ""
+
+#: fw/options/options-blog.php:174 fw/options/options-blog.php:463
+msgctxt "theme-options"
+msgid "Comments"
+msgstr ""
+
+#: fw/options/options-blog.php:184
+msgctxt "theme-options"
+msgid "Share"
+msgstr ""
+
+#: fw/options/options-blog.php:199
+msgctxt "theme-options"
+msgid "Single post"
+msgstr ""
+
+#: fw/options/options-blog.php:213 fw/options/options-blog.php:524
+msgctxt "theme-options"
+msgid "Subtitle"
+msgstr ""
+
+#: fw/options/options-blog.php:221 fw/options/options-blog.php:285
+msgctxt "theme-options"
+msgid "Pagination, previous &amp; next buttons"
+msgstr ""
+
+#: fw/options/options-blog.php:230
+msgctxt "theme-options"
+msgid "Show author info in blog posts"
+msgstr ""
+
+#: fw/options/options-blog.php:240
+msgctxt "theme-options"
+msgid "Tags"
+msgstr ""
+
+#: fw/options/options-blog.php:249
+msgctxt "theme-options"
+msgid "Show IP address in comment"
+msgstr ""
+
+#: fw/options/options-blog.php:264 fw/options/options-general.php:418
+msgctxt "theme-options"
+msgid "Portfolio"
+msgstr ""
+
+#: fw/options/options-blog.php:269
+msgctxt "theme-options"
+msgid "Slugs"
+msgstr ""
+
+#: fw/options/options-blog.php:273
+msgctxt "theme-options"
+msgid "Portfolio slug"
+msgstr ""
+
+#: fw/options/options-blog.php:289
+msgctxt "theme-options"
+msgid "Show in portfolio projects"
+msgstr ""
+
+#: fw/options/options-blog.php:301
+msgctxt "theme-options"
+msgid "Related projects"
+msgstr ""
+
+#: fw/options/options-blog.php:306
+msgctxt "theme-options"
+msgid "Show related projects"
+msgstr ""
+
+#: fw/options/options-blog.php:322
+msgid "Related projects"
+msgstr ""
+
+#: fw/options/options-blog.php:328
+msgctxt "theme-options"
+msgid "Maximum number of projects posts"
+msgstr ""
+
+#: fw/options/options-blog.php:340
+msgctxt "theme-options"
+msgid "Slides number"
+msgstr ""
+
+#: fw/options/options-blog.php:360
+msgctxt "theme-options"
+msgid "Show titles"
+msgstr ""
+
+#: fw/options/options-blog.php:369
+msgctxt "theme-options"
+msgid "Show excerpts"
+msgstr ""
+
+#: fw/options/options-blog.php:378
+msgctxt "theme-options"
+msgid "Show links"
+msgstr ""
+
+#: fw/options/options-blog.php:387
+msgctxt "theme-options"
+msgid "Show \"Read more\" link"
+msgstr ""
+
+#: fw/options/options-blog.php:479
+msgctxt "theme-options"
+msgid "Woocommerce"
+msgstr ""
+
+#: fw/options/options-blog.php:483
+msgctxt "theme-options"
+msgid "Shop"
+msgstr ""
+
+#: fw/options/options-blog.php:487
+msgctxt "theme-options"
+msgid "Columns"
+msgstr ""
+
+#: fw/options/options-blog.php:499
+msgctxt "theme-options"
+msgid "Snow ratings on shop"
+msgstr ""
+
+#: fw/options/options-blog.php:510
+msgctxt "theme-options"
+msgid "Single shop"
+msgstr ""
+
+#: fw/options/options-blog.php:535
+msgctxt "theme-options"
+msgid "Social Sharing"
+msgstr ""
+
+#: fw/options/options-colors.php:13 fw/options/options-colors.php:14
+#: fw/options/options-colors.php:22
+msgctxt "theme-options"
+msgid "Colors"
+msgstr ""
+
+#: fw/options/options-colors.php:27
+msgctxt "theme-options"
+msgid "Color chooser: Drag & Drop"
+msgstr ""
+
+#: fw/options/options-colors.php:41
+msgctxt "theme-options"
+msgid "Default color values"
+msgstr ""
+
+#: fw/options/options-colors.php:57
+msgctxt "theme-options"
+msgid "Color group "
+msgstr ""
+
+#: fw/options/options-general.php:12
+msgctxt "theme-options"
+msgid "General"
+msgstr ""
+
+#: fw/options/options-general.php:17 fw/options/options-general.php:21
+msgctxt "theme-options"
+msgid "Layout"
+msgstr ""
+
+#: fw/options/options-general.php:38
+msgctxt "theme-options"
+msgid "The main container max-width"
+msgstr ""
+
+#: fw/options/options-general.php:55
+msgctxt "theme-options"
+msgid "Style"
+msgstr ""
+
+#: fw/options/options-general.php:78
+msgctxt "theme-options"
+msgid "General shadow"
+msgstr ""
+
+#: fw/options/options-general.php:92
+msgctxt "theme-options"
+msgid "General hover"
+msgstr ""
+
+#: fw/options/options-general.php:98 fw/options/options-header.php:243
+msgctxt "theme-options"
+msgid "None"
+msgstr ""
+
+#: fw/options/options-general.php:99
+msgctxt "theme-options"
+msgid "Grayscale"
+msgstr ""
+
+#: fw/options/options-general.php:100
+msgctxt "theme-options"
+msgid "Accent color"
+msgstr ""
+
+#: fw/options/options-general.php:101
+msgctxt "theme-options"
+msgid "Zoom"
+msgstr ""
+
+#: fw/options/options-general.php:102
+msgctxt "theme-options"
+msgid "Blur"
+msgstr ""
+
+#: fw/options/options-general.php:108
+msgctxt "theme-options"
+msgid "Hover icon"
+msgstr ""
+
+#: fw/options/options-general.php:122
+msgctxt "theme-options"
+msgid "Border radius"
+msgstr ""
+
+#: fw/options/options-general.php:125
+msgctxt "theme-options"
+msgid "Border Radius small (px)"
+msgstr ""
+
+#: fw/options/options-general.php:136
+msgctxt "theme-options"
+msgid "Border Radius normal (px)"
+msgstr ""
+
+#: fw/options/options-general.php:146
+msgctxt "theme-options"
+msgid "Border Radius large (px)"
+msgstr ""
+
+#: fw/options/options-general.php:162
+msgctxt "theme-options"
+msgid "Button"
+msgstr ""
+
+#: fw/options/options-general.php:166
+msgctxt "theme-options"
+msgid "Button type"
+msgstr ""
+
+#: fw/options/options-general.php:171
+msgctxt "theme-options"
+msgid "Default"
+msgstr ""
+
+#: fw/options/options-general.php:172
+msgctxt "theme-options"
+msgid "Semi-transparent"
+msgstr ""
+
+#: fw/options/options-general.php:173
+msgctxt "theme-options"
+msgid "Ghost"
+msgstr ""
+
+#: fw/options/options-general.php:184
+msgctxt "theme-options"
+msgid "Dividers"
+msgstr ""
+
+#: fw/options/options-general.php:188
+msgctxt "theme-options"
+msgid "Divider style"
+msgstr ""
+
+#: fw/options/options-general.php:206
+msgctxt "theme-options"
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: fw/options/options-general.php:211
+msgctxt "theme-options"
+msgid "Custom CSS"
+msgstr ""
+
+#: fw/options/options-general.php:228
+msgctxt "theme-options"
+msgid "Custom JS (e.g. Google analytics)"
+msgstr ""
+
+#: fw/options/options-general.php:244
+msgctxt "theme-options"
+msgid "Advanced"
+msgstr ""
+
+#: fw/options/options-general.php:248
+msgctxt "theme-options"
+msgid "Site Title"
+msgstr ""
+
+#: fw/options/options-general.php:251
+msgctxt "theme-options"
+msgid "Show site title text"
+msgstr ""
+
+#: fw/options/options-general.php:260
+msgctxt "theme-options"
+msgid "Page titles &amp; breadcrumbs"
+msgstr ""
+
+#: fw/options/options-general.php:264
+msgctxt "theme-options"
+msgid "Show page titles under header"
+msgstr ""
+
+#: fw/options/options-general.php:278
+msgctxt "theme-options"
+msgid "Title align"
+msgstr ""
+
+#: fw/options/options-general.php:285
+msgctxt "backend options"
+msgid "Left"
+msgstr ""
+
+#: fw/options/options-general.php:286
+msgctxt "backend options"
+msgid "Center"
+msgstr ""
+
+#: fw/options/options-general.php:287
+msgctxt "backend options"
+msgid "Right"
+msgstr ""
+
+#: fw/options/options-general.php:295
+msgctxt "theme-options"
+msgid "Background height (px)"
+msgstr ""
+
+#: fw/options/options-general.php:306
+msgctxt "theme-options"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: fw/options/options-general.php:319
+msgctxt "theme-options"
+msgid "Loader"
+msgstr ""
+
+#: fw/options/options-general.php:323
+msgctxt "theme-options"
+msgid "Pre-loader"
+msgstr ""
+
+#: fw/options/options-general.php:335
+msgctxt "theme-options"
+msgid "Scrollbar"
+msgstr ""
+
+#: fw/options/options-general.php:339
+msgctxt "theme-options"
+msgid "Thin scrollbar"
+msgstr ""
+
+#: fw/options/options-general.php:351 fw/options/options-general.php:355
+msgctxt "theme-options"
+msgid "Human time difference"
+msgstr ""
+
+#: fw/options/options-general.php:362
+msgctxt "theme-options"
+msgid "Hybrid"
+msgstr ""
+
+#: fw/options/options-general.php:363
+msgctxt "theme-options"
+msgid "Human time (e.g. 2 days ago)"
+msgstr ""
+
+#: fw/options/options-general.php:373
+msgctxt "theme-options"
+msgid "Theme hidden option"
+msgstr ""
+
+#: fw/options/options-general.php:376
+msgctxt "theme-options"
+msgid "Mobile screen width"
+msgstr ""
+
+#: fw/options/options-general.php:387
+msgctxt "theme-options"
+msgid "General gutter width"
+msgstr ""
+
+#: fw/options/options-general.php:402
+msgctxt "theme-options"
+msgid "Elements bottom margin (px)"
+msgstr ""
+
+#: fw/options/options-general.php:416
+msgctxt "theme-options"
+msgid "Custom PostTypes"
+msgstr ""
+
+#: fw/options/options-general.php:419
+msgctxt "theme-options"
+msgid "Team"
+msgstr ""
+
+#: fw/options/options-general.php:420
+msgctxt "theme-options"
+msgid "Testimonials"
+msgstr ""
+
+#: fw/options/options-header.php:13 fw/options/options-header.php:14
+msgctxt "theme-options"
+msgid "Header & Footer"
+msgstr ""
+
+#: fw/options/options-header.php:22
+msgctxt "theme-options"
+msgid "Header"
+msgstr ""
+
+#: fw/options/options-header.php:27
+msgctxt "theme-options"
+msgid "Topbar"
+msgstr ""
+
+#: fw/options/options-header.php:32
+msgctxt "theme-options"
+msgid "Show top bar"
+msgstr ""
+
+#: fw/options/options-header.php:40 fw/options/options-header.php:417
+msgctxt "theme-options"
+msgid "Widget area alignment"
+msgstr ""
+
+#: fw/options/options-header.php:54
+msgctxt "theme-options"
+msgid "Top bar text"
+msgstr ""
+
+#: fw/options/options-header.php:63
+msgctxt "theme-options"
+msgid "Top bar expand/collapse"
+msgstr ""
+
+#: fw/options/options-header.php:74
+msgctxt "theme-options"
+msgid "Floating menu"
+msgstr ""
+
+#: fw/options/options-header.php:78
+msgctxt "theme-options"
+msgid "Sticky menu"
+msgstr ""
+
+#: fw/options/options-header.php:92 fw/options/options-header.php:96
+msgctxt "theme-options"
+msgid "Header layout"
+msgstr ""
+
+#: fw/options/options-header.php:115
+msgctxt "theme-options"
+msgid "Menu alignment"
+msgstr ""
+
+#: fw/options/options-header.php:141
+msgctxt "theme-options"
+msgid "Menu width (px)"
+msgstr ""
+
+#: fw/options/options-header.php:153
+msgctxt "theme-options"
+msgid "Menu height (px)"
+msgstr ""
+
+#: fw/options/options-header.php:169
+msgctxt "theme-options"
+msgid "Menu item"
+msgstr ""
+
+#: fw/options/options-header.php:175
+msgctxt "theme-options"
+msgid "Hover style"
+msgstr ""
+
+#: fw/options/options-header.php:181 fw/options/options-header.php:200
+msgctxt "theme-options"
+msgid "none"
+msgstr ""
+
+#: fw/options/options-header.php:182
+msgctxt "theme-options"
+msgid "line though"
+msgstr ""
+
+#: fw/options/options-header.php:183
+msgctxt "theme-options"
+msgid "top border"
+msgstr ""
+
+#: fw/options/options-header.php:184
+msgctxt "theme-options"
+msgid "bottom border"
+msgstr ""
+
+#: fw/options/options-header.php:185
+msgctxt "theme-options"
+msgid "underline"
+msgstr ""
+
+#: fw/options/options-header.php:186
+msgctxt "theme-options"
+msgid "text"
+msgstr ""
+
+#: fw/options/options-header.php:187
+msgctxt "theme-options"
+msgid "border"
+msgstr ""
+
+#: fw/options/options-header.php:188
+msgctxt "theme-options"
+msgid "background"
+msgstr ""
+
+#: fw/options/options-header.php:194
+msgctxt "theme-options"
+msgid "menu caret style"
+msgstr ""
+
+#: fw/options/options-header.php:201
+msgctxt "theme-options"
+msgid "caret"
+msgstr ""
+
+#: fw/options/options-header.php:202
+msgctxt "theme-options"
+msgid "caret with animation"
+msgstr ""
+
+#: fw/options/options-header.php:209
+msgctxt "theme-options"
+msgid "Menu image position"
+msgstr ""
+
+#: fw/options/options-header.php:226
+msgctxt "theme-options"
+msgid "menu item padding (px)"
+msgstr ""
+
+#: fw/options/options-header.php:237
+msgctxt "theme-options"
+msgid "menu item style"
+msgstr ""
+
+#: fw/options/options-header.php:244
+msgctxt "theme-options"
+msgid "Border"
+msgstr ""
+
+#: fw/options/options-header.php:245
+msgctxt "theme-options"
+msgid "Divider"
+msgstr ""
+
+#: fw/options/options-header.php:252
+msgctxt "theme-options"
+msgid "Thumbnail proportion (px)"
+msgstr ""
+
+#: fw/options/options-header.php:261
+msgctxt "theme-options"
+msgid "Distance between menu items"
+msgstr ""
+
+#: fw/options/options-header.php:275
+msgctxt "theme-options"
+msgid "Submenu"
+msgstr ""
+
+#: fw/options/options-header.php:279
+msgctxt "theme-options"
+msgid "Show next level indicator arrows"
+msgstr ""
+
+#: fw/options/options-header.php:287
+msgctxt "theme-options"
+msgid "Submenu thumbnail proportion (px)"
+msgstr ""
+
+#: fw/options/options-header.php:299 fw/options/options-header.php:305
+msgctxt "theme-options"
+msgid "Sidebar"
+msgstr ""
+
+#: fw/options/options-header.php:309
+msgctxt "theme-options"
+msgid "Sidebar position"
+msgstr ""
+
+#: fw/options/options-header.php:326
+msgctxt "theme-options"
+msgid "Enable wide sidebar"
+msgstr ""
+
+#: fw/options/options-header.php:338
+msgctxt "theme-options"
+msgid "Distance between content & sidebar"
+msgstr ""
+
+#: fw/options/options-header.php:349
+msgctxt "theme-options"
+msgid "Enable Sticky sidebar"
+msgstr ""
+
+#: fw/options/options-header.php:363 fw/options/options-header.php:389
+msgctxt "theme-options"
+msgid "Footer"
+msgstr ""
+
+#: fw/options/options-header.php:368
+msgctxt "theme-options"
+msgid "Scroll up arrow:"
+msgstr ""
+
+#: fw/options/options-header.php:372
+msgctxt "theme-options"
+msgid "Enable scroll up"
+msgstr ""
+
+#: fw/options/options-header.php:377
+msgctxt "theme-options"
+msgid "Enable"
+msgstr ""
+
+#: fw/options/options-header.php:378
+msgctxt "theme-options"
+msgid "Disable on mobile"
+msgstr ""
+
+#: fw/options/options-header.php:379
+msgctxt "theme-options"
+msgid "Disable"
+msgstr ""
+
+#: fw/options/options-header.php:394
+msgctxt "theme-options"
+msgid "Footer position"
+msgstr ""
+
+#: fw/options/options-header.php:414
+msgctxt "theme-options"
+msgid "Bottombar"
+msgstr ""
+
+#: fw/options/options-header.php:432
+msgctxt "theme-options"
+msgid "Copyright information"
+msgstr ""
+
+#: fw/options/options-header.php:441
+msgctxt "theme-options"
+msgid "Top & bottom padding"
+msgstr ""
+
+#: fw/options/options-images.php:13 fw/options/options-images.php:14
+#: fw/options/options-images.php:23
+msgctxt "theme-options"
+msgid "Images"
+msgstr ""
+
+#: fw/options/options-images.php:28
+msgctxt "theme-options"
+msgid "Favicon"
+msgstr ""
+
+#: fw/options/options-images.php:32
+msgctxt "theme-options"
+msgid "Icon"
+msgstr ""
+
+#: fw/options/options-images.php:43
+msgctxt "theme-options"
+msgid "Logos"
+msgstr ""
+
+#: fw/options/options-images.php:47
+msgctxt "theme-options"
+msgid "Header logo (retina: x2)"
+msgstr ""
+
+#: fw/options/options-images.php:55
+msgctxt "theme-options"
+msgid "Logo height (px)"
+msgstr ""
+
+#: fw/options/options-images.php:66
+msgctxt "theme-options"
+msgid "Sticky logo (optional)"
+msgstr ""
+
+#: fw/options/options-images.php:87
+msgctxt "theme-options"
+msgid "Light logo (optional)"
+msgstr ""
+
+#: fw/options/options-images.php:101
+msgctxt "theme-options"
+msgid "Bottom logo (retina: x2)"
+msgstr ""
+
+#: fw/options/options-images.php:109
+msgctxt "theme-options"
+msgid "Bottom logo height (px)"
+msgstr ""
+
+#: fw/options/options-images.php:124
+msgctxt "theme-options"
+msgid "Main background"
+msgstr ""
+
+#: fw/options/options-images.php:130
+msgctxt "theme-options"
+msgid "Background under the box"
+msgstr ""
+
+#: fw/options/options-images.php:141 fw/options/options-images.php:211
+#: fw/options/options-images.php:236
+msgctxt "theme-options"
+msgid "Fullscreen"
+msgstr ""
+
+#: fw/options/options-images.php:149
+msgctxt "theme-options"
+msgid "Fixed"
+msgstr ""
+
+#: fw/options/options-images.php:161
+msgctxt "theme-options"
+msgid "Background images"
+msgstr ""
+
+#: fw/options/options-images.php:166
+msgctxt "theme-options"
+msgid "Top bar background"
+msgstr ""
+
+#: fw/options/options-images.php:184
+msgctxt "theme-options"
+msgid "Header background"
+msgstr ""
+
+#: fw/options/options-images.php:199
+msgctxt "theme-options"
+msgid "Page title & breadcrumb"
+msgstr ""
+
+#: fw/options/options-images.php:223
+msgctxt "theme-options"
+msgid "Content Background"
+msgstr ""
+
+#: fw/options/options-images.php:250
+msgctxt "theme-options"
+msgid "sidebar background"
+msgstr ""
+
+#: fw/options/options-images.php:265
+msgctxt "theme-options"
+msgid "footer background"
+msgstr ""
+
+#: fw/options/options-images.php:282
+msgctxt "theme-options"
+msgid "bottom bar background"
+msgstr ""
+
+#: fw/options/options-import.php:12 fw/options/options-import.php:13
+msgctxt "theme-options"
+msgid "Import & Export"
+msgstr ""
+
+#: fw/options/options-import.php:21
+msgctxt "theme-options"
+msgid "Import &amp; Export"
+msgstr ""
+
+#: fw/options/options-import.php:26
+msgctxt "theme-options"
+msgid "Import &amp; export"
+msgstr ""
+
+#: fw/options/options-typography.php:13 fw/options/options-typography.php:14
+#: fw/options/options-typography.php:25
+msgctxt "theme-options"
+msgid "Typography"
+msgstr ""
+
+#: fw/options/options-typography.php:30
+msgctxt "theme-options"
+msgid "Fonts"
+msgstr ""
+
+#: fw/options/options-typography.php:40
+msgctxt "theme-options"
+msgid "Drag & Drop"
+msgstr ""
+
+#: fw/options/options-typography.php:52
+msgctxt "theme-options"
+msgid "Choose: font group "
+msgstr ""
+
+#: fw/options/options-typography.php:78
+msgctxt "theme-options"
+msgid "Font sizes"
+msgstr ""
+
+#: fw/options/options-typography.php:106 fw/options/options-typography.php:144
+msgctxt "theme-options"
+msgid "Line-height"
+msgstr ""
+
+#: fw/options/options-typography.php:132
+msgctxt "theme-options"
+msgid "Font-size"
+msgstr ""
+
+#: fw/options/options-typography.php:168
+msgctxt "theme-options"
+msgid "Font upload"
+msgstr ""
+
+#: fw/options/options.php:28
+msgctxt "theme-options"
+msgid "Yes"
+msgstr ""
+
+#: fw/options/options.php:29
+msgctxt "theme-options"
+msgid "No"
+msgstr ""
+
+#: fw/options/options.php:33
+msgctxt "backend options"
+msgid "repeat"
+msgstr ""
+
+#: fw/options/options.php:34 fw/options/options.php:41
+msgctxt "backend options"
+msgid "repeat-x"
+msgstr ""
+
+#: fw/options/options.php:35
+msgctxt "backend options"
+msgid "repeat-y"
+msgstr ""
+
+#: fw/options/options.php:36 fw/options/options.php:40
+msgctxt "backend options"
+msgid "no-repeat"
+msgstr ""
+
+#: fw/options/options.php:45 fw/options/options.php:51
+msgctxt "backend options"
+msgid "center"
+msgstr ""
+
+#: fw/options/options.php:46
+msgctxt "backend options"
+msgid "top"
+msgstr ""
+
+#: fw/options/options.php:47
+msgctxt "backend options"
+msgid "bottom"
+msgstr ""
+
+#: fw/options/options.php:52
+msgctxt "backend options"
+msgid "left"
+msgstr ""
+
+#: fw/options/options.php:53
+msgctxt "backend options"
+msgid "right"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:11
+msgctxt "backend metabox"
+msgid "Primary location menu"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:11
+msgctxt "backend metabox"
+msgid "Default menu"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:19
+msgctxt "backend"
+msgid "repeat"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:20
+msgctxt "backend"
+msgid "repeat-x"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:21
+msgctxt "backend"
+msgid "repeat-y"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:22
+msgctxt "backend"
+msgid "no-repeat"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:26
+#: fw/options/page-option/page-option-pages.php:32
+msgctxt "backend"
+msgid "center"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:27
+msgctxt "backend"
+msgid "left"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:28
+msgctxt "backend"
+msgid "right"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:33
+msgctxt "backend"
+msgid "top"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:34
+msgctxt "backend"
+msgid "bottom"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:42
+msgctxt "backend metabox"
+msgid "Page Options"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:49
+msgctxt "backend metabox"
+msgid "Override Global Settings:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:57
+msgctxt "backend metabox"
+msgid "Page layout:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:62
+#: fw/options/page-option/page-option.php:104
+#: fw/options/page-option/page-option.php:154
+#: fw/options/page-option/page-option.php:184
+msgctxt "backend metabox"
+msgid "Global option"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:63
+msgctxt "backend metabox"
+msgid "full-width"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:64
+msgctxt "backend metabox"
+msgid "boxed"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:65
+msgctxt "backend metabox"
+msgid "menu wide"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:66
+msgctxt "backend metabox"
+msgid "header & footer wide"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:67
+msgctxt "backend metabox"
+msgid "top & bottom bars wide"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:74
+msgctxt "backend metabox"
+msgid "Hide:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:78
+msgctxt "backend metabox"
+msgid "top bar"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:79
+msgctxt "backend metabox"
+msgid "header"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:80
+msgctxt "backend metabox"
+msgid "menu"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:81
+msgctxt "backend metabox"
+msgid "floating menu"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:82
+msgctxt "backend metabox"
+msgid "page title & breadcrumb"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:83
+msgctxt "backend metabox"
+msgid "bottom bar"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:91
+msgctxt "backend metabox"
+msgid "Primary menu:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:102
+msgctxt "backend metabox"
+msgid "Logo"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:112
+msgctxt "backend metabox"
+msgid "Logo bottom"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:121
+msgctxt "backend metabox"
+msgid "Logo link:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:130
+msgctxt "backend metabox"
+msgid "Background color:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:139
+msgctxt "backend metabox"
+msgid "Background image:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:147
+msgctxt "backend metabox"
+msgid "Repeat options:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:156
+msgctxt "backend metabox"
+msgid "Position x:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:165
+msgctxt "backend metabox"
+msgid "Position y:"
+msgstr ""
+
+#: fw/options/page-option/page-option-pages.php:174
+msgctxt "backend metabox"
+msgid "Fullscreen:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:20
+msgctxt "backend metabox"
+msgid "Post Options"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:29
+msgid "Hide featured image:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:37
+msgctxt "backend metabox"
+msgid "Post wide width:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:46
+msgctxt "backend metabox"
+msgid "Related posts category:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:71
+#: fw/options/page-option/page-option-posttype.php:192
+#: fw/options/page-option/page-option-posttype.php:247
+msgctxt "backend metabox"
+msgid "Link:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:76
+#, php-format
+msgctxt "backend metabox"
+msgid "it can be show or hide from %sTheme Options / Blog / Related posts%s"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:84
+msgctxt "backend metabox"
+msgid "For gallery enable slideshow:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:104
+msgctxt "backend metabox"
+msgid "Portfolio Options"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:113
+msgctxt "backend metabox"
+msgid "Hide featured image:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:121
+msgctxt "backend metabox"
+msgid "Hide meta:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:131
+msgctxt "backend metabox"
+msgid "Project wide width:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:140
+msgctxt "backend metabox"
+msgid "Project long height:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:150
+msgctxt "backend metabox"
+msgid "Related projects category:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:174
+msgctxt "backend metabox"
+msgid "Project link:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:184
+#, php-format
+msgctxt "backend metabox"
+msgid ""
+"it can be show or hide from %sTheme Options / Blog / Portfolio / Related "
+"projects%s"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:200
+msgctxt "backend metabox"
+msgid "Caption:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:208
+msgctxt "backend metabox"
+msgid "Target:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:213
+msgctxt "backend metabox"
+msgid "_self"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:214
+msgctxt "backend metabox"
+msgid "_blank"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:231
+msgctxt "backend metabox"
+msgid "Testimonial Options"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:239
+#: fw/options/page-option/page-option-posttype.php:275
+msgctxt "backend metabox"
+msgid "Position:"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:268
+msgctxt "backend metabox"
+msgid "Team Options"
+msgstr ""
+
+#: fw/options/page-option/page-option-posttype.php:281
+msgctxt "backend metabox"
+msgid "Social icons:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:17
+msgctxt "backend metabox"
+msgid "None"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:20
+msgctxt "backend metabox"
+msgid "none"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:91
+msgctxt "backend metabox"
+msgid "Sidebar Options"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:99
+msgctxt "backend metabox"
+msgid "Sidebar position:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:105
+#: fw/options/page-option/page-option.php:185
+msgctxt "backend metabox"
+msgid "Disabled"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:106
+msgctxt "backend metabox"
+msgid "Left"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:107
+msgctxt "backend metabox"
+msgid "Right"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:108
+msgctxt "backend metabox"
+msgid "Dual"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:121
+msgctxt "backend metabox"
+msgid "Sidebar widget area:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:131
+msgctxt "backend metabox"
+msgid "Left sidebar widget area:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:141
+msgctxt "backend metabox"
+msgid "Enable wide sidebar:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:149
+msgctxt "backend metabox"
+msgid "Sticky sidebar:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:155
+msgctxt "backend metabox"
+msgid "On"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:156
+msgctxt "backend metabox"
+msgid "Off"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:171
+msgctxt "backend metabox"
+msgid "Footer Options"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:179
+msgctxt "backend metabox"
+msgid "Footer columns:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:186
+msgctxt "backend metabox"
+msgid "One"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:187
+msgctxt "backend metabox"
+msgid "Two"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:188
+#: fw/options/page-option/page-option.php:189
+#: fw/options/page-option/page-option.php:190
+msgctxt "backend metabox"
+msgid "Three"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:191
+msgctxt "backend metabox"
+msgid "four"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:192
+msgctxt "backend metabox"
+msgid "Six"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:201
+msgctxt "backend metabox"
+msgid "Footer widget area:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:219
+msgctxt "backend metabox"
+msgid "General Options"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:226
+msgctxt "backend metabox"
+msgid "Show Title:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:233
+msgctxt "backend metabox"
+msgid "Stick Template:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:242
+msgctxt "backend metabox"
+msgid "Show Slideshow:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:258
+msgctxt "backend metabox"
+msgid "Revolution Slider"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:259
+msgctxt "backend metabox"
+msgid "Layer Slider"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:260
+msgctxt "backend metabox"
+msgid "Royal Slider"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:261
+msgctxt "backend metabox"
+msgid "Master Slider"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:273
+#: fw/options/page-option/page-option.php:284
+#: fw/options/page-option/page-option.php:295
+msgctxt "backend metabox"
+msgid "Select slider: "
+msgstr ""
+
+#: fw/options/page-option/page-option.php:306
+msgctxt "backend metabox"
+msgid "Select slider:"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:322
+msgctxt "backend metabox"
+msgid "Full width"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:323
+msgctxt "backend metabox"
+msgid "Boxed width"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:324
+msgctxt "backend metabox"
+msgid "Transparent menu"
+msgstr ""
+
+#: fw/options/page-option/page-option.php:325
+msgctxt "backend metabox"
+msgid "Above nav menu"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:87
+msgid "Anchor"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:93
+msgid "Minimum height"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:95
+msgid "You can use pixels (px) or percents (%)."
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:102
+msgid "Blurred background"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:105 fw/vc_plugins/shortcodes/blog-posts.php:422
+#: fw/vc_plugins/shortcodes/blog-posts.php:445
+#: fw/vc_plugins/shortcodes/fancyblock.php:198
+#: fw/vc_plugins/shortcodes/icon.php:191 fw/vc_plugins/shortcodes/icon.php:225
+#: fw/vc_plugins/shortcodes/page-title.php:293
+#: fw/vc_plugins/shortcodes/portfolio.php:618
+#: fw/vc_plugins/shortcodes/team.php:403
+#: fw/vc_plugins/shortcodes/testimonials.php:343
+msgid "None"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:106
+msgid "Row"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:107
+msgid "Columns"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:110
+msgid "You can use blur background."
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:124
+msgid "Text position"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:141 fw/vc_plugins/shortcodes/button.php:282
+#: fw/vc_plugins/shortcodes/icon.php:172
+#: fw/vc_plugins/shortcodes/separator.php:135
+msgid "Color"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:143 fw/vc_plugins/shortcodes/button.php:273
+msgid "Accent"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:143 fw/vc_plugins/shortcodes/button.php:274
+msgid "Custom"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:144
+msgid "Select pie chart color."
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:155
+msgid "Custom color"
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:157
+msgid "Select custom color."
+msgstr ""
+
+#: fw/vc_plugins/vc_bridge.php:171 fw/vc_plugins/shortcodes/button.php:298
+#: fw/vc_plugins/shortcodes/icon.php:142 fw/vc_plugins/shortcodes/icon.php:154
+#: fw/vc_plugins/shortcodes/price.php:124
+msgid "Icon"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:94
+msgctxt "atheme"
+msgid "Keep reading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:96
+msgctxt "atheme"
+msgid "Continue reading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:98
+msgctxt "atheme"
+msgid "Details"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:100
+msgctxt "atheme"
+msgid "More"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:245
+msgid "Blog"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:249
+#: fw/vc_plugins/shortcodes/button.php:156
+#: fw/vc_plugins/shortcodes/carousel.php:130
+#: fw/vc_plugins/shortcodes/dropcaps.php:117
+#: fw/vc_plugins/shortcodes/fancyblock.php:187
+#: fw/vc_plugins/shortcodes/gallery.php:132
+#: fw/vc_plugins/shortcodes/icon.php:146
+#: fw/vc_plugins/shortcodes/page-title.php:141
+#: fw/vc_plugins/shortcodes/portfolio.php:291
+#: fw/vc_plugins/shortcodes/price.php:118
+#: fw/vc_plugins/shortcodes/separator.php:87
+#: fw/vc_plugins/shortcodes/single-meta.php:121
+#: fw/vc_plugins/shortcodes/social-icons.php:154
+#: fw/vc_plugins/shortcodes/subscriber.php:77
+#: fw/vc_plugins/shortcodes/team.php:216
+#: fw/vc_plugins/shortcodes/testimonials.php:211
+msgid "by Theme"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:257
+#: fw/vc_plugins/shortcodes/portfolio.php:299
+#: fw/vc_plugins/shortcodes/team.php:224
+#: fw/vc_plugins/shortcodes/testimonials.php:219
+msgid "Categories"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:259
+msgid ""
+"Note: By default, all your posts will be displayed. <br>If you want to "
+"narrow output, select category(s) above. Only selected categories will be "
+"displayed."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:266
+#: fw/vc_plugins/shortcodes/gallery.php:153
+#: fw/vc_plugins/shortcodes/portfolio.php:308
+#: fw/vc_plugins/shortcodes/team.php:233
+#: fw/vc_plugins/shortcodes/testimonials.php:228
+msgid "Appearance"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:270
+#: fw/vc_plugins/shortcodes/gallery.php:157
+#: fw/vc_plugins/shortcodes/portfolio.php:312
+#: fw/vc_plugins/shortcodes/team.php:237
+#: fw/vc_plugins/shortcodes/testimonials.php:233
+msgid "Masonry"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:271
+#: fw/vc_plugins/shortcodes/gallery.php:158
+#: fw/vc_plugins/shortcodes/portfolio.php:313
+#: fw/vc_plugins/shortcodes/team.php:238
+#: fw/vc_plugins/shortcodes/testimonials.php:234
+msgid "Grid"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:272
+#: fw/vc_plugins/shortcodes/portfolio.php:314
+#: fw/vc_plugins/shortcodes/team.php:236
+#: fw/vc_plugins/shortcodes/testimonials.php:232
+msgid "Slider"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:280
+#: fw/vc_plugins/shortcodes/gallery.php:166
+#: fw/vc_plugins/shortcodes/portfolio.php:322
+#: fw/vc_plugins/shortcodes/team.php:246
+#: fw/vc_plugins/shortcodes/testimonials.php:242
+msgid "Column number"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:292
+#: fw/vc_plugins/shortcodes/gallery.php:171
+#: fw/vc_plugins/shortcodes/portfolio.php:327
+#: fw/vc_plugins/shortcodes/team.php:251
+msgid "How many columns?"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:298
+#: fw/vc_plugins/shortcodes/carousel.php:177
+#: fw/vc_plugins/shortcodes/portfolio.php:340
+#: fw/vc_plugins/shortcodes/team.php:264
+#: fw/vc_plugins/shortcodes/testimonials.php:260
+msgid "Slides number"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:309
+#: fw/vc_plugins/shortcodes/portfolio.php:351
+#: fw/vc_plugins/shortcodes/team.php:275
+#: fw/vc_plugins/shortcodes/testimonials.php:271
+msgid "Visible Items at Once"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:315
+#: fw/vc_plugins/shortcodes/carousel.php:212
+#: fw/vc_plugins/shortcodes/portfolio.php:357
+#: fw/vc_plugins/shortcodes/team.php:281
+#: fw/vc_plugins/shortcodes/testimonials.php:277
+msgid "Show arrow"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:327
+#: fw/vc_plugins/shortcodes/carousel.php:218
+#: fw/vc_plugins/shortcodes/portfolio.php:369
+#: fw/vc_plugins/shortcodes/team.php:293
+#: fw/vc_plugins/shortcodes/testimonials.php:289
+msgid "left and right arrow"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:333
+msgid "Gap between posts (px)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:338
+msgid ""
+"Post paddings (e.g. 5 pixel padding will give you 10 pixel gaps between "
+"images)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:345
+msgid "Image width percentage"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:348
+#, php-format
+msgid "100% full"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:349
+msgid "66% large"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:350
+msgid "50% normal"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:351
+#, php-format
+msgid "33% small"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:352
+#, php-format
+msgid "25% extra small"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:368
+msgid "Image proportions"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:371
+#: fw/vc_plugins/shortcodes/carousel.php:171
+#: fw/vc_plugins/shortcodes/gallery.php:204
+msgid ""
+"Width:height (e.g. 4:3). Leave this field empty to preserve original image "
+"proportions."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:378
+msgid "Make posts same width"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:391
+msgid "Text align"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:401
+#: fw/vc_plugins/shortcodes/button.php:260
+#: fw/vc_plugins/shortcodes/icon.php:322
+#: fw/vc_plugins/shortcodes/page-title.php:240
+#: fw/vc_plugins/shortcodes/portfolio.php:433
+#: fw/vc_plugins/shortcodes/social-icons.php:90
+#: fw/vc_plugins/shortcodes/subscriber.php:103
+msgid "Left"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:402
+#: fw/vc_plugins/shortcodes/button.php:261
+#: fw/vc_plugins/shortcodes/icon.php:323
+#: fw/vc_plugins/shortcodes/page-title.php:239
+#: fw/vc_plugins/shortcodes/portfolio.php:432
+#: fw/vc_plugins/shortcodes/social-icons.php:91
+#: fw/vc_plugins/shortcodes/subscriber.php:104
+msgid "Center"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:403
+#: fw/vc_plugins/shortcodes/button.php:262
+#: fw/vc_plugins/shortcodes/icon.php:324
+#: fw/vc_plugins/shortcodes/page-title.php:241
+#: fw/vc_plugins/shortcodes/portfolio.php:434
+#: fw/vc_plugins/shortcodes/social-icons.php:92
+#: fw/vc_plugins/shortcodes/subscriber.php:105
+msgid "Right"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:411
+msgid "Read more link"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:421
+msgid "Read more"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:423
+msgid "Keep reading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:424
+msgid "Continue reading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:425
+msgid "Details"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:426
+msgid "More"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:435
+#: fw/vc_plugins/shortcodes/portfolio.php:608
+#: fw/vc_plugins/shortcodes/team.php:400
+#: fw/vc_plugins/shortcodes/testimonials.php:340
+msgid "Loading mode"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:446
+#: fw/vc_plugins/shortcodes/portfolio.php:619
+msgid "pagination"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:448
+#: fw/vc_plugins/shortcodes/portfolio.php:621
+#: fw/vc_plugins/shortcodes/team.php:406
+#: fw/vc_plugins/shortcodes/testimonials.php:346
+msgid "Auto load"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:457
+msgid "Number of posts to show"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:462
+#: fw/vc_plugins/shortcodes/portfolio.php:635
+#: fw/vc_plugins/shortcodes/team.php:427
+#: fw/vc_plugins/shortcodes/testimonials.php:366
+msgid "(Integer)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:469
+#: fw/vc_plugins/shortcodes/portfolio.php:642
+#: fw/vc_plugins/shortcodes/team.php:434
+#: fw/vc_plugins/shortcodes/testimonials.php:373
+msgid "Order by"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:472
+#: fw/vc_plugins/shortcodes/portfolio.php:645
+#: fw/vc_plugins/shortcodes/single-meta.php:86
+#: fw/vc_plugins/shortcodes/single-meta.php:212
+#: fw/vc_plugins/shortcodes/team.php:437
+#: fw/vc_plugins/shortcodes/testimonials.php:376
+msgid "Date"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:473
+#: fw/vc_plugins/shortcodes/portfolio.php:646
+#: fw/vc_plugins/shortcodes/single-meta.php:88
+#: fw/vc_plugins/shortcodes/single-meta.php:224
+#: fw/vc_plugins/shortcodes/team.php:438
+#: fw/vc_plugins/shortcodes/testimonials.php:377
+msgid "Author"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:474
+#: fw/vc_plugins/shortcodes/icon.php:294
+#: fw/vc_plugins/shortcodes/portfolio.php:647
+#: fw/vc_plugins/shortcodes/single-meta.php:128
+#: fw/vc_plugins/shortcodes/team.php:439
+#: fw/vc_plugins/shortcodes/testimonials.php:378
+msgid "Title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:475
+#: fw/vc_plugins/shortcodes/portfolio.php:648
+#: fw/vc_plugins/shortcodes/team.php:440
+#: fw/vc_plugins/shortcodes/testimonials.php:379
+msgid "Slug"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:476
+#: fw/vc_plugins/shortcodes/portfolio.php:649
+#: fw/vc_plugins/shortcodes/team.php:441
+#: fw/vc_plugins/shortcodes/testimonials.php:380
+msgid "Date modified"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:477
+#: fw/vc_plugins/shortcodes/portfolio.php:650
+#: fw/vc_plugins/shortcodes/team.php:442
+#: fw/vc_plugins/shortcodes/testimonials.php:381
+msgid "ID"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:478
+#: fw/vc_plugins/shortcodes/portfolio.php:651
+#: fw/vc_plugins/shortcodes/team.php:443
+#: fw/vc_plugins/shortcodes/testimonials.php:382
+msgid "Random"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:480
+#: fw/vc_plugins/shortcodes/portfolio.php:653
+#: fw/vc_plugins/shortcodes/team.php:445
+#: fw/vc_plugins/shortcodes/testimonials.php:384
+msgid "Select how to sort retrieved posts."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:487
+#: fw/vc_plugins/shortcodes/portfolio.php:660
+#: fw/vc_plugins/shortcodes/team.php:452
+#: fw/vc_plugins/shortcodes/testimonials.php:391
+msgid "Order way"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:490
+#: fw/vc_plugins/shortcodes/portfolio.php:663
+#: fw/vc_plugins/shortcodes/team.php:455
+#: fw/vc_plugins/shortcodes/testimonials.php:394
+msgid "Descending"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:491
+#: fw/vc_plugins/shortcodes/portfolio.php:664
+#: fw/vc_plugins/shortcodes/team.php:456
+#: fw/vc_plugins/shortcodes/testimonials.php:395
+msgid "Ascending"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/blog-posts.php:493
+#: fw/vc_plugins/shortcodes/portfolio.php:666
+#: fw/vc_plugins/shortcodes/team.php:458
+#: fw/vc_plugins/shortcodes/testimonials.php:397
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:152
+msgid "Button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:163
+msgid "Caption"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:174
+#: fw/vc_plugins/shortcodes/icon.php:180
+msgid "Link "
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:177
+#: fw/vc_plugins/shortcodes/icon.php:183
+msgid ""
+"Add a custom link or select existing page. You can remove existing link as "
+"well."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:184
+#: fw/vc_plugins/shortcodes/button.php:200
+msgid "Style"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:188
+msgid "Extra Small button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:189
+msgid "Small button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:190
+msgid "Medium button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:191
+msgid "Big button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:204
+#: fw/vc_plugins/shortcodes/dropcaps.php:174
+#: fw/vc_plugins/shortcodes/page-title.php:277
+#: fw/vc_plugins/shortcodes/page-title.php:344
+#: fw/vc_plugins/shortcodes/social-icons.php:104
+msgid "Default"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:205
+msgid "Semi-Transparent"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:206
+msgid "White"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:207
+msgid "Ghost"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:216
+#: fw/vc_plugins/shortcodes/social-icons.php:126
+#: fw/vc_plugins/shortcodes/testimonials.php:295
+msgid "Reverse"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:236
+msgid "Rounded corner"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:256
+#: fw/vc_plugins/shortcodes/social-icons.php:85
+#: fw/vc_plugins/shortcodes/subscriber.php:99
+msgid "Alignment"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:259
+#: fw/vc_plugins/shortcodes/social-icons.php:89
+msgid "Inline"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:270
+msgid "Button color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:285
+#: fw/vc_plugins/shortcodes/icon.php:175
+msgid "Give it a nice paint!"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:307
+msgid "Icon align"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:319
+#: fw/vc_plugins/shortcodes/carousel.php:236
+#: fw/vc_plugins/shortcodes/gallery.php:209
+#: fw/vc_plugins/shortcodes/page-title.php:359
+msgid "Extra class name"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:322
+#: fw/vc_plugins/shortcodes/carousel.php:238
+#: fw/vc_plugins/shortcodes/gallery.php:211
+#: fw/vc_plugins/shortcodes/page-title.php:362
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:326
+#: fw/vc_plugins/shortcodes/fancyblock.php:433
+#: fw/vc_plugins/shortcodes/gallery.php:215
+#: fw/vc_plugins/shortcodes/icon.php:358
+msgid "Css"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/button.php:328
+#: fw/vc_plugins/shortcodes/fancyblock.php:435
+#: fw/vc_plugins/shortcodes/gallery.php:217
+#: fw/vc_plugins/shortcodes/icon.php:360
+msgid "Design"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:126
+msgid "Image carousel"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:135
+#: fw/vc_plugins/shortcodes/gallery.php:143
+msgid "Choose image id"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:139
+#: fw/vc_plugins/shortcodes/gallery.php:147
+msgid "image id."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:145
+#: fw/vc_plugins/shortcodes/gallery.php:177
+#: fw/vc_plugins/shortcodes/portfolio.php:376
+msgid "Gap between images (px)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:150
+#: fw/vc_plugins/shortcodes/gallery.php:182
+msgid ""
+"Image paddings (e.g. 5 pixel padding will give you 10 pixel gaps between "
+"posts)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:156
+#: fw/vc_plugins/shortcodes/gallery.php:188
+msgid "Open in lighbox"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:162
+#: fw/vc_plugins/shortcodes/gallery.php:194
+msgid "If selected, larger image will be opened on click."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:168
+#: fw/vc_plugins/shortcodes/gallery.php:201
+msgid "Post proportions"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:182
+msgid "How many slides show?"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:187
+msgid "Autoplay Speed"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:194
+msgid "Example: 1000ms = 1 second"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:200
+msgid "Loop"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:206
+msgid "Loop the slides"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/carousel.php:224
+msgid "Pagination"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:113
+msgid "Dropcaps"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:123
+msgid "Dropcaps Character"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:131
+msgid "Padding"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:137
+msgid "Element paddings"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:143
+#: fw/vc_plugins/shortcodes/icon.php:303
+msgid "Tag Name"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:147
+msgid "Span"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:148
+#: fw/vc_plugins/shortcodes/icon.php:307
+msgid "H1"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:149
+#: fw/vc_plugins/shortcodes/icon.php:308
+msgid "H2"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:150
+#: fw/vc_plugins/shortcodes/icon.php:309
+msgid "H3"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:151
+#: fw/vc_plugins/shortcodes/icon.php:310
+msgid "H4"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:152
+#: fw/vc_plugins/shortcodes/icon.php:311
+msgid "H5"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:153
+#: fw/vc_plugins/shortcodes/icon.php:312
+msgid "H6"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:155
+#: fw/vc_plugins/shortcodes/icon.php:314
+msgid ""
+"For SEO reasons you might need to define your titles tag names according to "
+"priority. Please note that H1 can only be used only once in a page due to "
+"the SEO reasons. So try to use lower than H2 to meet SEO best practices."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:161
+msgid "Font Size"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:171
+msgid "Font Weight"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:175
+#: fw/vc_plugins/shortcodes/page-title.php:278
+msgid "Thin"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:176
+#: fw/vc_plugins/shortcodes/page-title.php:279
+#: fw/vc_plugins/shortcodes/page-title.php:345
+msgid "Light"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:177
+#: fw/vc_plugins/shortcodes/page-title.php:280
+#: fw/vc_plugins/shortcodes/page-title.php:346
+#: fw/vc_plugins/shortcodes/social-icons.php:106
+msgid "Normal"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:178
+#: fw/vc_plugins/shortcodes/page-title.php:281
+#: fw/vc_plugins/shortcodes/page-title.php:347
+msgid "SemiBold"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:179
+#: fw/vc_plugins/shortcodes/page-title.php:282
+#: fw/vc_plugins/shortcodes/page-title.php:348
+msgid "Bold"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:180
+#: fw/vc_plugins/shortcodes/page-title.php:283
+msgid "Black"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:191
+msgid "Italic"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:197
+#: fw/vc_plugins/shortcodes/page-title.php:232
+msgid "This option sets the background image is fixed"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:203
+msgid "Font Color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:206
+msgid "Select font color for dropcaps."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:212
+#: fw/vc_plugins/shortcodes/icon.php:213
+msgid "Background Color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:215
+msgid "Select background color for dropcaps."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:221
+#: fw/vc_plugins/shortcodes/icon.php:239
+msgid "Border Color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:224
+msgid "Select border color for dropcaps."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:231
+#: fw/vc_plugins/shortcodes/fancyblock.php:353
+msgid "Border width"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:243
+#: fw/vc_plugins/shortcodes/fancyblock.php:366
+#: fw/vc_plugins/shortcodes/icon.php:260
+msgid "Border Radius"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:249
+msgid "set border radius for dropcaps."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:256
+msgid "Text"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:259
+msgid "Text Wrap Around Drop Caps."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:264
+#: fw/vc_plugins/shortcodes/fancyblock.php:425
+#: fw/vc_plugins/shortcodes/icon.php:351
+#: fw/vc_plugins/shortcodes/price.php:198
+msgid "Custom CSS Class"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/dropcaps.php:267
+#: fw/vc_plugins/shortcodes/fancyblock.php:428
+#: fw/vc_plugins/shortcodes/icon.php:354
+#: fw/vc_plugins/shortcodes/price.php:201
+msgid ""
+"Ran out of options? Need more styles? Write your own CSS and mention the "
+"class name here."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:179
+msgid "Fancy Block"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:188
+msgid "Different element positions."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:195
+msgid "Animation"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:199
+msgid "SlideUp"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:200
+msgid "SlideDown"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:201
+msgid "SlideLeft"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:202
+msgid "SlideRight"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:203
+msgid "Infinite Zoom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:204
+msgid "Parallax"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:205
+msgid "Parallax Grayscale"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:206
+msgid "Parallax inside"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:212
+msgid "Animation Distance"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:227
+msgid "Distance between the start and end points."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:232
+msgid "Animation Duration"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:238
+msgid "How long the animation effect should last. Decides the speed of effect."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:243
+msgid "Position"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:246
+msgid "top left"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:247
+msgid "top right"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:248
+msgid "bottom right"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:249
+msgid "bottom left"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:250
+msgid "center"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:256
+#: fw/vc_plugins/shortcodes/single-meta.php:145
+msgid "Vertical"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:266
+msgid "Horizontal"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:276
+msgid "Width"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:279
+#: fw/vc_plugins/shortcodes/fancyblock.php:287
+msgid "Enter values with respective unites. Example - 15px, 15em, 15%, etc."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:284
+msgid "Height"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:292
+msgid "Rotate"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:302
+msgid "Animation Delay"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:308
+msgid "Delays the animation effect for seconds you enter above."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:314
+msgid "Animation Repeat Count"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:329
+msgid ""
+"The animation effect will repeat to the count you enter above. Enter 0 if "
+"you want to repeat it infinitely."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:334
+#: fw/vc_plugins/shortcodes/page-title.php:172
+msgid "Background color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:337
+msgid "Select custom background color."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:343
+msgid "Border color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:346
+msgid "Select custom border color."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:373
+msgid "set border radius."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:404
+msgid "Z-index"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:407
+msgid "The z-index property specifies the stack order of an element."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:413
+msgid "Viewport Position"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/fancyblock.php:419
+msgid "The area of screen from top where animation effects will start working."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/gallery.php:128
+msgid "Gallery"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/gallery.php:136
+msgid "Widget title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/gallery.php:138
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:161
+msgid "Size of Icon"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:167
+msgid "How big would you like it?"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:188 fw/vc_plugins/shortcodes/team.php:350
+msgid "Hover"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:192
+msgid "Accent color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:193 ui/flatinum/azu_tags.php:316
+#: ui/root/azu_tags.php:316
+msgid "Zoom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:194
+msgid "Spin"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:195
+msgid "Mix"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:197
+msgid "Hover effects with icon & text."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:202
+msgid "Icon Style"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:205
+msgid "Simple"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:206
+msgid "Design your own"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:208
+msgid "Create your own with various options."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:216
+msgid "Select background color for icon."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:222
+msgid "Icon Border Style"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:226
+msgid "Solid"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:227
+msgid "Dashed"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:228
+msgid "Dotted"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:229
+msgid "Double"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:230
+msgid "Inset"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:231
+msgid "Outset"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:233
+msgid "Select the border style for icon."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:242
+msgid "Select border color for icon."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:248
+msgid "Border Width"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:254
+msgid "Thickness of the border."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:266
+msgid ""
+"0 pixel value will create a square border. As you increase the value, the "
+"shape convert in circle slowly. (e.g 1000 pixels)."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:272
+msgid "Background padding"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:278
+msgid "Spacing from the icon till the boundary of border / background"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:283
+msgid "Element type"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:286
+msgid "Just Icon"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:287
+msgid "Info box"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:288
+msgid "Icon box"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:298
+msgid "Enter the title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:319
+#: fw/vc_plugins/shortcodes/page-title.php:236
+msgid "Text Align"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:337
+msgid "Provide the description for this icon."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:342
+msgid "Text color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/icon.php:346
+msgid "Color of title & content text"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:137
+#: fw/vc_plugins/shortcodes/page-title.php:147
+msgid "Page Title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:150
+msgid "Get default title when stay empty"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:154
+msgid "Page Subtitle"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:157
+msgid "Enter the subtitle of your page (optional)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:161
+msgid "Section Padding"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:179
+msgid "Background Image"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:186
+msgid "Background Position"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:190
+msgid "Left Top"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:191
+msgid "Center Top"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:192
+msgid "Right Top"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:193
+msgid "Left Center"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:194
+msgid "Center Center"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:195
+msgid "Right Center"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:196
+msgid "Left Bottom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:197
+msgid "Center Bottom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:198
+msgid "Right Bottom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:200
+msgid "First value defines horizontal position and second vertical position."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:208
+msgid "Cover whole background"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:209
+msgid ""
+"Scale the background image to be as large as possible so that the background "
+"area is completely covered by the background image. Some parts of the "
+"background image may not be in view within the background positioning area."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:222
+msgid "Background Attachment"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:247
+msgid "Title Font Size"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:257
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:267
+msgid "Title Color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:274
+msgid "Title Font Weight"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:289
+msgid "Title line"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:294
+msgid "Underline"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:295
+msgid "Vertical line"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:296
+msgid "Vertical long line"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:302
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:316
+msgid "Subtitle Padding"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:330
+msgid "Subtitle Color"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:341
+msgid "Subtitle Font Weight"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/page-title.php:349
+msgid "Extra Bold"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:287
+msgid "Portfolio"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:301
+msgid ""
+"Note: By default, all your projects will be displayed. <br>If you want to "
+"narrow output, select category(s) above. Only selected categories will be "
+"displayed."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:381
+msgid ""
+"Image paddings (e.g. 5 pixel padding will give you 10 pixel gaps between "
+"images)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:388
+msgid "Make projects same width"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:401
+msgid "Thumbnails proportions"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:404
+msgid ""
+"Width:height (e.g. 16:9). Leave this field empty to preserve original image "
+"proportions."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:412
+msgid "Show category filter"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:424
+msgid "Filter alignment"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:443
+#: fw/vc_plugins/shortcodes/separator.php:120
+msgid "fullwidth"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:455
+#: fw/vc_plugins/shortcodes/team.php:363
+msgid "Descriptions under image"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:468
+msgid "Hover effect"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:498
+msgid "Show title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:511
+msgid "Show excerpt"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:524
+msgid "Show meta info"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:541
+msgid "Show readmore button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:554
+msgid "Show like"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:567
+msgid "Show zoom"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:578
+msgid "Show link"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:584
+msgid "Custom link"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:591
+msgid "Replace link"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/portfolio.php:630
+msgid "Number of projects to show"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:114
+msgid "Price"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:130
+msgid "Package Name / Title"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:134
+msgid "Enter the package name or table heading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:138
+msgid "Sub Heading"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:141
+msgid "Enter short description for this package"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:145
+msgid "Package Price"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:148
+msgid "Enter the price for this package. e.g. $179"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:152
+msgid "Price Unit"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:155
+msgid "Enter the price unit for this package. e.g. per month"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:159
+msgid "Features"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:162
+msgid "Create the features list using un-ordered list elements."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:166
+msgid "Button Text"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:169
+msgid "Enter call to action button text"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:173
+msgid "Button Link"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:176
+msgid "Enter the link for call to action button"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:180
+msgid "Featured"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:186
+msgid "Make this pricing item as featured"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:190
+msgid "Minimum Height For Price item"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/price.php:194
+msgid "Adjust height of your price table."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:83
+msgid "Separator"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:93
+msgid "Direction"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:97
+msgid "Down"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:98
+msgid "Up"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:109
+msgid "Triangle"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:110
+msgid "Half round"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:111
+msgid "Half round reverse"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:112
+msgid "Divider"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/separator.php:146
+msgid "Select custom background color for separator."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:90
+#: fw/vc_plugins/shortcodes/single-meta.php:236
+msgid "Like"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:92
+#: fw/vc_plugins/shortcodes/single-meta.php:248
+msgid "Category"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:94
+#: fw/vc_plugins/shortcodes/single-meta.php:260
+msgid "Share"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:103
+msgid "Get More Info"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:117
+msgid "Single Meta"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:130
+msgid "Get default title when stay empty with content text."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:139
+msgid "Provide the description for portfolio."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:155
+msgid "Custom fields"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:157
+msgid "Enter values for custom field type."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:160
+msgid "Client"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:168
+msgid "Label"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:170
+msgid "Enter text used as title of field."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:175
+msgid "Value"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:177
+msgid "Enter value of custom field."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:184
+msgid "Enter link of custom field."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:193
+msgid "Sticky"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/single-meta.php:206
+msgid "Enter more info link."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/social-icons.php:100
+msgid "Size"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/social-icons.php:105
+msgid "Large"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/social-icons.php:107
+msgid "Small"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/social-icons.php:115
+msgid "With border"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/social-icons.php:150
+msgid "Social Icons"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/subscriber.php:73
+msgid "Email subscriber"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/subscriber.php:79
+msgid "Newsletter"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/subscriber.php:85
+msgid "Plugins"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/subscriber.php:89
+msgid "Auto"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/subscriber.php:90
+msgid "MailChimp"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:212
+msgid "Team"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:226
+msgid ""
+"Note: By default, all your team will be displayed. <br>If you want to narrow "
+"output, select category(s) above. Only selected categories will be displayed."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:299
+#: fw/vc_plugins/shortcodes/testimonials.php:313
+msgid "Autoslide"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:302
+#: fw/vc_plugins/shortcodes/testimonials.php:316
+msgid ""
+"In milliseconds (e.g. 2 seconds = 2000 miliseconds). Leave this field zero "
+"to disable autoslide. This field works only when \"Appearance: Slider\" "
+"selected."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:315
+msgid "Image size"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:318
+msgid "100%"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:319
+msgid "50%"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:335
+msgid "Image shape"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:338
+msgid "Round"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:339
+msgid "Square"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:340
+msgid "4:3"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:341
+msgid "3:4"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:356
+msgid "Social icons over image"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:376
+msgid "Border"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:382
+msgid "General border"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:389
+msgid "Gap between team members (px)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:394
+msgid ""
+"Team member paddings (e.g. 5 pixel padding will give you 10 pixel gaps "
+"between team members)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:404
+#: fw/vc_plugins/shortcodes/testimonials.php:344
+msgid "standart pagination"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/team.php:422
+msgid "Number of team members to show"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:207
+msgid "Testimonials"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:221
+msgid ""
+"Note: By default, all your testimonials will be displayed. <br>If you want "
+"to narrow output, select category(s) above. Only selected categories will be "
+"displayed."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:247
+msgid "How many column?"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:307
+msgid "white arrow, pagination & title etc."
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:328
+msgid "Gap between testimonials (px)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:333
+msgid ""
+"Testimonial paddings (e.g. 5 pixel padding will give you 10 pixel gaps "
+"between testimonials)"
+msgstr ""
+
+#: fw/vc_plugins/shortcodes/testimonials.php:361
+msgid "Number of testimonials to show"
+msgstr ""
+
+#: fw/widgets/contact-info.php:33 fw/widgets/contact-info.php:38
+msgctxt "widget"
+msgid "Contact info"
+msgstr ""
+
+#: fw/widgets/contact-info.php:132
+msgctxt "widget"
+msgid "Text"
+msgstr ""
+
+#: fw/widgets/contact-info.php:136
+msgctxt "widget"
+msgid "Address"
+msgstr ""
+
+#: fw/widgets/contact-info.php:140
+msgctxt "widget"
+msgid "Phone"
+msgstr ""
+
+#: fw/widgets/contact-info.php:144
+msgctxt "widget"
+msgid "Email"
+msgstr ""
+
+#: fw/widgets/contact-info.php:148
+msgctxt "widget"
+msgid "Skype"
+msgstr ""
+
+#: fw/widgets/contact-info.php:152
+msgctxt "widget"
+msgid "Working hours"
+msgstr ""
+
+#: fw/widgets/contact-info.php:156
+msgctxt "widget"
+msgid "Additional info"
+msgstr ""
+
+#: fw/widgets/contact-info.php:162 fw/widgets/flickr.php:216
+#: fw/widgets/image.php:110 fw/widgets/instagram.php:139
+#: fw/widgets/login.php:99 fw/widgets/popular-posts.php:197
+#: fw/widgets/post-categories.php:131 fw/widgets/recent-posts.php:149
+#: fw/widgets/recent-works.php:144 fw/widgets/social-icons.php:155
+#: fw/widgets/team.php:122 fw/widgets/testimonials.php:115
+#: fw/widgets/wpml.php:91
+msgctxt "widget"
+msgid "Title:"
+msgstr ""
+
+#: fw/widgets/contact-info.php:177
+msgctxt "widget"
+msgid "Background:"
+msgstr ""
+
+#: fw/widgets/contact-info.php:186 fw/widgets/image.php:138
+msgctxt "widget"
+msgid "Upload"
+msgstr ""
+
+#: fw/widgets/contact-info.php:189 fw/widgets/image.php:141
+msgctxt "widget"
+msgid "Remove"
+msgstr ""
+
+#: fw/widgets/flickr.php:43 fw/widgets/flickr.php:48
+msgctxt "widget"
+msgid "Flickr"
+msgstr ""
+
+#: fw/widgets/flickr.php:168
+msgctxt "widget"
+msgid "Visit On Flickr"
+msgstr ""
+
+#: fw/widgets/flickr.php:217
+msgctxt "widget"
+msgid "Flickr User id :"
+msgstr ""
+
+#: fw/widgets/flickr.php:219 fw/widgets/instagram.php:142
+#: fw/widgets/recent-works.php:198
+msgctxt "widget"
+msgid "Columns:"
+msgstr ""
+
+#: fw/widgets/flickr.php:226 fw/widgets/instagram.php:149
+msgctxt "widget"
+msgid "How many items?"
+msgstr ""
+
+#: fw/widgets/flickr.php:228
+msgctxt "widget"
+msgid "Filter by tags (comma seperated):"
+msgstr ""
+
+#: fw/widgets/flickr.php:230
+msgctxt "widget"
+msgid "Random pick"
+msgstr ""
+
+#: fw/widgets/flickr.php:231
+msgctxt "widget"
+msgid "Show visit link"
+msgstr ""
+
+#: fw/widgets/image.php:29 fw/widgets/image.php:34
+msgctxt "widget"
+msgid "Image"
+msgstr ""
+
+#: fw/widgets/image.php:114
+msgctxt "widget"
+msgid "Link:"
+msgstr ""
+
+#: fw/widgets/image.php:118
+msgctxt "widget"
+msgid "Target:"
+msgstr ""
+
+#: fw/widgets/image.php:125
+msgctxt "widget"
+msgid "Max width:"
+msgstr ""
+
+#: fw/widgets/image.php:129
+msgctxt "widget"
+msgid "Image Upload:"
+msgstr ""
+
+#: fw/widgets/instagram.php:30 fw/widgets/instagram.php:35
+msgctxt "widget"
+msgid "Instagram"
+msgstr ""
+
+#: fw/widgets/instagram.php:92
+msgctxt "widget"
+msgid "Follow On Instagram"
+msgstr ""
+
+#: fw/widgets/instagram.php:140
+msgctxt "widget"
+msgid "User id | Access Token:"
+msgstr ""
+
+#: fw/widgets/instagram.php:150
+msgctxt "widget"
+msgid "Show follow link"
+msgstr ""
+
+#: fw/widgets/login.php:28
+msgctxt "widget"
+msgid "Login link"
+msgstr ""
+
+#: fw/widgets/login.php:33
+msgctxt "widget"
+msgid "Login"
+msgstr ""
+
+#: fw/widgets/login.php:67
+msgctxt "widget"
+msgid "Log In"
+msgstr ""
+
+#: fw/widgets/login.php:70
+msgctxt "widget"
+msgid "or"
+msgstr ""
+
+#: fw/widgets/login.php:70
+msgctxt "widget"
+msgid "Sign Up"
+msgstr ""
+
+#: fw/widgets/login.php:104
+msgctxt "widget"
+msgid "Login URI:"
+msgstr ""
+
+#: fw/widgets/login.php:110
+msgctxt "widget"
+msgid "with register link"
+msgstr ""
+
+#: fw/widgets/login.php:114
+msgctxt "widget"
+msgid "Show icon"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:34 fw/widgets/popular-posts.php:39
+msgctxt "widget"
+msgid "Popular posts"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:59
+msgctxt "widget"
+msgid "Popular"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:60
+msgctxt "widget"
+msgid "Recent"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:185
+msgctxt "widget"
+msgid "Pageviews"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:186 fw/widgets/popular-posts.php:191
+#: fw/widgets/recent-posts.php:143
+msgctxt "widget"
+msgid "Comments"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:190 fw/widgets/recent-posts.php:142
+msgctxt "widget"
+msgid "Post date"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:192 fw/widgets/recent-posts.php:144
+msgctxt "widget"
+msgid "None"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:202
+msgctxt "widget"
+msgid "with tabbable recent posts"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:207
+msgctxt "widget"
+msgid "before days: "
+msgstr ""
+
+#: fw/widgets/popular-posts.php:213 fw/widgets/post-categories.php:148
+#: fw/widgets/recent-posts.php:154 fw/widgets/recent-works.php:149
+#: fw/widgets/team.php:127 fw/widgets/testimonials.php:120
+msgctxt "widget"
+msgid "Category:"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:218 fw/widgets/post-categories.php:153
+#: fw/widgets/recent-posts.php:159 fw/widgets/recent-works.php:154
+#: fw/widgets/team.php:132 fw/widgets/testimonials.php:125
+msgctxt "widget"
+msgid "All"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:219 fw/widgets/post-categories.php:154
+#: fw/widgets/recent-posts.php:160 fw/widgets/recent-works.php:155
+#: fw/widgets/team.php:133 fw/widgets/testimonials.php:126
+msgctxt "widget"
+msgid "Only"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:220 fw/widgets/post-categories.php:155
+#: fw/widgets/recent-posts.php:161 fw/widgets/recent-works.php:156
+#: fw/widgets/team.php:134 fw/widgets/testimonials.php:127
+msgctxt "widget"
+msgid "Except"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:240 fw/widgets/recent-posts.php:181
+#: fw/widgets/recent-works.php:176
+msgctxt "widget"
+msgid "Number of posts:"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:245 fw/widgets/recent-posts.php:186
+#: fw/widgets/recent-works.php:181 fw/widgets/team.php:159
+#: fw/widgets/testimonials.php:152
+msgctxt "widget"
+msgid "Sort by:"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:255 fw/widgets/recent-posts.php:196
+#: fw/widgets/recent-works.php:191 fw/widgets/team.php:169
+#: fw/widgets/testimonials.php:162
+msgctxt "widget"
+msgid "Ascending"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:258 fw/widgets/recent-posts.php:199
+#: fw/widgets/recent-works.php:194 fw/widgets/team.php:172
+#: fw/widgets/testimonials.php:165
+msgctxt "widget"
+msgid "Descending"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:263 fw/widgets/recent-posts.php:204
+msgctxt "widget"
+msgid "Show featured images"
+msgstr ""
+
+#: fw/widgets/popular-posts.php:267 fw/widgets/recent-posts.php:209
+msgctxt "widget"
+msgid "Display:"
+msgstr ""
+
+#: fw/widgets/post-categories.php:33 fw/widgets/post-categories.php:38
+msgctxt "widget"
+msgid "Post categories"
+msgstr ""
+
+#: fw/widgets/post-categories.php:118
+msgctxt "widget"
+msgid "Post"
+msgstr ""
+
+#: fw/widgets/post-categories.php:121
+msgctxt "widget"
+msgid "Portfolio"
+msgstr ""
+
+#: fw/widgets/post-categories.php:123 fw/widgets/team.php:31
+#: fw/widgets/team.php:36
+msgctxt "widget"
+msgid "Team"
+msgstr ""
+
+#: fw/widgets/post-categories.php:125 fw/widgets/testimonials.php:31
+#: fw/widgets/testimonials.php:36
+msgctxt "widget"
+msgid "Testimonials"
+msgstr ""
+
+#: fw/widgets/post-categories.php:136
+msgctxt "widget"
+msgid "Show post counts"
+msgstr ""
+
+#: fw/widgets/post-categories.php:140
+msgctxt "widget"
+msgid "PostType:"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:32 fw/widgets/recent-posts.php:37
+msgctxt "widget"
+msgid "Recent posts"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:132 fw/widgets/recent-works.php:126
+#: fw/widgets/team.php:111 fw/widgets/testimonials.php:104
+msgctxt "widget"
+msgid "Order by ID"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:133 fw/widgets/recent-works.php:127
+#: fw/widgets/team.php:112 fw/widgets/testimonials.php:105
+msgctxt "widget"
+msgid "Order by author"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:134 fw/widgets/recent-works.php:128
+#: fw/widgets/team.php:113 fw/widgets/testimonials.php:106
+msgctxt "widget"
+msgid "Order by title"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:135 fw/widgets/recent-works.php:129
+#: fw/widgets/team.php:114 fw/widgets/testimonials.php:107
+msgctxt "widget"
+msgid "Order by date"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:136 fw/widgets/recent-works.php:130
+#: fw/widgets/team.php:115 fw/widgets/testimonials.php:108
+msgctxt "widget"
+msgid "Order by modified"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:137 fw/widgets/recent-works.php:131
+#: fw/widgets/team.php:116 fw/widgets/testimonials.php:109
+msgctxt "widget"
+msgid "Order by rand"
+msgstr ""
+
+#: fw/widgets/recent-posts.php:138 fw/widgets/recent-works.php:132
+#: fw/widgets/team.php:117 fw/widgets/testimonials.php:110
+msgctxt "widget"
+msgid "Order by menu"
+msgstr ""
+
+#: fw/widgets/recent-works.php:31 fw/widgets/recent-works.php:36
+msgctxt "widget"
+msgid "Recent works"
+msgstr ""
+
+#: fw/widgets/social-icons.php:33 fw/widgets/social-icons.php:42
+msgctxt "widget"
+msgid "Social icons"
+msgstr ""
+
+#: fw/widgets/social-icons.php:36
+msgctxt "widget"
+msgid "Default"
+msgstr ""
+
+#: fw/widgets/social-icons.php:37
+msgctxt "widget"
+msgid "Large"
+msgstr ""
+
+#: fw/widgets/social-icons.php:38
+msgctxt "widget"
+msgid "Normal"
+msgstr ""
+
+#: fw/widgets/social-icons.php:39
+msgctxt "widget"
+msgid "Small"
+msgstr ""
+
+#: fw/widgets/social-icons.php:149
+msgctxt "widget"
+msgid "Social Icons"
+msgstr ""
+
+#: fw/widgets/social-icons.php:159
+msgctxt "widget"
+msgid "Content:"
+msgstr ""
+
+#: fw/widgets/social-icons.php:163
+msgid "Size:"
+msgstr ""
+
+#: fw/widgets/social-icons.php:172
+msgctxt "widget"
+msgid "With border"
+msgstr ""
+
+#: fw/widgets/social-icons.php:176
+msgctxt "widget"
+msgid "Reverse"
+msgstr ""
+
+#: fw/widgets/team.php:154
+msgctxt "widget"
+msgid "Number of team members:"
+msgstr ""
+
+#: fw/widgets/team.php:177 fw/widgets/testimonials.php:170
+msgctxt "widget"
+msgid "Autoslide: 1000ms = 1 second"
+msgstr ""
+
+#: fw/widgets/testimonials.php:147
+msgctxt "widget"
+msgid "Number of testimonials:"
+msgstr ""
+
+#: fw/widgets/video.php:20
+msgctxt "widget"
+msgid "You can add youtube and Vimeo"
+msgstr ""
+
+#: fw/widgets/video.php:25
+msgctxt "widget"
+msgid "Video"
+msgstr ""
+
+#: fw/widgets/video.php:100
+msgid "Title:"
+msgstr ""
+
+#: fw/widgets/video.php:104
+msgid "Type:"
+msgstr ""
+
+#: fw/widgets/video.php:106
+msgid "Youtube"
+msgstr ""
+
+#: fw/widgets/video.php:108
+msgid "Dailymotion"
+msgstr ""
+
+#: fw/widgets/video.php:109
+msgid "bliptv"
+msgstr ""
+
+#: fw/widgets/video.php:110
+msgid "viddler"
+msgstr ""
+
+#: fw/widgets/video.php:115
+msgid "Clip Id:"
+msgstr ""
+
+#: fw/widgets/video.php:118
+msgid "Max width"
+msgstr ""
+
+#: fw/widgets/wpml.php:29
+msgctxt "widget"
+msgid "Language Selector"
+msgstr ""
+
+#: fw/widgets/wpml.php:34
+msgctxt "widget"
+msgid "WPML"
+msgstr ""
+
+#: fw/widgets/wpml.php:97
+msgctxt "widget"
+msgid "Hide active language"
+msgstr ""
+
+#: fw/widgets/wpml.php:101
+msgctxt "widget"
+msgid "Flag"
+msgstr ""
+
+#: fw/widgets/wpml.php:105
+msgctxt "widget"
+msgid "Native language name"
+msgstr ""
+
+#: fw/widgets/wpml.php:109
+msgctxt "widget"
+msgid "Language name in display language"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:33 ui/root/azu_functions.php:33
+msgctxt "backend metabox"
+msgid "Passepartout border:"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:38 ui/root/azu_functions.php:38
+msgctxt "backend metabox"
+msgid "use global option"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:39 ui/root/azu_functions.php:39
+msgctxt "backend metabox"
+msgid "0%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:40 ui/root/azu_functions.php:40
+msgctxt "backend metabox"
+msgid "1%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:41 ui/root/azu_functions.php:41
+msgctxt "backend metabox"
+msgid "2%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:42 ui/root/azu_functions.php:42
+msgctxt "backend metabox"
+msgid "3%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:43 ui/root/azu_functions.php:43
+msgctxt "backend metabox"
+msgid "4%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:44 ui/root/azu_functions.php:44
+msgctxt "backend metabox"
+msgid "5%"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:66 ui/root/azu_functions.php:66
+msgctxt "theme-options"
+msgid "Theme additional"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:69 ui/root/azu_functions.php:69
+msgctxt "theme-options"
+msgid "General passepartout border"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:93 ui/root/azu_functions.php:93
+msgid "Left menu of Center logo"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:94 ui/root/azu_functions.php:94
+msgid "Right menu of Center logo"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:319 ui/root/azu_functions.php:319
+msgctxt "theme-options"
+msgid "Extra small font size"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:324 ui/root/azu_functions.php:324
+msgctxt "theme-options"
+msgid "Small font size"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:329 ui/root/azu_functions.php:329
+msgctxt "theme-options"
+msgid "Normal font size"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:334 ui/root/azu_functions.php:334
+msgctxt "theme-options"
+msgid "Large font size"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:356 ui/root/azu_functions.php:356
+msgctxt "theme-options"
+msgid "H1"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:362 ui/root/azu_functions.php:362
+msgctxt "theme-options"
+msgid "H2"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:368 ui/root/azu_functions.php:368
+msgctxt "theme-options"
+msgid "H3"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:374 ui/root/azu_functions.php:374
+msgctxt "theme-options"
+msgid "H4"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:380 ui/root/azu_functions.php:380
+msgctxt "theme-options"
+msgid "H5"
+msgstr ""
+
+#: ui/flatinum/azu_functions.php:386 ui/root/azu_functions.php:386
+msgctxt "theme-options"
+msgid "H6"
+msgstr ""
+
+#: ui/flatinum/azu_tags.php:692 ui/flatinum/azu_tags.php:694
+#: ui/root/azu_tags.php:692 ui/root/azu_tags.php:694
+#, php-format
+msgctxt "atheme"
+msgid "%1$s"
+msgstr ""
+
+#: ui/flatinum/azu_tags.php:712 ui/root/azu_tags.php:712
+#, php-format
+msgctxt "frontend post meta"
+msgid "View all posts by %s"
+msgstr ""
+
+#: ui/flatinum/azu_tags.php:724 ui/root/azu_tags.php:724
+msgctxt "atheme"
+msgid "Tags: "
+msgstr ""

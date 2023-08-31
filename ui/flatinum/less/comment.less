@@ -1,0 +1,208 @@
+.comments-title {
+    padding-top: floor(@line-height-computed/2);
+}
+
+.comment-list > li.parent > article, .children > li.parent.depth-2 > article, .children > li.parent.depth-3 > article, .children > li.parent.depth-4 > article {
+    position: relative;
+    padding-bottom: @grid-gutter-half-width;
+    @media (min-width: @grid-float-breakpoint) {
+        &:before, &:after {
+            content: "";
+            position: absolute;
+        }
+        &:before {
+            width: 1px;
+            top: 100px;
+            bottom: -50px;
+            left: -65px;
+        }
+        &:after {
+            height: 1px;
+            width: 35px;
+            bottom: -50px;
+            left: -65px;
+        }
+    }
+}
+
+.comment-list .children > li:not(:last-child) {
+    &:extend(.comment-list > li.parent > article all);
+    &:before {
+        top: 50px;
+    }
+}
+
+.comment-list, .comment, .comment .children {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+li.comment, li.pingback {
+    padding-left: 0px;
+    padding-top: @grid-gutter-half-width;
+    padding-bottom: @grid-gutter-half-width;
+    @media (min-width: @grid-float-breakpoint) {
+        padding-left: 70px + @grid-gutter-width;
+    }
+}
+
+li.pingback > .comment-body {
+    background: @second-bg-color;
+    padding: @grid-gutter-half-width;
+}
+
+.comment-list > li:not(:first-child){
+    padding-top: 0;
+}
+
+.comment-author-avatar {
+    > a {
+        display: block;
+        float: left;
+        @media (min-width: @grid-float-breakpoint) {
+            margin-left: -(70px + @grid-gutter-width);
+        }
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.comment-meta {
+    margin-bottom: 20px;
+    &:extend(.clearfix all);
+    @media (min-width: @grid-float-breakpoint) {
+        float: left;
+        width: 100%;
+    }
+    .comment-author {
+        cite a, cite {
+            font-style: normal;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+    .comment-metadata, .reply {
+        float: left;
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .comment-metadata {
+        font-style: italic;
+    }
+    .reply a {
+        display: block;
+        padding: 0px 20px;
+        margin-left: 14px;
+        border-radius: @border-radius-large;
+        font-weight: bold;
+        text-transform: uppercase;
+        .transition(background-color 0.3s);
+    }
+}
+.comment-meta-bottom {
+    &:extend(.clearfix all);
+}
+
+.comment-content {
+    
+}
+
+.comment-respond {
+    padding: 0 0 70px;
+}
+
+//      Comment form
+.comment-respond .comment-form #submit {
+    display: none !important;
+}
+
+
+//      Comment reply lines
+.comment-form {
+    .form-submit .btn {
+        padding: 10px 60px;
+        border-radius: @border-radius-large;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .form-fields {
+        padding-bottom: 15px;
+    }
+    .comment-form-comment {
+        margin-bottom: 30px;
+        .azu-label-comment {
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.wpcf7-textarea, .comment-form-comment .form-control {
+    border: 0 none;
+    max-width: 570px;
+    max-height: 320px;
+    resize: none;
+    width: 100%;
+}
+    
+.wpcf7-form .wpcf7-textarea {
+    margin-bottom: 30px;
+}
+
+.wpcf7-text, .form-fields .form-control {
+    border: 0 none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    height: 57px;
+    max-width: 370px;
+    width: 100%;
+    padding: 0;
+    &:focus {
+        box-shadow: none;
+        border-left: 0 none;
+        border-right: 0 none;
+        border-top: 0 none;
+        outline: none;
+    }
+    &::-webkit-input-placeholder {
+        color: @base-text-color;
+    }
+    &::-moz-placeholder {
+        color: @base-text-color;
+    }
+}
+    
+
+#comment {
+    .placeholder(transparent);
+}
+
+.form-fields {
+    .azu-label-name, .azu-label-email, .azu-label-website {
+        display: none;
+    }
+}
+.comment-reply-title, .comments-title {
+    &:extend(.h6);
+    &:extend(.azu-stylish-title all);
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+.bypostauthor .comment-author-avatar > a img {
+    border-width: 1px;
+    border-style: solid;
+    border-color: @base-brand-color;
+}
+
+//          Contact Form 7
+
+.wpcf7-form .wpcf7-form-control.wpcf7-submit {
+    &:extend(.comment-form .form-submit .btn);
+    &:extend(.azu-btn-default .btn all);
+    .transition(all 0.2s);
+}

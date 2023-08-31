@@ -1,0 +1,553 @@
+//          Sidebar main style          
+
+/*.azu-content-style-full .azu-sidebar-area {
+    padding: @grid-gutter-half-width;
+    .azu-widget + .azu-widget {
+        margin-top: @grid-gutter-half-width;
+        padding-top: @grid-gutter-half-width;
+        .widget-title { 
+			>h3,>h4,>h5,>h6 {
+				margin-top: @line-height-computed /2 ;
+			}
+		}
+    }
+    .azu-widget > ul, .azu-widget > :not(.widget-title):first-child {
+        margin-top: @line-height-computed / 2;
+    }
+    border-width: 1px;
+    border-style: solid;
+    .azu-box-shadow(0, 1px, @general-shadow);
+    border-radius: @border-radius-small;
+}*/
+
+.azu-content-style-divider .azu-sidebar-area {
+    .azu-widget + .azu-widget {
+        margin-top: @grid-gutter-half-width;
+        padding-top: @grid-gutter-half-width;
+        .widget-title {
+			> h3,>h4,>h5,>h6 {
+				margin-top: @line-height-computed /2 ;
+			}
+		}
+    }
+    .azu-widget { 
+        .widget-title {
+            margin-top: @line-height-computed;
+            }
+        > ul, > div:not(:first-child), > :first-child:not(.widget-title) {
+            margin-top: @line-height-computed / 2;
+        }
+    }
+}
+
+.azu-content-style-boxed .azu-sidebar-area {
+    .azu-widget {
+        border-width: 1px;
+        border-style: solid;
+        padding: @grid-gutter-half-width;
+        .azu-box-shadow(0, 1px, @general-shadow);
+        border-radius: @border-radius-small;
+    }
+    .azu-widget + .azu-widget {
+        margin-top: @grid-gutter-width;
+    }
+    .azu-widget.widget_search, .azu-widget.widget_azzu-popular-posts, .azu-widget.widget_tag_cloud {
+        border: 0;
+        background-color: transparent;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        .widget-title {
+            margin-left: @grid-gutter-half-width;
+        }
+    }
+    .azu-widget.widget_azzu-popular-posts {
+        .nav-tabs {
+            border: 0;
+        }
+        .tab-content {
+            border-width: 1px;
+            border-style: solid;
+            border-bottom-left-radius: @border-radius-small;
+            border-bottom-right-radius: @border-radius-small;
+            padding: @grid-gutter-half-width;
+        }
+    }
+    .azu-widget .widget-title {
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left:  -@grid-gutter-half-width;
+            width: 0;
+            border-width: 1px;
+            border-style: solid;
+        }
+    }
+}
+
+.azu-content-style-none .azu-sidebar-area {
+    .azu-widget + .azu-widget {
+        margin-top: @grid-gutter-width;
+        padding-top: @grid-gutter-width;
+        .widget-title {
+			> h3,>h4,>h5,>h6 {
+				//margin-top: @line-height-computed /2;
+			}
+		}
+    }
+    .azu-widget > ul, .azu-widget > :first-child:not(.widget-title){
+        //margin-top: @line-height-computed / 2;
+    }
+}
+
+.azu-sidebar-area {
+    .background-image(~"sidebar-bg_image");
+    @media (max-width: @grid-float-breakpoint-max) {
+        padding-top: @grid-gutter-width;
+    }
+}
+
+body:not(.azu-content-style-boxed) .azu-sidebar-area .widget-title {
+    > h3,>h4,>h5,>h6 {
+		margin: 0;
+        &:extend(.azu-stylish-title all);
+    }
+}
+
+.azu-widget {
+    ul {
+        list-style: none outside none;
+        padding-left: 0;
+    }
+    ul,ol {
+        margin-bottom: 0;
+        li > a, li.recentcomments {
+            padding-top: 10px;
+            padding-bottom: 12px;
+        }
+        li > article {
+            margin-bottom: 20px;
+        }
+    }
+    .widget-title {
+        margin-bottom: 20px;
+    }
+}
+
+.widget_azzu-post-categories > ul, .widget_categories > ul, .widget_archive > ul, .widget_pages  > ul,
+.azu-footer .widget_nav_menu .menu, .azu-sidebar .widget_nav_menu .menu, .product-categories, .widget_layered_nav, .widget_recent_entries {
+   li {
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        &:before {
+            content: '\e831';
+            &:extend(.azu-vector-icon);
+            float: right;
+            padding-top: 10px;
+        }
+       a {
+           display: inline-block;
+       }
+    }
+    .children {
+        padding-left: 10px;
+        border-top-width: 1px;
+        border-top-style: dotted;
+    }
+}
+
+.widget_azzu-post-categories > ul, .widget_categories > ul, .widget_archive > ul, .product-categories {
+    > li {
+        text-transform: uppercase;
+    }
+}
+
+.widget_azzu-post-categories > ul > li span {
+    margin-left: 5px;
+}
+.widget_categories > ul > li a {
+    margin-right: 5px;
+}
+
+
+.widget_azzu-recent-posts,
+#popular-post.tab-pane,
+#recent-post.tab-pane,
+.widget_azzu-popular-posts {
+    .azu-comment, time {
+        text-transform: uppercase;
+    }
+    > ul {
+        > li {
+            //padding: @padding-base-vertical 0;
+        }
+        > li:first-child {
+            //padding-top: 0;
+        }
+    }
+}
+
+//      Widget custom menu
+
+.azu-sidebar .widget_nav_menu,
+.azu-footer .widget_nav_menu,
+.vc_wp_custommenu .widget_nav_menu {
+    ul.sub-menu, ul.children {
+        li:first-child {
+            margin-top: 2px;
+        }
+        li:last-child {
+            padding-bottom: 0;
+        }
+        padding-left: 20px;
+    }
+}
+
+//      Top & bottom bar widget style
+
+.azu-topbar, .azu-bottombar {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            &:first-child > a {
+                padding-left: 0;
+            }
+            &:last-child > a {
+                padding-right: 0;
+            }
+            > a {
+                padding: 0 0.5em;
+            }
+            display: inline-block;
+            list-style: none;
+        }
+    }
+    .widget_nav_menu .menu li:not(:last-child) > a, .azu-mini-menu li:not(:last-child) > a {
+            border-right-width: 1px;
+            border-right-style: dotted;
+    }
+    .widget_nav_menu .menu li > a, .azu-mini-menu li > a {
+            padding: 0 @grid-gutter-half-width;
+    }
+}
+
+//      Widgets
+
+.widget_azzu-blog-categories {
+    span {
+        float: right;
+        
+    }
+}
+
+//          Calendar
+
+.widget_calendar {
+    table {
+        width: 100%;
+    }
+    th {
+        padding: 5px 0px;
+    }
+    td {
+        padding: 5px 0px;
+    }
+    td#next {
+        text-align: right;
+    }
+}
+#calendar_wrap {
+    max-width: @grid-float-breakpoint;
+}
+
+//          Flickr and Instagram photo
+
+.instagram-photos {
+    @instagram-sp: 2px; 
+    padding-top: 5px;
+    .azu-rollover {
+        float: left;
+        margin: 0 @instagram-sp @instagram-sp 0;
+        background-color: transparent;
+        width: 33%;
+        width: ~'calc(33.33% - @{instagram-sp})';
+        height: auto;
+        max-width: 80px;
+        min-width: 48px;
+    }
+    &.azu-col-2 .azu-rollover{
+        width: 50%;
+        width: ~'calc(50% - @{instagram-sp})';
+        max-width: 100px;
+    }
+    &.azu-col-4 .azu-rollover{
+        width: 25%;
+        width: ~'calc(25% - @{instagram-sp})';
+    }
+    &.azu-col-5 .azu-rollover{
+        width: 20%;
+        width: ~'calc(20% - @{instagram-sp})';
+    }
+    .azu-rel-media {
+        float: none;
+        margin: 0px;
+    }
+    .azzu_follow_btn {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        text-transform: uppercase;
+        vertical-align: middle;
+        i {
+            margin-right: 10px;
+            &:before {
+                font-size: 16px;
+                line-height: inherit;
+            }
+        }
+        a, i {
+            display: block;
+            float: left;
+        }
+        a {
+            font-size: 85%;
+            letter-spacing: 0.05em;
+            line-height: 16px;
+        }
+    }
+}
+
+//          VC Widgets
+
+.wpb_content_element .widget {
+    &:extend(.azu-widget all);
+}
+
+
+//          Popular Posts
+
+.widget_azzu-popular-posts {
+    .nav-tabs > li {
+        margin-bottom: -1px;
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        a {
+            border-right-width: 1px;
+            border-left-width: 1px;
+            border-top-width: 1px;
+        }
+        &.active a {
+            border-top-width: 2px;
+        }
+        &:first-child {
+            a {
+                border-radius: 0;
+            }
+        }
+        &:last-child {
+            a {
+                border-radius: 0;
+            }
+        }
+    }
+    .tab-content {
+        //padding-top: @fonts-line-normal-height;
+        padding-left: @padding-base-vertical * 2;
+    }
+}
+
+//          Recent-Post
+
+.recent-posts {
+    img {
+        max-width: none;
+    }
+}
+
+//          Align
+
+.alignleft {
+	float: left;
+    margin-right: @grid-gutter-half-width;
+    margin-bottom: (@line-height-computed / 2);
+}
+#footer .alignleft,
+#sidebar .alignleft,
+#sidebar-left .alignleft,
+#footer .alignright,
+#sidebar .alignright,
+#sidebar-left .alignright {
+    margin-bottom: 0;
+}
+
+.alignright {
+	float: right;
+    margin-left: @grid-gutter-half-width;
+    margin-bottom: (@line-height-computed / 2);
+}
+
+.aligncenter {
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: (@line-height-computed / 2);
+}
+
+.alignnone {
+	float: none;
+    margin-bottom: (@line-height-computed / 2);
+}
+
+//          WPML
+
+.azu-wpml > ul {
+    padding: 0;
+    margin: 0;
+    > li {
+        display: inline-block;
+        span {
+            padding-left: 5px;
+        }
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+}
+.azu-wpml-globe {
+    &:before {
+        content: '\e9a9';
+        &:extend(.azu-vector-icon);
+        margin-right: 5px;
+    }
+}
+
+.azu-widget.widget_azzu-wpml {
+    &:extend(.clearfix all);
+    > div {
+        float: none;
+        padding: 0;
+    }
+}
+
+//          Archives dropdown
+
+.widget_archive > select {
+    padding: @padding-base-vertical @padding-base-horizontal;
+    border-radius: @input-border-radius;
+    border-width: 1px;
+    border-style: solid;
+}
+
+//          Tag Cloud
+
+.tagcloud {
+    padding-top: 10px;
+    &:extend(.clearfix all);
+    > a {
+        font-size: inherit !important;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: @border-radius-small;
+        padding: 5px 20px;
+        display: block;
+        float: left;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        .transition(all 0.3s ease-in-out);
+    }
+}
+
+//      Recent tweet widget
+.tp_recent_tweets {
+    ul li {
+        padding-left: 28px;
+        background: none;
+        line-height: inherit;
+        position: relative;
+        &:before {
+            content: '\e97a';
+            &:extend(.azu-vector-icon all);
+            position: absolute;
+            font-size: 18px;
+            line-height: 1;
+            top: 13px;
+            left: 0px;
+        }
+    }
+    > p {
+        display: none;
+    }
+}
+
+//          contact widget
+
+.azu-widget-contact-wrap{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.azu-widget-contact {
+    ul {
+        //list-style: none;
+        //margin-bottom: 0px;
+        //padding-left: 0px;
+        li {
+            padding: 10px 0;
+        }
+        li:before {
+            margin-right: 7px;
+            line-height: 1;
+            font-size: 16px;
+            &:extend(.azu-vector-icon);
+        }
+        .address:before {
+            content: '\e8c7';
+        }
+        .phone:before {
+            content: '\e900';
+        }
+        .email:before {
+            content: '\e8e1';
+        }
+        .skype:before {
+            content: '\e803';
+        }
+        .clock:before {
+            content: '\e87d';
+        }
+        .info:before {
+            content: '\e8cf';
+        }
+    }
+}
+
+// Safari searchwidget fix
+
+.azu-widget.widget_search {
+    -webkit-transform: translateZ(0);
+}
+
+.azu-icon-user:before {
+    content: "\e90a";
+    &:extend(.azu-vector-icon);
+    padding-right: 10px;
+}
+
+.azu-menu-widget-area .search-form .azu-icon-search  {
+    font-size: 16px;
+}
+
+//          widget nav menu
+
+.azu-menu-widget-area .azu-widget.widget_nav_menu > div {
+    &:before { 
+        font-size: 21px;
+        line-height: @input-height-base;
+    }
+}
+

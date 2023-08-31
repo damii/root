@@ -1,0 +1,223 @@
+//// Force Hardware Acceleration in WebKit with translate3d
+//.webkitForceHardwareAcceleration() {
+//    @media (max-width: @screen-xs) {
+//	-webkit-transform: translate3d(0px, 0px, 0px);
+//	-webkit-backface-visibility: hidden;
+//	-webkit-perspective: 1000;
+//    }
+//}
+
+// Retina image
+//
+// Short retina mixin for setting background-image and -size. Note that the
+// spelling of `min--moz-device-pixel-ratio` is intentional.
+.azu-img-retina(@file-1x; @file-2x;) {
+    .azu-img-retina-mixin() when not (@file-2x = none) {
+        background-image: @file-2x;
+    }
+  background-image: @file-1x;
+
+  @media (min-width: @screen-lg-min) {
+    .azu-img-retina-mixin();
+  }
+    
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   -moz-min-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+        @media (min-width: @screen-sm-min) {
+            .azu-img-retina-mixin();
+        }
+    }
+    
+}
+    //background size
+    .azu-back-repeat(@r;@c) {
+        background-size: auto;
+    };
+    .azu-back-repeat(@r;@c) when (@r = no-repeat) {
+        background-size: 100% auto;
+    };
+    .azu-back-repeat(@r;@c) when (@c = cover) {
+        background-size: @c;
+    };
+
+//      Background image
+.background-image (@img-url, @cover: auto) when not (@img-url = ~'') {
+    @img2: "@{img-url}_2";
+    @repeat: "@{img-url}-repeat" ;
+    @position-x: "@{img-url}-position-x";
+    @position-y: "@{img-url}-position-y";
+    .azu-img-retina(@@img2,@@img-url);
+    .azu-back-repeat(@@repeat,@cover);
+    background-repeat: @@repeat;
+    background-position:  @@position-x @@position-y;
+}
+
+
+//      Box shadow
+
+.azu-box-shadow (@x: 0px, @y: 0px, @blur: 0px, @spread: 0px, @alpha: 0.25) when ( @general-shadow > 0px ) {
+    -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+.box-shadow-2 (@x: @general-shadow, @blur: @general-shadow, @alpha: 0.25){
+    &.container{
+        .box-shadow2();
+    }
+}
+
+.box-shadow2 (@x: @general-shadow*1.5, @blur: @general-shadow, @alpha: 0.25){
+    @spread: 0px;//-@general-shadow;
+    @y: 0px;
+    -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha), -@x @y @blur @spread rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha), -@x @y @blur @spread rgba(0, 0, 0, @alpha);
+    box-shadow:  @x @y @blur @spread rgba(0, 0, 0, @alpha), -@x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+//          mixin for nav menu padding
+
+.azu-fixed-nav-height() when (@navbar-height >= 50px ) {
+    @fixed-navbar-height: 50px;
+}
+
+.azu-fixed-nav-height() when (@menu-bg-height < 50px ) {
+    @fixed-navbar-height: @navbar-height;
+}
+
+.azu-fixed-nav-height();
+
+.azu-navbar-padding-calculator-mixin(@a, @b, @c) {
+    @d: "fonts-line-@{a}-height";
+    
+    @z:  max(((@b - (@menu-item-padding * 2) - @@d) / 2 - 1px), 0px);
+    @navbar-padding-vertical:          @z;
+    
+    @x:  max(((@c - (@menu-item-padding * 2) - @@d) / 2 - 1px), 0px);
+    @navbar-padding-vertical-fixed-menu:    @x;
+}
+
+.azu-navbar-padding-calculator-mixin(@menu-font-family_size, @navbar-height, @fixed-navbar-height);
+
+//          Fixed navbar
+.azu-nav-start-padding-top() {
+    padding-top:  @navbar-height;
+}
+.azu-nav-start-padding-top {
+    .azu-nav-start-padding-top();
+}
+
+//          Header menu alignment
+//          Spin up animation
+
+@-webkit-keyframes toTopFromBottom {
+	49% {
+		-webkit-transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes toTopFromBottom {
+	49% {
+		-moz-transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		-moz-transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes toTopFromBottom {
+	49% {
+		transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+
+//          Spin down animation
+
+@-webkit-keyframes toBottomFromTop {
+	49% {
+		-webkit-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes toBottomFromTop {
+	49% {
+		-moz-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-moz-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes toBottomFromTop {
+	49% {
+		transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+
+//      clearfix
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Opacity
+
+.opacity(@opacity) {
+  opacity: @opacity;
+  // IE8 filter
+  //@opacity-ie: (@opacity * 100);
+  //filter: ~"alpha(opacity=@{opacity-ie})";
+}
+
+//  
+
+.hr-thin-mixin() when not( @general-layout-style = divider) {
+    .hr-thin {
+        border: 0 none !important;
+    }
+}
+.hr-thin-mixin();

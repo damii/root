@@ -1,0 +1,86 @@
+@loadsize: 18px;
+@loadcolor: rgba(90,90,90,1);
+@page-loader-size: 50px;
+
+.loader, .azu-page-loader:before {
+  margin:@loadsize / 9;
+  position: relative;
+  float: left;
+  //font-size:14px;
+  //text-indent:-9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation:load 1.1s infinite linear;
+  animation:load 1.1s infinite linear;
+}
+.loader, .loader:after, .azu-page-loader:before, .azu-page-loader:after {
+	border-radius:50%;
+}
+@-webkit-keyframes load {.load-frames;}
+@keyframes load {.load-frames;}
+
+.load-frames() {
+  0% {
+  	-webkit-transform:rotate(0deg);
+  	transform:rotate(0deg);
+  }
+  100% {
+  	-webkit-transform:rotate(360deg);
+  	transform:rotate(360deg);
+  }
+}
+
+.azu-loading {
+    display: inline;
+}
+
+.btn > .azu-loading.loader {
+      margin-right: 6px;
+}
+
+.azu-loading.loader {
+    display: inline-block;
+    border-top:@loadsize / 18 solid fade(@loadcolor,20%);
+    border-right:@loadsize / 18 solid fade(@loadcolor,20%);
+    border-bottom:@loadsize / 18 solid fade(@loadcolor,20%);
+    border-left:@loadsize / 18 solid @loadcolor;
+}
+
+.azu-page-loader:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -(@page-loader-size/2) 0 0 -(@page-loader-size/2);
+    display: block;
+    border-top: @page-loader-size / 18 solid fade(@loadcolor,20%);
+    border-right: @page-loader-size / 18 solid fade(@loadcolor,20%);
+    border-bottom: @page-loader-size / 18 solid fade(@loadcolor,20%);
+    border-left: @page-loader-size / 18 solid @loadcolor;
+}
+
+.azu-loading.loader, .azu-loading.loader:after {
+	width:@loadsize;
+	height:@loadsize;
+}
+.azu-page-loader:before, .azu-page-loader:after {
+	width: @page-loader-size;
+	height: @page-loader-size;
+}
+//      New Page Loader
+
+.azu-page-loader {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+.paginator.paginator-more-button btn {
+    display: block;
+}

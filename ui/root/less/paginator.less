@@ -1,0 +1,62 @@
+
+    .pagination {
+        padding-top: 80px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-radius: 0;
+        li {
+            display: inline-block;
+            a {
+                border-radius: 50%;
+                padding: 0px;
+                line-height: 35px;
+                font-size: @fonts-xsmall-size;
+                width: 37px;
+                height: 37px;
+                font-weight: bold;
+            }
+        }
+        li:first-child, li:last-child {
+            a {
+                text-indent: -9999px;
+                position: relative;
+                i {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 50%;
+                    padding: 7px;
+                    text-indent: 0;
+                    line-height: 1;
+                }
+            }
+        }
+        li:first-child {
+            float: left;
+        }
+        li:last-child {
+            float: right;
+        }
+    }
+
+.azu-icon-right-pagi:before, .azu-icon-left-pagi:before {
+    &:extend(.azu-vector-icon);
+    font-size: 20px;
+}
+
+.azu-icon-right-pagi:before {
+    content: '\e831';
+}
+
+.azu-icon-left-pagi:before {
+    content: '\e82e';
+}
+
+
+.azu-icon-right-pagi, .azu-icon-left-pagi, .pagination a, .woocommerce-pagination a {
+    .transition(all 0.3s ease-in-out);
+}
